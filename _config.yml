@@ -55,8 +55,8 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
-  avatar : "/assets/images/bio-photo.jpg"
+  name   : "Francesco Bailo"
+  avatar : "/assets/images/bio-photo.jpeg"
   bio    : "I am a Lecturer in Data Analytics in the Social Sciences at the University of Sydney."
   links:
     - label: "Website"
@@ -64,13 +64,13 @@ author:
       url: "http://www.francescobailo.net/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://twitter.com/francescobailo"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/fraba"
+    - label: "Google Scholar"
+      icon: "fa-solid fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=T_TftJUAAAAJ"
 
 footer:
   links:
