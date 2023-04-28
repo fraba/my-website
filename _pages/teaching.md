@@ -11,22 +11,17 @@ author_profile: true
 |      |      |      |      |      |
 |---|---|---|---|---|
 | 2023  | **GOVT6139 Research Design**  | Discipline of Government and International Relations, School of Social and Political Sciences, The University of Sydney  | [Outline](https://www.sydney.edu.au/units/GOVT6139)  |   |
- | 2018 | **MECO6913 Public opinion, policy and the public sphere** | Department of Media and Communications,
-  the University of Sydney | [Outline](https://www.sydney.edu.au/units/MECO6913)
+ | 2018 | **MECO6913 Public opinion, policy and the public sphere** | Department of Media and Communications, the University of Sydney | [Outline](https://www.sydney.edu.au/units/MECO6913)
   
 ### Undegraduate courses
 
 |      |      |      |      |      |
 |---|---|---|---|---|
 | 2023 | **SSPS4102 Data Analytics in the Social Sciences** | School of Social and Political Sciences, The University of Sydney | [Outline](https://www.sydney.edu.au/units/SSPS4102) | [Materials](https://fraba.github.io/SSPS4102/)
-| 2022 | **570002 Application Implementation with Microsoft Dynamics** |  School of Communication, University of Technology
-Sydney |  [Outline](https://handbook.uts.edu.au/subjects/details/570002) | |
-| 2021 - 2022 | **52685 Working with Data and Code** | School of Communication, University of Technology
-Sydney |  [Outline](https://handbook.uts.edu.au/subjects/52685)| |
-| 2019 - 2022 | **52682 Digital Media Metrics** | School of Communication, University of Technology
-  Sydney |  [Outline](https://handbook.uts.edu.au/subjects/52682)| |
-| 2019 - 2020 | **54005 Digital Media Industries** | School
-  of Communication, University of Technology Sydney |  [Outline](https://handbook.uts.edu.au/subjects/54005) | |
+| 2022 | **570002 Application Implementation with Microsoft Dynamics** |  School of Communication, University of Technology Sydney |  [Outline](https://handbook.uts.edu.au/subjects/details/570002) | |
+| 2021 - 2022 | **52685 Working with Data and Code** | School of Communication, University of Technology Sydney |  [Outline](https://handbook.uts.edu.au/subjects/52685)| |
+| 2019 - 2022 | **52682 Digital Media Metrics** | School of Communication, University of Technology Sydney |  [Outline](https://handbook.uts.edu.au/subjects/52682)| |
+| 2019 - 2020 | **54005 Digital Media Industries** | School of Communication, University of Technology Sydney |  [Outline](https://handbook.uts.edu.au/subjects/54005) | |
   
 ## Workshops
   
