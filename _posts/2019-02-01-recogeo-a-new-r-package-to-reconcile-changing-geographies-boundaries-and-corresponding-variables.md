@@ -12,7 +12,7 @@ Demographics information is usually reported in relation to precise boundaries: 
 
 Let’s first make sure the package is installed from Github and can load correctly. If you don’t have it already, you might to install the devtools with `install.packages('devtools)`. Then you can install the package with:
 
-```{r}
+```r
 library(devtools) 
 install_github('fraba/recogeo')
 ```
@@ -55,7 +55,7 @@ First, let’s see whether the external boundaries have changed. How to do is no
 
 Let’s check it, after removing (small) gaps between polygons and combining all them all:
 
-```{r}
+```r
 library(dplyr)
 library(lwgeom)
 
@@ -86,22 +86,22 @@ area_2018 <-
 
 A better approach will be to check whether the two polygons _contain_ each other. So
 
-```{r}
+```r
 st_contains(piedmont_union_1991.sf, 
             piedmont_union_2018.sf)
 ```
 
-```{r}
+```r
 ## Sparse geometry binary predicate list of length 1, where the predicate was `contains'
 ##  1: (empty)
 ```
 
-```{r}
+```r
 st_contains(piedmont_union_2018.sf, 
             piedmont_union_1991.sf)
 ```
 
-```{r}
+```r
 ## Sparse geometry binary predicate list of length 1, where the predicate was `contains'
 ##  1: (empty)
 ```
@@ -118,7 +118,7 @@ st_contains(st_buffer(piedmont_union_1991.sf, 800),
 ##  1: 1
 ```
 
-```{r}
+```r
 st_contains(st_buffer(piedmont_union_2018.sf, 800), 
             piedmont_union_1991.sf)
 ```
@@ -130,7 +130,7 @@ st_contains(st_buffer(piedmont_union_2018.sf, 800),
 
 How much to expand the geometries will depend on the overall size. For example, if we take `piedmont_union_1991.sf`, the maximum distance between its centroid and its points is 161,548.78 meters so we are expanding the geometry by about 0.5% of this measure.
 
-```{r}
+```r
 max_distance_1991 <- 
   piedmont_union_1991.sf %>% 
   st_cast("POINT") %>% 
@@ -156,18 +156,18 @@ We already explained before why it might be necessary to expand the geometries t
 
 The `min_inters_area` argument allows you to set the tolerance for the intersection test between two geometries. This might be necessary because of very small differences in the boundaries contained in the two spatial objects. For example, let’s find out which features from `piedmont_1991.sf` intersects with `piedmont_1991.sf`.
 
-```{r}
+```r
 res <- 
   st_intersects(piedmont_1991.sf, piedmont_2018.sf)
 ```
 
 `res` is now a sparse matrix (actually a list) of with dimensions 1209, 1197, which of course corresponds to the features of the first and second spatial object respectively. The first features of the first spatial objects intersect with the following features from the second object:
 
-```{r}
+```r
 res[[1]]
 ```
 
-```{r}
+```r
 ## [1] 1127 1147 1152 1177 1191
 ```
 
@@ -183,15 +183,15 @@ Let’s see how the `reconcileGeographies()` will answer to both questions by se
 
 The answer to the first question is determined by
 
-```{r}
+```r
 dist_buffer
 ```
 
-```{r}
+```r
 ## [1] 800
 ```
 
-```{r}
+```r
 res1 <-
   sf::st_contains(piedmont_1991.sf[1,] %>%
                     sf::st_buffer(dist_buffer),
@@ -213,7 +213,7 @@ res1 == TRUE & res2 == TRUE
 
 And the answer to the second question is determined by
 
-```{r}
+```r
 min_inters_area
 ```
 
@@ -221,7 +221,7 @@ min_inters_area
 ## [1] 350000
 ```
 
-```{r}
+```r
 intersection_area <-
   st_area(
     st_intersection(st_geometry(piedmont_1991.sf[1,]),
@@ -241,7 +241,7 @@ What the user will need to decide is the tolerance for both the equality and int
 
 After determining the what kind of tolerance should we pass to the function, it is now time to actually run the function on the two spatial objects.
 
-```{r}
+```r
 library(recogeo)
 res <-
   recogeo::reconcileGeographies(piedmont_1991.sf, piedmont_2018.sf,
@@ -278,7 +278,7 @@ In this case, it seems clear that the 1991 _comune_ lost part of its territory t
 
 The function `testReconciledGeographies()` instead tests the spatial characteristics of reconciled geographies. It takes the _data.frame_ resulting from the `reconcileGeographies()` function and the spatial objects.
 
-```{r}
+```r
 test_res <-
   recogeo::testReconciledGeographies(res, 
                                      piedmont_1991.sf, piedmont_2018.sf)
@@ -286,7 +286,7 @@ test_res <-
 
 This test is particularly important to determine whether the results are satisfactory because compare the sum of the areas of the old geographies from the two spatial objects that correspond to new reconciled geographies.
 
-```{r}
+```r
 kable(test_res[sample(1:nrow(test_res), 10),], row.names = F)
 ```
 
@@ -309,7 +309,7 @@ The column `n_A` and `n_B` indicates how many geographies need to be aggregated 
 
 The final step is to produce a new dataset, optionally containing also geographic information of a new set of reconciled geographies, with variables transformed when necessary to allow a comparison between data from the two original datasets.
 
-```{r}
+```r
 reconciled_data.sf <-
   recogeo::reconcileData(res, 
                          piedmont_1991.sf, piedmont_2018.sf, 
