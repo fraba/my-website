@@ -36,15 +36,15 @@ La Figure 5 incrocia l’attenzione dedicata dai media all’immigrazione con il
 
 Delle tre fasi di crescita leghista nei sondaggi, marzo-giugno 2018, giugno-settebre 2018 e settembre 2018-maggio 2019, sole le ultime due potrebbero essere state sostenute dall’attenzione mediatica dedicata all’immigrazione. Infatti, nel periodo immediatamente successivo alle elezioni 2013, l’immigrazione non sembra occupare un posto rilevante nel dibattito veicolato dai giornali. Questo, come si evince nella prossima figura, nonostante Salvini sia al centro dell’attenzione mediatica. In Figura 6 possiamo osservare in paralello l’evoluzione dell’attenzione mediatica verso Salvini, verso il tema migratorio e verso Salvini come protagonista della discussione politica sul tema migratorio.
 
-{% include image.html url="/assets/images/unnamed-chunk-7-1-1.png" description="" %}
+{% include image.html url="/assets/images/unnamed-chunk-7-1-1-1024x819.png" description="" %}
 
-{% include image.html url="/assets/images/unnamed-chunk-9-1.png" description="Fig. 6. Crisi dei #portichiusi e attenzione mediatica." %}
+{% include image.html url="/assets/images/unnamed-chunk-9-1-1024x819.png)" description="Fig. 6. Crisi dei #portichiusi e attenzione mediatica." %}
 
 Il periodo giugno-settebre 2018 è l’unico periodo in cui la crescita di attenzione verso Salvini e verso il tema migratorio sia fortemente correlata con la crescita di 7-8 punti della Lega (evidenziato in Figura 6). Se l’immigrazione ha giocato un qualche ruolo nella crescita della Lega nel 2018 è decisamente probabile che questo sia avvenuto tra giugno e settembre.
 
 L’attività Twitter di Salvini sembra confermare una strategia mirante a capitalizzare l’attenzione mediatica generata dalle crisi ma anche a _sostenere_ l’attenzione sul tema. La variazione temporale del numero di tweet dedicati all’immigrazione si muove in parallelo con l’attenzione allo stesso tema da parte dei media. Ma questo non deve sorprendere: Salvini ha la chiave sia del suo account Twitter che dei lucchetti che aprono (o chiudono) i porti. Se i media reagiscono alle crisi, i tweet di Salvini cercando di sfruttarle il piú possibile: dei 12,608 tweet pubblicati da Salvini tra gennaio 2018 e ottobre 2019, il 13% trattano di immigrazione mentre delle 25 crisi in mare occorse tra giungo 2018 e agosto 2019 Salvini ne menziona 10 con almeno un tweet il giorno stesso in cui deflagrano. Risultati preliminari di un’analisi multivariata indicano che i tweet di Salvini invece di una nuova crisi in mare hanno un effetto positivo sulla successiva attenzione mediatica dedicata al tema immigrazione.
 
-{% include image.html url="/assets/images/unnamed-chunk-10-1.png" description="Fig. 7. Tweet di @matteosalvinimi dedicati all’immigrazione e attenzione mediatica." %}
+{% include image.html url="/assets/images/unnamed-chunk-10-1-1024x512.png" description="Fig. 7. Tweet di @matteosalvinimi dedicati all’immigrazione e attenzione mediatica." %}
 
 Ci sono pochi dubbi che Salvini abbia in tutti i modi cercando di sfruttare la sua posizione di Ministro dell’Interno per mantenere alta l’attenzione mediatica sul tema. E l’attenzione del suo stesso account Twitter lo confermerebbe. L’interazione tra media e attori politici è complicata perché fatta di azioni e reazioni. Salvini non controlla l’attenzione mediatica ma, come tutti, cerca di sfruttarla e influenzarla con tutti i mezzi di cui dispone, istituzionali e mediali.
 
