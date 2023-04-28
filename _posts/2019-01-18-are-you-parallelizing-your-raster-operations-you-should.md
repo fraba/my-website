@@ -63,7 +63,7 @@ rasterVis::gplot(res1) +
   theme_bw()
 ```
 
-{% include image.html url="/assets/images/unnamed-chunk-4-1-1024x731.png" description="" %}
+{% include image.html url="/assets/images/unnamed-chunk-4-1.png" description="" %}
 
 
 And now let’s parallelize the process. There are two approaches to parallelization with raster objects (do `?clusterR` for the documentation of the package mantainers):
