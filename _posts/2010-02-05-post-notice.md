@@ -1,7 +1,7 @@
 ---
 title: "Post: Notice"
 categories:
-  - Blog
+  - Peer-reviewed articles
 tags:
   - Post Formats
   - notice
