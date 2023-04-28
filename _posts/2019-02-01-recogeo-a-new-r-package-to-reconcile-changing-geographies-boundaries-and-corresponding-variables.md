@@ -12,7 +12,7 @@ Demographics information is usually reported in relation to precise boundaries: 
 
 Let’s first make sure the package is installed from Github and can load correctly. If you don’t have it already, you might to install the devtools with `install.packages('devtools)`. Then you can install the package with:
 
-```
+```{r}
 library(devtools) 
 install_github('fraba/recogeo')
 ```
@@ -25,13 +25,13 @@ At this point the **recogeo** package should be loaded and attached. If you get 
 
 Now let’s load two [_Simple Features_](https://en.wikipedia.org/wiki/Simple_Features) (or _sf_) and their corresponding _data.frame_. These two objects contains information about boundaries and population of Piedmont **comune**, the lowest administrative divisions in Italy, for 1991 and 2018. You can download the `spatial_objs.rda` from [here](https://github.com/fraba/My-blogposts/raw/master/recogeo_blogpost/data/spatial_objs.rda).
 
-```
+```{r}
 load("data/spatial_objs.rda")
 ```
 
 Let’s plot the two _sf_ polygons, coloring each comune based on corresponding population.
 
-```
+```{r}
 library(ggplot2)
 library(gridExtra)
 grid.arrange(
@@ -44,7 +44,8 @@ grid.arrange(
   ncol = 2)
 ```
 
-[![](images/fig1-1-1024x731.png)](http://www.francescobailo.net/wordpress/wp-content/uploads/2019/02/fig1-1.png)
+
+{% include image.html url="/assets/images/fig1-1-1024x731.png" description="" %}
 
 From 1991 to 2018, the number of _comune_ in Piedmont has decreased from 1,209 to 1,197 while the total population of the region has increased from 4,302,565 to 4,371,054. In the 2018 dataset, 4 _comune_ have missing values for `POP_2018` (grey in the plot).
 
@@ -54,7 +55,7 @@ First, let’s see whether the external boundaries have changed. How to do is no
 
 Let’s check it, after removing (small) gaps between polygons and combining all them all:
 
-```
+```{r}
 library(dplyr)
 library(lwgeom)
 
@@ -85,29 +86,29 @@ area_2018 <-
 
 A better approach will be to check whether the two polygons _contain_ each other. So
 
-```
+```{r}
 st_contains(piedmont_union_1991.sf, 
             piedmont_union_2018.sf)
 ```
 
-```
+```{r}
 ## Sparse geometry binary predicate list of length 1, where the predicate was `contains'
 ##  1: (empty)
 ```
 
-```
+```{r}
 st_contains(piedmont_union_2018.sf, 
             piedmont_union_1991.sf)
 ```
 
-```
+```{r}
 ## Sparse geometry binary predicate list of length 1, where the predicate was `contains'
 ##  1: (empty)
 ```
 
 The `(empty)` results mean that the two geometries don’t contain each other. This is again not surprising since we have two complex polygons defined by 4383 and 4667 points respectively. It only suffices that one point is slightly outside the other boundary to fail the `sf::st_contains()` test. But we can overcome this problem by slightly expand the two geometries by a few meters (e.g. 800) with `sf::st_buffer` and retest.
 
-```
+```{r}
 st_contains(st_buffer(piedmont_union_1991.sf, 800), 
             piedmont_union_2018.sf)
 ```
@@ -117,7 +118,7 @@ st_contains(st_buffer(piedmont_union_1991.sf, 800),
 ##  1: 1
 ```
 
-```
+```{r}
 st_contains(st_buffer(piedmont_union_2018.sf, 800), 
             piedmont_union_1991.sf)
 ```
@@ -129,7 +130,7 @@ st_contains(st_buffer(piedmont_union_2018.sf, 800),
 
 How much to expand the geometries will depend on the overall size. For example, if we take `piedmont_union_1991.sf`, the maximum distance between its centroid and its points is 161,548.78 meters so we are expanding the geometry by about 0.5% of this measure.
 
-```
+```{r}
 max_distance_1991 <- 
   piedmont_union_1991.sf %>% 
   st_cast("POINT") %>% 
@@ -138,11 +139,12 @@ max_distance_1991 <-
   as.numeric()
 ```
 
-[![](images/unnamed-chunk-8-1-1024x731.png)](http://www.francescobailo.net/wordpress/wp-content/uploads/2019/02/unnamed-chunk-8-1.png)
+{% include image.html url="/assets/images/images/unnamed-chunk-8-1-1024x731.png" description="" %}
 
-And this is what the `piedmont_union_1991.sf` expanded polygon looks like if we plot it behind the `piedmont_union_218.sf` polygon.
+And this is what the `piedmont_union_1991.sf` expanded polygon looks
+like if we plot it behind the `piedmont_union_218.sf` polygon.
 
-[![](images/unnamed-chunk-9-1-1024x731.png)](http://www.francescobailo.net/wordpress/wp-content/uploads/2019/02/unnamed-chunk-9-1.png)
+{% include image.html url="/assets/images/images/unnamed-chunk-9-1-1024x731.png" description="" %}
 
 We have now a fair assumption that based on our spatial analysis the outer boundary of the region isn’t changed and what is changed are only internal administrative boundaries.
 
@@ -154,24 +156,24 @@ We already explained before why it might be necessary to expand the geometries t
 
 The `min_inters_area` argument allows you to set the tolerance for the intersection test between two geometries. This might be necessary because of very small differences in the boundaries contained in the two spatial objects. For example, let’s find out which features from `piedmont_1991.sf` intersects with `piedmont_1991.sf`.
 
-```
+```{r}
 res <- 
   st_intersects(piedmont_1991.sf, piedmont_2018.sf)
 ```
 
 `res` is now a sparse matrix (actually a list) of with dimensions 1209, 1197, which of course corresponds to the features of the first and second spatial object respectively. The first features of the first spatial objects intersect with the following features from the second object:
 
-```
+```{r}
 res[[1]]
 ```
 
-```
+```{r}
 ## [1] 1127 1147 1152 1177 1191
 ```
 
 Let’s plot everything.
 
-[![](images/unnamed-chunk-12-1-1024x731.png)](http://www.francescobailo.net/wordpress/wp-content/uploads/2019/02/unnamed-chunk-12-1.png) [![](images/unnamed-chunk-12-2-1024x731.png)](http://www.francescobailo.net/wordpress/wp-content/uploads/2019/02/unnamed-chunk-12-2.png)
+{% include image.html url="/assets/images/images/unnamed-chunk-12-1-1024x731.png" description="" %}
 
 These intersections seems mostly due to changes in the precision of the geometries from the two datasets. The boundary of `piedmont_1991.sf[1,]` has 196 points while the boundary of the corresponding `piedmont_2018.sf[1127,]` has 265 points.
 
@@ -181,15 +183,15 @@ Let’s see how the `reconcileGeographies()` will answer to both questions by se
 
 The answer to the first question is determined by
 
-```
+```{r}
 dist_buffer
 ```
 
-```
+```{r}
 ## [1] 800
 ```
 
-```
+```{r}
 res1 <-
   sf::st_contains(piedmont_1991.sf[1,] %>%
                     sf::st_buffer(dist_buffer),
@@ -211,7 +213,7 @@ res1 == TRUE & res2 == TRUE
 
 And the answer to the second question is determined by
 
-```
+```{r}
 min_inters_area
 ```
 
@@ -219,7 +221,7 @@ min_inters_area
 ## [1] 350000
 ```
 
-```
+```{r}
 intersection_area <-
   st_area(
     st_intersection(st_geometry(piedmont_1991.sf[1,]),
@@ -239,7 +241,7 @@ What the user will need to decide is the tolerance for both the equality and int
 
 After determining the what kind of tolerance should we pass to the function, it is now time to actually run the function on the two spatial objects.
 
-```
+```{r}
 library(recogeo)
 res <-
   recogeo::reconcileGeographies(piedmont_1991.sf, piedmont_2018.sf,
@@ -262,15 +264,21 @@ The results from the function is a _data.frame_ where each row describes a relat
 | 004167 | 004167 | AintersectsB |
 | 003082 | 003082 | same |
 
-The **recogeo** package contains two functions to check the results from `reconcileGeographies()`. The first function, `reportReconciledGeographies()`, produces a report to visually inspect every relationship. So for example, the relationship “`piedmont_1991.sf[piedmont_1991.sf$PRO_COM_T == '002110',]` contains `piedmont_2018.sf[piedmont_2018.sf$PRO_COM_T == '002110',]`” will be reported like this
+The **recogeo** package contains two functions to check the
+results from `reconcileGeographies()`. The first function,
+`reportReconciledGeographies()`, produces a report to visually inspect
+every relationship. So for example, the relationship
+“`piedmont_1991.sf[piedmont_1991.sf$PRO_COM_T == '002110',]` contains
+`piedmont_2018.sf[piedmont_2018.sf$PRO_COM_T == '002110',]`” will be
+reported like this
 
-[![](images/unnamed-chunk-17-1-1024x731.png)](http://www.francescobailo.net/wordpress/wp-content/uploads/2019/02/unnamed-chunk-17-1.png)
+{% include image.html url="/assets/images/images//unnamed-chunk-17-1-1024x731.png" description="" %}
 
 In this case, it seems clear that the 1991 _comune_ lost part of its territory to another _comune_ or resulting in a new _comune_ being created.
 
 The function `testReconciledGeographies()` instead tests the spatial characteristics of reconciled geographies. It takes the _data.frame_ resulting from the `reconcileGeographies()` function and the spatial objects.
 
-```
+```{r}
 test_res <-
   recogeo::testReconciledGeographies(res, 
                                      piedmont_1991.sf, piedmont_2018.sf)
@@ -278,7 +286,7 @@ test_res <-
 
 This test is particularly important to determine whether the results are satisfactory because compare the sum of the areas of the old geographies from the two spatial objects that correspond to new reconciled geographies.
 
-```
+```{r}
 kable(test_res[sample(1:nrow(test_res), 10),], row.names = F)
 ```
 
@@ -301,7 +309,7 @@ The column `n_A` and `n_B` indicates how many geographies need to be aggregated 
 
 The final step is to produce a new dataset, optionally containing also geographic information of a new set of reconciled geographies, with variables transformed when necessary to allow a comparison between data from the two original datasets.
 
-```
+```{r}
 reconciled_data.sf <-
   recogeo::reconcileData(res, 
                          piedmont_1991.sf, piedmont_2018.sf, 
@@ -313,7 +321,7 @@ The arguments `varB` and `varB` indicate the variable we want to reconcile for c
 
 After we have reconciled geographies and variables, it is now time to understand how the population has changed over time at the finest level possible given the original information.
 
-[![](images/unnamed-chunk-21-1-1024x569.png)](http://www.francescobailo.net/wordpress/wp-content/uploads/2019/02/unnamed-chunk-21-1.png)
+{% include image.html url="/assets/images/unnamed-chunk-17-1-1024x731.png" description="" %}
 
 * * *
 

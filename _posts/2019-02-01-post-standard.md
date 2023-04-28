@@ -1,6 +1,5 @@
 ---
 title: "Post: Standard"
-permalink: "/2019/02/recogeo-a-new-r-package-to-reconcile-changing-geographies-boundaries-and-corresponding-variables/"
 excerpt_separator: "<!--more-->"
 categories:
   - Blog
