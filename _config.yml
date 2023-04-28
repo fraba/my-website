@@ -57,7 +57,7 @@ plugins:
 author:
   name   : "Francesco Bailo"
   avatar : "/assets/images/bio-photo.jpeg"
-  bio    : "I am a Lecturer in Data Analytics in the Social Sciences at the University of Sydney."
+  bio    : "I am a Lecturer in Data Analytics in the Social Sciences at the University of Sydney. I am also affiliated with the Data Science Institute at the University of Technology Sydney."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
@@ -74,6 +74,20 @@ author:
     - label: "Orcid"
       icon: "fab fa-fw fa-orcid"
       url: "https://orcid.org/0000-0001-5971-1921"
+    - label: "Stackoverflow"
+      icon: "fa-brands fa-fw fa-stack-overflow"
+      url: "https://stackoverflow.com/users/1707938"
+    - label: "Linkedin"
+      icon: "fa-brands fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/frbailo"
+    - label: "University of Sydney"
+      icon: "fa-solid fa-fw fa-building-columns
+      url: "https://www.sydney.edu.au/arts/about/our-people/academic-staff/francesco-bailo.html?apcode=ACADPROFILE300808"
+     - label: "University of Technology Sydney"
+      icon: "fa-solid fa-fw fa-building-columns
+      url: "https://profiles.uts.edu.au/Francesco.Bailo"
+
+
 
 Footer:
   links:
