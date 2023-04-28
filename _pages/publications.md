@@ -6,7 +6,7 @@ author_profile: true
 
 ## Peer-reviewed articles
 
-[Posts about peer-reviewed articles](categories/#peer-reviewed-articles)
+[Posts about peer-reviewed articles](../categories/#peer-reviewed-articles)
 
 {% include_relative publications-peer-reviewed-articles.html %}
 
