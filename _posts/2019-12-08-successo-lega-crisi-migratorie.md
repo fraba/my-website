@@ -6,7 +6,7 @@ permalink: "/2019/12/successo-lega-crisi-migratorie/"
 
 La crescita di Salvini e della Lega è forse per la politica italiana l’evento più significativo del 2018. Nel gennaio 2018, prima delle elezioni di marzo, la Lega di Salvini era intorno al 12-13%. Alla fine del 2018 la Lega era stimata sopra al 30%. Un guadagno di quasi 20 punti percentuali in 12 mesi.
 
-{% include image.html url="../assets/images/unnamed-chunk-3-1-1024x410.png" description="Fig 1. La crescita della Lega (media mobile dei sondaggi, 30 giorni" %}
+{% include image.html url="/assets/images/unnamed-chunk-3-1-1024x410.png" description="Fig 1. La crescita della Lega (media mobile dei sondaggi, 30 giorni" %}
 
 La volatilità elettorale (il passaggio di elettori da un partito all’altro) non è necessariamente un evento raro nella politica italiana. Dalla fine della Prima Repubblica (1948-1992) e Tangentopoli (1994) in avanti, il sistema politico è stato squassato dall’ingresso di un nuovo partito che ha saputa attirare più di un quinto dell’elettorato in due occasioni. Nel 1994, Forza Italia, creata solo pochi mesi prima da Berlusconi, vince le elezioni con il 21%. Nel 2013, il Movimento 5 Stelle, un partito che non esisteva fino al 2009, ottiene il 25% delle preferenze e demolisce il bipolarismo e forse anche la Seconda Repubblica (1994-2013).
 
