@@ -11,8 +11,7 @@ author_profile: true
 |      |      |      |      |      |
 |---|---|---|---|---|
 | 2023  | **GOVT6139 Research Design**  | Discipline of Government and International Relations, School of Social and Political Sciences, The University of Sydney  | [Outline](https://www.sydney.edu.au/units/GOVT6139)  |   |
- | 2018 | **MECO6913 Public opinion, policy and the public
-    sphere** | Department of Media and Communications,
+ | 2018 | **MECO6913 Public opinion, policy and the public sphere** | Department of Media and Communications,
   the University of Sydney | [Outline](https://www.sydney.edu.au/units/MECO6913)
   
 ### Undegraduate courses
