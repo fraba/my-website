@@ -3,6 +3,12 @@ permalink: /about/
 title: "About"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+I am interested in the use of digital and social media in politics. I obtained my PhD at the University of Sydney in 2017 with research on online political participation using computational methods for text and network analysis. Before academia, I have worked in development assistance for the Australian government, non-governmental organisations and the UN. He lived in Afghanistan, Guatemala, Mauritius and Ecuador.
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+I have published on the role played by internet technologies on political participation in *Social Media + Society*, *Information, Communication & Society*, *Political Studies* and *Policy Studies* and on Italian politics in *European Political Science*. I have published a book with Palgrave on the online communities during the emergence of M5S.
+
+[This is a short presentation on my research agenda](https://fraba.github.io/reserach-agenda-presentation/index.html)
+
+
+
+
