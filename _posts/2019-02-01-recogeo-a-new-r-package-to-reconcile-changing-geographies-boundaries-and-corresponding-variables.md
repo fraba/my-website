@@ -25,13 +25,13 @@ At this point the **recogeo** package should be loaded and attached. If you get 
 
 Now let’s load two [_Simple Features_](https://en.wikipedia.org/wiki/Simple_Features) (or _sf_) and their corresponding _data.frame_. These two objects contains information about boundaries and population of Piedmont **comune**, the lowest administrative divisions in Italy, for 1991 and 2018. You can download the `spatial_objs.rda` from [here](https://github.com/fraba/My-blogposts/raw/master/recogeo_blogpost/data/spatial_objs.rda).
 
-```{r}
+```r
 load("data/spatial_objs.rda")
 ```
 
 Let’s plot the two _sf_ polygons, coloring each comune based on corresponding population.
 
-```{r}
+```r
 library(ggplot2)
 library(gridExtra)
 grid.arrange(
@@ -108,7 +108,7 @@ st_contains(piedmont_union_2018.sf,
 
 The `(empty)` results mean that the two geometries don’t contain each other. This is again not surprising since we have two complex polygons defined by 4383 and 4667 points respectively. It only suffices that one point is slightly outside the other boundary to fail the `sf::st_contains()` test. But we can overcome this problem by slightly expand the two geometries by a few meters (e.g. 800) with `sf::st_buffer` and retest.
 
-```{r}
+```r
 st_contains(st_buffer(piedmont_union_1991.sf, 800), 
             piedmont_union_2018.sf)
 ```
@@ -139,12 +139,12 @@ max_distance_1991 <-
   as.numeric()
 ```
 
-{% include image.html url="/assets/images/images/unnamed-chunk-8-1-1024x731.png" description="" %}
+{% include image.html url="/assets/images/unnamed-chunk-8-1-1024x731.png" description="" %}
 
 And this is what the `piedmont_union_1991.sf` expanded polygon looks
 like if we plot it behind the `piedmont_union_218.sf` polygon.
 
-{% include image.html url="/assets/images/images/unnamed-chunk-9-1-1024x731.png" description="" %}
+{% include image.html url="/assets/images/unnamed-chunk-9-1-1024x731.png" description="" %}
 
 We have now a fair assumption that based on our spatial analysis the outer boundary of the region isn’t changed and what is changed are only internal administrative boundaries.
 
@@ -173,7 +173,7 @@ res[[1]]
 
 Let’s plot everything.
 
-{% include image.html url="/assets/images/images/unnamed-chunk-12-1-1024x731.png" description="" %}
+{% include image.html url="/assets/images/unnamed-chunk-12-1-1024x731.png" description="" %}
 
 These intersections seems mostly due to changes in the precision of the geometries from the two datasets. The boundary of `piedmont_1991.sf[1,]` has 196 points while the boundary of the corresponding `piedmont_2018.sf[1127,]` has 265 points.
 
