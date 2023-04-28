@@ -38,7 +38,7 @@ Delle tre fasi di crescita leghista nei sondaggi, marzo-giugno 2018, giugno-sett
 
 {% include image.html url="/assets/images/unnamed-chunk-7-1-1-1024x819.png" description="" %}
 
-{% include image.html url="/assets/images/unnamed-chunk-9-1-1024x819.png)" description="Fig. 6. Crisi dei #portichiusi e attenzione mediatica." %}
+{% include image.html url="/assets/images/unnamed-chunk-9-1-1024x819.png" description="Fig. 6. Crisi dei #portichiusi e attenzione mediatica." %}
 
 Il periodo giugno-settebre 2018 è l’unico periodo in cui la crescita di attenzione verso Salvini e verso il tema migratorio sia fortemente correlata con la crescita di 7-8 punti della Lega (evidenziato in Figura 6). Se l’immigrazione ha giocato un qualche ruolo nella crescita della Lega nel 2018 è decisamente probabile che questo sia avvenuto tra giugno e settembre.
 
