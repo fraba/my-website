@@ -1,6 +1,7 @@
 ---
 title: "How to sync your Zotero library (and files) with WebDAV"
 date: "2019-03-10"
+permalink: "/2019/03/how-to-sync-your-zotero-library-and-files-with-webdav/"
 categories: 
   - "how-to"
 tags: 
@@ -68,18 +69,18 @@ Before syncing my library via WebDAV and share it with multiple computers (in my
 
 As I decided to use WebDAV, I can't use ZotFile to store files in a "custom folder" (Google Drive in my case). I can still rename files, but I need to keep them within the default Zotero directory structure to allow syncing. This is crucial: Zotero will sync via WebDAV only files respecting Zotero default storing rules.
 
-\[caption id="attachment\_1166" align="aligncenter" width="1024"\][![](images/Screen-Shot-2019-03-11-at-9.01.08-am-1024x438.png)](http://www.francescobailo.net/wordpress/wp-content/uploads/2019/03/Screen-Shot-2019-03-11-at-9.01.08-am.png) ZotFile settings while using WebDAV.\[/caption\]
+{% include image.html url="/assets/images/Screen-Shot-2019-03-11-at-9.01.08-am-1024x438.png" description="ZotFile settings while using WebDAV" %}
 
 So this is my new workflow:
 
 1. I add items to the Zotero library from my laptop and used to ZotFile to rename files;
 2. Files are clearly still accessible from my laptop (and now also from my desktop). But if I want to read them on my iPad with GoodReader, I need to use another function implemented by ZotFile: I can set ZotFile so that by right-clicking on any item or file from within Zotero I can send it to the tablet (where I can edit it) and when I finish reading get it back from the tablet.
 
-\[caption id="attachment\_1167" align="aligncenter" width="990"\][![](images/Screen-Shot-2019-03-11-at-9.30.42-am.png)](http://www.francescobailo.net/wordpress/wp-content/uploads/2019/03/Screen-Shot-2019-03-11-at-9.30.42-am.png) ZotFile: Send file to the tablet.\[/caption\]
+{% include image.html url="/assets/images/Screen-Shot-2019-03-11-at-9.30.42-am.png" description="ZotFile: Send file to the tablet." %}
 
 And these are my settings for ZotFile:
 
-\[caption id="attachment\_1168" align="aligncenter" width="1024"\][![](images/Screen-Shot-2019-03-11-at-9.30.08-am-1024x1012.png)](http://www.francescobailo.net/wordpress/wp-content/uploads/2019/03/Screen-Shot-2019-03-11-at-9.30.08-am.png) ZotFile settings to share files with a tablet.\[/caption\]
+{% include image.html url="/assets/images/Screen-Shot-2019-03-11-at-9.30.08-am-1024x1012.png" description="ZotFile settings to share files with a tablet" %}
 
 ## Support Zotero and ZotFile development
 
