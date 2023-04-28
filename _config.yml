@@ -81,10 +81,10 @@ author:
       icon: "fa-brands fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/frbailo"
     - label: "University of Sydney"
-      icon: "fa-solid fa-fw fa-building-columns
+      icon: "fa-solid fa-fw fa-building-columns"
       url: "https://www.sydney.edu.au/arts/about/our-people/academic-staff/francesco-bailo.html?apcode=ACADPROFILE300808"
-     - label: "University of Technology Sydney"
-      icon: "fa-solid fa-fw fa-building-columns
+    - label: "University of Technology Sydney"
+      icon: "fa-solid fa-fw fa-building-columns"
       url: "https://profiles.uts.edu.au/Francesco.Bailo"
 
 
