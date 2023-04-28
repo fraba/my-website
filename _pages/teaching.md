@@ -24,15 +24,11 @@ author_profile: true
 | 2019 - 2020 | **54005 Digital Media Industries** | School of Communication, University of Technology Sydney |  [Outline](https://handbook.uts.edu.au/subjects/54005) | |
   
 ## Workshops
-  
-* (Jul 2022) **(The art of) text mining and analysis**. Winter School Training Session - ANZCA. University of Canberra. https://fraba.github.io/2022-ANZCA-workshop-The-art-of-text-analysis/
 
-* (Jul 2021) **How to do social media data analysis using Tableau** (honours). School of Communication, University of Technology Sydney
-Topic Models in R. DH Downunder 2018 summer school, Western Sydney University and the University of Sydney. https://digital-methods-sydney.github.io/ws-201812/
-
-* (Dec 2018) **Topic Models in R**. DH Downunder 2018 summer
-  school, Western Sydney University and the University of Sydney. https://digital-methods-sydney.github.io/ws-201812/}
-
-* (Jun 2018) **Digital methods workshop: Social network analysis, Twitter data collection, text analysis and the R software**. Department of Media and Communications, the University of Sydney. https://digital-methods-sydney.github.io/ws-201806/
-
-* (Nov - Dec 2016) **Digital media methods: Applications of R software and RStudio to social research**. Department of Media and Communications, the University of Sydney. https://fraba.github.io/digital_media_methods_sydney/
+|      |      |      |      |      |
+|---|---|---|---|---|
+| Jul 2022 | **(The art of) text mining and analysis** | Winter School Training Session - ANZCA. University of Canberra | | [Materials](https://fraba.github.io/2022-ANZCA-workshop-The-art-of-text-analysis/)|
+|  Jul 2021 | **How to do social media data analysis using Tableau** | School of Communication, University of Technology Sydney | | |
+| Dec 2018 | **Topic Models in R**. | DH Downunder 2018 summer school, Western Sydney University and the University of Sydney |[Program](https://www.westernsydney.edu.au/dhrg/digital_humanities/dh_downunder/past_events/dh_downunder_2018) |  [Materials](https://digital-methods-sydney.github.io/ws-201812/) |
+| Jun 2018 | **Digital methods workshop: Social network analysis, Twitter data collection, text analysis and the R software** | Department of Media and Communications, the University of Sydney | | (Materials)[https://digital-methods-sydney.github.io/ws-201806/]|
+| Nov - Dec 2016 | **Digital media methods: Applications of R software and RStudio to social research** | Department of Media and Communications, the University of Sydney | | [Materials](https://fraba.github.io/digital_media_methods_sydney/)
