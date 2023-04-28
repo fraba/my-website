@@ -1,6 +1,7 @@
 ---
 title: "Are you parallelizing your raster operations? You should!"
 date: "2019-01-18"
+permalink: "/2019/01/are-you-parallelizing-your-raster-operations-you-should/"
 categories: 
   - "r"
 tags: 
@@ -15,7 +16,7 @@ If you plan to do anything with the raster package you should definitely consid
 
 Let’s first get some raster data from [here](%5Bhttp://www.worldpop.org.uk/data/get_data/), any file will do but I’m using the Cambodian population data for 2015 (`KHM_ppp_v2b_2015_UNadj`).
 
-```
+```r
 library(raster)
 khm_pop.r <- 
   raster("~/Downloads/KHM_ppp_v2b_2015_UNadj/KHM_ppp_v2b_2015_UNadj.tif")
@@ -23,7 +24,7 @@ khm_pop.r <-
 
 We can plot it with
 
-```
+```r
 library(rasterVis)
 library(viridis)
 library(ggplot2)
@@ -34,13 +35,14 @@ rasterVis::gplot(khm_pop.r) +
   theme_bw()
 ```
 
-[![](images/unnamed-chunk-2-1-1024x731.png)](http://www.francescobailo.net/wordpress/wp-content/uploads/2019/01/unnamed-chunk-2-1.png)
+{% include image.html url="/assets/images/unnamed-chunk-2-1-1024x731.png" description="" %}
+
 
 ## Projection
 
 Now, let’s first project the raster without any parallelization.
 
-```
+```r
 start_time <- Sys.time()
 res1 <- 
   projectRaster(khm_pop.r,
@@ -53,7 +55,7 @@ end_time - start_time
 ## Time difference of 1.088329 mins
 ```
 
-```
+```r
 rasterVis::gplot(res1) + 
   geom_tile(aes(fill = log(value)))  +
   viridis::scale_fill_viridis(direction = -1, 
@@ -61,7 +63,8 @@ rasterVis::gplot(res1) +
   theme_bw()
 ```
 
-[![](images/unnamed-chunk-4-1-1024x731.png)](http://www.francescobailo.net/wordpress/wp-content/uploads/2019/01/unnamed-chunk-4-1.png)
+{% include image.html url="/assets/images/unnamed-chunk-4-1-1024x731.png" description="" %}
+
 
 And now let’s parallelize the process. There are two approaches to parallelization with raster objects (do `?clusterR` for the documentation of the package mantainers):
 
@@ -72,7 +75,7 @@ Yet `clusterR()` doesn’t work with `merge`, `crop`, `mosaic`, `disaggregate`, 
 
 Let’s try the first approach first.
 
-```
+```r
 start_time <- Sys.time()
   beginCluster()
 ```
@@ -81,7 +84,7 @@ start_time <- Sys.time()
 ## 4 cores detected, using 3
 ```
 
-```
+```r
   res2 <- 
     projectRaster(khm_pop.r, 
                   crs = '+proj=utm +zone=48 +datum=WGS84 +units=m +no_defs')
@@ -91,7 +94,7 @@ start_time <- Sys.time()
 ## Using cluster with 3 nodes
 ```
 
-```
+```r
   endCluster() 
 end_time <- Sys.time()
 end_time - start_time
@@ -101,25 +104,25 @@ end_time - start_time
 ## Time difference of 1.548856 mins
 ```
 
-```
+```r
 rasterVis::gplot(res2) + 
   geom_tile(aes(fill = log(value)))  +
   viridis::scale_fill_viridis(direction = -1, na.value='#FFFFFF00') + 
   theme_bw()
 ```
 
-[![](images/unnamed-chunk-6-1-1024x731.png)](http://www.francescobailo.net/wordpress/wp-content/uploads/2019/01/unnamed-chunk-6-1.png)
+{% include image.html url="/assets/images/unnamed-chunk-6-1-1024x731.png" description="" %}
 
 ## Maths
 
 To test the second approach, let’s use the `calc()` and `sqrt()` functions, first without parallelization:
 
-```
+```r
 start_time <- Sys.time()
 calc(khm_pop.r, sqrt)
 ```
 
-```
+```r
 ## class       : RasterLayer 
 ## dimensions  : 5205, 6354, 33072570  (nrow, ncol, ncell)
 ## resolution  : 0.0008333, 0.0008333  (x, y)
@@ -130,7 +133,7 @@ calc(khm_pop.r, sqrt)
 ## values      : 0.02269337, 42.87014  (min, max)
 ```
 
-```
+```r
 end_time <- Sys.time()
 end_time - start_time
 ```
@@ -141,7 +144,7 @@ end_time - start_time
 
 and then with parallelization, this time with `clusterR()`:
 
-```
+```r
 start_time <- Sys.time()
 beginCluster()
 ```
@@ -150,7 +153,7 @@ beginCluster()
 ## 4 cores detected, using 3
 ```
 
-```
+```r
 clusterR(khm_pop.r, sqrt)
 ```
 
@@ -165,7 +168,7 @@ clusterR(khm_pop.r, sqrt)
 ## values      : 0.02269337, 42.87014  (min, max)
 ```
 
-```
+```r
 endCluster()
 end_time <- Sys.time()
 end_time - start_time
