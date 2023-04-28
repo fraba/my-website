@@ -17,7 +17,7 @@ library(devtools)
 install_github('fraba/recogeo')
 ```
 
-and load it with .
+and load it with `library(recogeo)`.
 
 At this point the **recogeo** package should be loaded and attached. If you get an error, make sure to create a new issue [here](https://github.com/fraba/recogeo/issues) or to post a comment below.
 
@@ -272,7 +272,7 @@ every relationship. So for example, the relationship
 `piedmont_2018.sf[piedmont_2018.sf$PRO_COM_T == '002110',]`” will be
 reported like this
 
-{% include image.html url="/assets/images/images//unnamed-chunk-17-1-1024x731.png" description="" %}
+{% include image.html url="/assets/images/unnamed-chunk-17-1-1024x731.png" description="" %}
 
 In this case, it seems clear that the 1991 _comune_ lost part of its territory to another _comune_ or resulting in a new _comune_ being created.
 
