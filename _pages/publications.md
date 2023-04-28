@@ -4,7 +4,7 @@ title: "Publications"
 author_profile: true
 ---
 
-## Peer-reviewed
+## Peer-reviewed articles
 
 {% include_relative publication-peer-reviewed.html %}
 
