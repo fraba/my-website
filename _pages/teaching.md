@@ -8,6 +8,7 @@ author_profile: true
 
 ### Postgraduate courses
 
+|      |      |      |      |      |
 |---|---|---|---|---|
 | 2023  | **GOVT6139 Research Design**  | Discipline of Government and International Relations, School of Social and Political Sciences, The University of Sydney  | [Outline](https://www.sydney.edu.au/units/GOVT6139)  |   |
  | 2018 | **MECO6913 Public opinion, policy and the public
@@ -16,6 +17,7 @@ author_profile: true
   
 ### Undegraduate courses
 
+|      |      |      |      |      |
 |---|---|---|---|---|
 | 2023 | **SSPS4102 Data Analytics in the Social Sciences** | School of Social and Political Sciences, The University of Sydney | [Outline](https://www.sydney.edu.au/units/SSPS4102) | [Materials](https://fraba.github.io/SSPS4102/)
 | 2022 | **570002 Application Implementation with Microsoft Dynamics** |  School of Communication, University of Technology
