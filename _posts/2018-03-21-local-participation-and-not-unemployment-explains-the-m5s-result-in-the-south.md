@@ -21,21 +21,21 @@ and
 
 The following two maps show where the M5S and the League have increased electoral support from 2013 to 2018. (Electoral data are always data for the election of the Chamber of Deputies).
 
-{% include image.html url="/assets/images/map1-1-300x214.png" description="Vote difference: 2018-2013 (a few communes have not reported all the results, notably Rome)" %}
+{% include image.html url="/assets/images/map1-1.png" description="Vote difference: 2018-2013 (a few communes have not reported all the results, notably Rome)" %}
 
 
 The geographic pattern is quite simple. The M5S has increased its support in the South and maintained its votes in the North, the League has significantly strengthened its support in the North but has also collected votes in the South, where it had virtually no support. The third and the fourth most voted parties, the Democratic Party (PD) and Berlusconi’s Forza Italia (FI), have lost votes almost everywhere. If we map the results of the four parties side-by-side with the same scale, the PD and FI almost faded into the background.
 
-{% include image.html url="/assets/images/map2-1-1024x388.png" description="Votes in the 2018 General elections" %}
+{% include image.html url="/assets/images/map2-1" description="Votes in the 2018 General elections" %}
 
 Yet, major metropolitan areas do not always follow the national trend. If Naples unambiguously voted M5S, Turin, Milan and Rome did saw the Democratic Party as the most voted party in the wealthiest districts.
 
-{% include image.html url="/assets/images/map2all-285x300.png" description="Votes in the 2018 General elections (Clock-wise from top-left: Turin, Milan, Naples, Rome)" %}
+{% include image.html url="/assets/images/map2all.png" description="Votes in the 2018 General elections (Clock-wise from top-left: Turin, Milan, Naples, Rome)" %}
 
 
 The density of the distribution of results at the commune and sub-commune level in the macro regions indicates that if the M5S electorally dominates in the South and in the two major islands, the League is the most popular party in the North.
 
-{% include image.html url="/assets/images/unnamed-chunk-2-1-300x214.png" description="Distribution of votes at commune or sub-commune level" %}
+{% include image.html url="/assets/images/unnamed-chunk-2-1.png" description="Distribution of votes at commune or sub-commune level" %}
 
 The territoriality of the results, especially along the North-South dimension, makes the analysis especially complicated. This because the strong result of the League in the North and of the M5S in the South might simplistically suggest that immigration (which is much stronger in the North) explains the League’s result in the North and unemployment and poverty (stronger in the South) explain the M5S’s result in the South. This reading is especially attractive since immigration and the M5S proposal to introduce a guaranteed minim income have dominated the campaign.
 
@@ -43,11 +43,11 @@ The territoriality of the results, especially along the North-South dimension, m
 
 What the electoral geography clearly describes is an antithetic and territorially driven relationship between the M5S and the League. The M5S vote is strongly and negatively correlated with the League vote.
 
-{% include image.html url="/assets/images/unnamed-chunk-3-1-300x214.png" description="M5S and Lega vote (%, provinces of Trento and Bolzano excluded)" %}
+{% include image.html url="/assets/images/unnamed-chunk-3-1.png" description="M5S and Lega vote (%, provinces of Trento and Bolzano excluded)" %}
 
 When we exclude the provinces of Trento and Bolzano (because of their autonomous status have a different party tradition), the correlation between the League and the M5S vote is 80%. No other two parties share the same correlation:
 
-{% include image.html url="/assets/images unnamed-chunk-4-1-300x214.png" description="Correlation of the vote for the four main parties" %}
+{% include image.html url="/assets/images/unnamed-chunk-4-1-bis.png" description="Correlation of the vote for the four main parties" %}
 
 In a **first model**, I use data from the lower geographic level possible — either the commune level or the sub-commune level for large metropolitan areas. I then test the association of the results of each of the 7981 geographies with the census demographics from 2011.
 
@@ -55,7 +55,7 @@ In a **first model**, I use data from the lower geographic level possible — ei
 
 Results indicate that if unemployment is strongly associated at the national level, it is not significant when we only considered the South (Sicily and Sardinia included). When we exclude the two main islands, unemployment is again significant but the association between M5S support and unemployment is weaker than between M5S and every other demographics with the exception of the percentage of the population with a university degree. And if we only consider the two main islands unemployment is actually negatively correlated with the M5S.
 
-{% include image.html url="/assets/images/unnamed-chunk-7-1-300x214.png" description="Unemployment and M5S vote in different macro-regions" %}
+{% include image.html url="/assets/images/unnamed-chunk-7-1-bis.png" description="Unemployment and M5S vote in different macro-regions" %}
 
 The unemployment rate is significantly higher in the South; almost all the geographies with an unemployment rate above 40% are indeed in the South. It is possible to assume a non-linear relation between M5S support and unemployment: for example, strong below 40% and null above. Still, this is not fully supported by a locally weighted regression line (LOESS) fitted to the data generated by the elections in the different macro-regions (see Figure above). And it does not explain the behaviour in Sicily and Sardinia (with a median support for the M5S of 44% against a national median of 27%) where unemployment is actually associated with _less_ support for the M5S.
 
@@ -71,13 +71,13 @@ When the South (this time both including and excluding the two main islands) is 
 
 Since 2005, the M5S has employed [Meetup.com](http://www.meetup.com) to allow militants or simple sympathisers to meet in Italy and around the world. By interrogating the [API](https://www.meetup.com/meetup_api/) of Meetup.com for all groups linked to Beppe Grillo or the M5S, I am able to map the frequencies of events organised over time by the groups.
 
-{% include image.html url="/assets/images/meetup-ts-1-300x214.png" description="Frequency of M5S meetup events (n=169,254) worldwide" %}
+{% include image.html url="/assets/images/meetup-ts-1.png" description="Frequency of M5S meetup events (n=169,254) worldwide" %}
 
 Elections (but also the [V-Day](https://en.wikipedia.org/wiki/Five_Star_Movement#V-Days) of 2007) are clearly associated with a spike in mobilisation. Assuming that the number of events organised throughout the country is geographically correlated with the support for the Movement, I calculate the territorial density of events organised in the 90 days preceding the election and I test its association with local electoral support.
 
-{% include image.html url="/assets/images/plot-density-1-300x214.png" description="Distribution of meetup events (n=3843) in the 90 days before the election (top panel) and their density computed for each cell of a grid covering the entire national territory (bottom panel)" %}
+{% include image.html url="/assets/images/plot-density-1.png" description="Distribution of meetup events (n=3843) in the 90 days before the election (top panel) and their density computed for each cell of a grid covering the entire national territory (bottom panel)" %}
 
-{% include image.html url="/assets/images/plot-density-2-300x214.png" description="Votes in the 2018 General elections" %}
+{% include image.html url="/assets/images/plot-density-2.png" description="Votes in the 2018 General elections" %}
 
 Strength and significance of the territorial density of events are controlled for together with the strength and significance of the variables of the previous models. The coefficients below have been standardised so that the variance of both dependent and independent variables is 1.
 
