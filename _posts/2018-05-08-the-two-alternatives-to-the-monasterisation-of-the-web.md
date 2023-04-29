@@ -1,6 +1,7 @@
 ---
 title: "The two alternatives to the monasterisation of the World wide web"
 date: "2018-05-08"
+permalink: "/2018/05/the-two-alternatives-to-the-monasterisation-of-the-web/"
 categories: 
   - "internet"
 tags: 
@@ -8,7 +9,7 @@ tags:
   - "internet"
 ---
 
-\[caption id="attachment\_919" align="aligncenter" width="1024"\][![](images/La_Sacra_ammantata_dalla_neve_edited-1024x478.jpg)](http://www.francescobailo.net/wordpress/wp-content/uploads/2018/05/La_Sacra_ammantata_dalla_neve_edited.jpg) Saint Michael's Abbey, in the Susa Valley, Piedmont. Source: Wikipedia.\[/caption\]
+{% include image.html url="/assets/images/La_Sacra_ammantata_dalla_neve_edited-1024x478.jpg" description="Saint Michael's Abbey, in the Susa Valley, Piedmont. Source: Wikipedia" %}
 
 In Medieval Europe, information was physically concentrated in very few secluded libraries and archives. Powerful institutions managed them and regulated who could access what. The library of the fictional abbey that is described in Umberto Eco's _The Name of the_ Rose is located in a fortified tower and only the librarian knows how to navigate its mysteries. Monasteries played an essential role in preserving written information and creating new intelligence from that knowledge. But being written information a scarce resource, with the keys to libraries came also authority and power. Similarly, Internet companies are amassing information within their fortified walls. In so doing, they provide services that we now see as essential but they also contravene the two core principles of the Internet: openness and decentralisation.
 
@@ -16,7 +17,7 @@ In Medieval Europe, information was physically concentrated in very few secluded
 
 In the aftermath of another data scandal - this time involving the largest repository of personal and social data ever seen in history — Facebook — and with the aim to explain what alternatives we might have to the monasterisation of the Web, I think it is appropriate to start with a short answer to these two basic questions.
 
-\[caption id="attachment\_917" align="aligncenter" width="450"\][![](images/Saint_Gall_planta.png)](http://www.francescobailo.net/wordpress/wp-content/uploads/2018/05/Saint_Gall_planta.png) Ground plan, St. Gall monastery, Switzerland. Source: Wikipedia.\[/caption\]
+{% include image.html url="/assets/images/Saint_Gall_planta.png" description="Ground plan, St. Gall monastery, Switzerland. Source: Wikipedia" %}
 
 The Internet is fundamentally two things: computers and protocols. Computers understand each other because they speak the same language as defined by shared protocols. The driver of the success of the Internet is that being part of it has no entry barriers: protocols are free (like in "free beer") and so is admission to the club. This largely explains why we have only one Internet covering the entire planet instead of multiple internets covering small parts if it.\[note\]Altought we now give the unicity of the Internet for granted, an alternative scenario is as realistic as a printer that doesn't work with your computer or a Skype account that doesn't call a WhatsApp account.\[/note\] Once costs (virtually zero) and benefits (as large as the Internet) are accounted for, it is difficult to justify connecting to disconnected alternatives.
 
