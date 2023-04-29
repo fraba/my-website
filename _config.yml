@@ -60,6 +60,8 @@ author:
   logo   : "/assets/images/logo.jpeg"
   bio    : "I am a Lecturer in Data Analytics in the Social Sciences at the University of Sydney. I am also affiliated with the Data Science Institute at the University of Technology Sydney."
   links:
+    - label: "email"
+      icon: "fas fa-fw fa-envelop"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "http://www.francescobailo.net/"
@@ -82,10 +84,10 @@ author:
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/frbailo"
     - label: "USYD"
-      icon: "fas fa-fw fa-building-columns"
+      icon: "fas fa-fw building-columns"
       url: "https://www.sydney.edu.au/arts/about/our-people/academic-staff/francesco-bailo.html?apcode=ACADPROFILE300808"
     - label: "UTS"
-      icon: "fas fa-fw fa-building-columns"
+      icon: "fas fa-fw building-columns"
       url: "https://profiles.uts.edu.au/Francesco.Bailo"
 
 
