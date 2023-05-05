@@ -1,6 +1,7 @@
 ---
 title: "2018 Italian general election: Details on my simulation"
 date: "2018-02-28"
+permalink: "/2018/03/local-participation-and-not-unemployment-explains-the-m5s-result-in-the-south/"
 categories: 
   - "italian-general-election-2018"
 tags: 
@@ -9,17 +10,15 @@ tags:
   - "simulation"
 ---
 
-_This article describes the simulation behind the app that you find [here](http://www.francescobailo.net/apps/2018-italian-general-elections-app-en/)_
-
 This simulation of the results for the 2018 general election is based on the results from the last two national elections (the Italian parliament election in 2013 and the European Parliament election 2014) and national polls conducted until 16 February 2018. The simulation is based on one assumption, which is reasonable but not necessarily realistic: the relative territorial strength of parties is stable. From this assumption derives that if the national support for a party (as measured by national voting intention polls) varies, it varies consistently and proportionally _everywhere_. A rising tide lifts all boats and vice versa. The assumption has some empirical justification. If we compare the difference from the national support (in percentage) for each district in 2013 and 2014 we see a significant correlation, especially in the major parties.
 
-\[caption id="attachment\_809" align="aligncenter" width="450"\][![](images/unnamed-chunk-1-1-300x214.png)](http://www.francescobailo.net/wordpress/wp-content/uploads/2018/02/unnamed-chunk-1-1.png) Votes to party in the 2018 Chamber districts\[/caption\]
+{% include image.html url="/assets/images/unnamed-chunk-1-1-300x214.png" description="Votes to party in the 2018 Chamber districts" %}
 
 # Pooling polls
 
 To summarise the information provided by a number of opinion polls conducted after January 2018, I used [all polls](https://en.wikipedia.org/wiki/Opinion_polling_for_the_Italian_general_election,_2018#2018) that indicated a sample size. To model each party trend, I used a local regression model with a span of 4 days and weighted based on the sample size (Cleveland, Grosse, and Shyu 1992).
 
-\[caption id="attachment\_810" align="aligncenter" width="450"\][![](images/unnamed-chunk-3-1-1024x731.png)](http://www.francescobailo.net/wordpress/wp-content/uploads/2018/02/unnamed-chunk-3-1.png) Polls and local regression model for each party\[/caption\]
+{% include image.html url="/assets/images/unnamed-chunk-3-1-1024x731.png" description="Polls and local regression model for each party" %}
 
 For any given party, the last value predicted by the local regression model (that is, the closest to the election day) was used to compute the party percentage vote for each district based on the baseline voting behaviour for the same district.
 
@@ -41,11 +40,11 @@ For any given party, the last value predicted by the local regression model (tha
 
 The electoral results for the elections of 2013 and 2014 were downloaded from the website of the [Ministry of Interior](http://elezionistorico.interno.gov.it/). Most of the 2018 electoral districts neatly aggregate the territory of Italian communes. Only a few cut through commune borders or are integrally within commune borders. Because I did not have 2013 and 2014 electoral results for these sub communal districts (in the metropolitan areas of Turin, Milan, Genoa, Bologna, Florence, Rome, Bari, Naples and Palermo) I proportionally distributed votes for each party in these districts based on what predicted for each census geographic units contained in the districts by a linear model.
 
-\[caption id="attachment\_815" align="aligncenter" width="450"\][![](images/genova_districts-1024x724.jpg)](http://www.francescobailo.net/wordpress/wp-content/uploads/2018/02/genova_districts.jpg) The Chamber districts intersecting the commune of Genoa\[/caption\]
+{% include image.html url="/assets/images/genova_districts-1024x724.jpg" description="The Chamber districts intersecting the commune of Genoa" %}
 
 The linear model used as independent variables the demographics (as collected in the 2011 census) such as the percentage of residents over 65, the percentage of people with a college degree, the unemployment rate, the percentage of people out of the workforce, the percentage of people working as housewives, the percentage of foreigners from different regions of the world and the population density.
 
-\[caption id="attachment\_814" align="aligncenter" width="450"\][![](images/model_genova_area-1024x724.png)](http://www.francescobailo.net/wordpress/wp-content/uploads/2018/02/model_genova_area.png) Predicted 2013 results for the M5S at the level of census units (above) and actual 2013 resuls at the level of communes (below). White census units within the districts of Sarra Riccó, Bargagli and Rapallo are not populated.\[/caption\]
+{% include image.html url="/assets/images/model_genova_area-1024x724.png" description="Predicted 2013 results for the M5S at the level of census units (above) and actual 2013 resuls at the level of communes (below). White census units within the districts of Sarra Riccó, Bargagli and Rapallo are not populated." %}
 
 # Simulation based on baseline voting behaviour
 
@@ -108,9 +107,9 @@ The votes to the parties that do not run in 2018 but where present in previous e
 
 In total I run 20,000 simulations and calculated the distribution of seats for each simulation. The distribution of seats at the level of coalitions are presented in the following figures.
 
-\[caption id="attachment\_811" align="aligncenter" width="450"\][![](images/unnamed-chunk-8-1-1024x731.png)](http://www.francescobailo.net/wordpress/wp-content/uploads/2018/02/unnamed-chunk-8-1.png) Density of the distribution of seats based on the simulation (Chamber)\[/caption\]
+{% include image.html url="/assets/images unnamed-chunk-8-1-1024x731.png" description="Density of the distribution of seats based on the simulation (Chamber)." %}
 
-\[caption id="attachment\_812" align="aligncenter" width="450"\][![](images/unnamed-chunk-8-2-1024x731.png)](http://www.francescobailo.net/wordpress/wp-content/uploads/2018/02/unnamed-chunk-8-2.png) Density of the distribution of seats based on the simulation (Senate)\[/caption\]
+{% include image.html url="/assets/unnamed-chunk-8-2-1024x731.png" description="Density of the distribution of seats based on the simulation (Senate)." %}
 
 # References
 
