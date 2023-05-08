@@ -1,6 +1,7 @@
 ---
 title: "Cosa possiamo imparare dal M5S"
 date: "2016-07-22"
+permalink: "/2016/07/cosa_possiamo_imparare_dal_m5s/"
 categories: 
   - "m5s"
 tags: 

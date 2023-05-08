@@ -1,6 +1,7 @@
 ---
 title: "Road to Rome: The organisational and political success of the M5S"
 date: "2016-07-08"
+permalink: "/2016/07/road-to-rome-the-organisational-and-political-success-of-the-m5s/"
 categories: 
   - "m5s"
 ---
