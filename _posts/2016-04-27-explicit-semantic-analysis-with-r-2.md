@@ -168,9 +168,7 @@ g_ns0_and_ns14 <- g - V(g)[!(V(g)$namespace %in% c(0, 14))]
 
 This will result in a directed network like this
 
-[![graph-wikipedia-category-and-article-1](images/graph-wikipedia-category-and-article-1-300x214.png)](http://www.francescobailo.net/wordpress/wp-content/uploads/2016/04/graph-wikipedia-category-and-article-1.png)
-
- 
+{% include image.html url="/assets/images/graph-wikipedia-category-and-article-1-300x214.png" description="" %}
 
 By construction – since every link describes the relation between a page and a parent category – article pages have no incoming links, while category pages might have both incoming from _subcategories_ and outgoing links to parent categories. To simplify the plot online five nodes have two _outgoing_, but this is mostly the case since most of both article and category pages have more than one _parent_ category.
 
@@ -495,7 +493,9 @@ By locating each document of a corpus of interest within a concept space we can 
 # Cosine require(slam) concept_matrix <- as.simple_triplet_matrix(t(concept_matrix)) cosine_dist_mat <- 1 - crossprod_simple_triplet_matrix(concept_matrix)/   (sqrt(col_sums(concept_matrix^2) %*% t(col_sums(concept_matrix^2)))) 
 ```
 
-Finally with the package `tsne` we fit our data to produce a matrix of two columns with \(xy\) coordinates to plot each document as a dot on a 2D plane.  ``` require(tsne) fit <- tsne(cosine_dist_mat, max_iter = 1000) ```  This is the result rendered with `ggplot2`:  [![tsne-cosine-distance-m5s-gmi-discussion-1](images/tsne-cosine-distance-m5s-gmi-discussion-1-200x300.png)](http://www.francescobailo.net/wordpress/wp-content/uploads/2016/04/tsne-cosine-distance-m5s-gmi-discussion-1.png)  
+Finally with the package `tsne` we fit our data to produce a matrix of two columns with \(xy\) coordinates to plot each document as a dot on a 2D plane.  ``` require(tsne) fit <- tsne(cosine_dist_mat, max_iter = 1000) ```  This is the result rendered with `ggplot2`: 
+
+{% include image.html url="/assets/images/tsne-cosine-distance-m5s-gmi-discussion-1.png" description="" %}
 
 The figure is part of my research on online deliberation and the Italy’s [Five Star Movement (M5S)](https://en.wikipedia.org/wiki/Five_Star_Movement). In the figures (top panel) I color coded the document based on five macro concepts — which were used to identify each document — and identified the bill that was presented in Parliament (also a document in my corpus) with a triangle. In the second row of plots from the top I map the 2D kernel density of documents belonging to each macro concept, in the third and fourth row the temporal evolution of the discussion on two platforms (a forum and a blog).
 
