@@ -1,5 +1,6 @@
 ---
 title: "Italy’s Five Star Movement - a spectral analysis of its political composition"
+permalink: "/2015/05/italys-five-star-movement-a-spectral-analysis-of-its-political-composition/"
 date: "2015-05-12"
 categories: 
   - "m5s"
