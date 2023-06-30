@@ -1,5 +1,6 @@
 ---
 title: "On the Evolution of Thinking"
+permalink: "/2009/06/on-the-evolution-of-thinking/"
 date: "2009-06-05"
 categories: 
   - "tech"

@@ -1,5 +1,6 @@
 ---
 title: "Information Flows on Mobiles"
+permalink: "/2009/04/information-flows-on-mobiles/"
 date: "2009-04-16"
 categories: 
   - "south"

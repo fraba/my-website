@@ -1,5 +1,6 @@
 ---
 title: "Back into Poverty"
+permalink: "/2009/06/back-into-poverty/"
 date: "2009-06-18"
 categories: 
   - "south"

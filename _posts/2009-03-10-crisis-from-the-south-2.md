@@ -1,5 +1,6 @@
 ---
 title: "Crisis from the South /2"
+permalink: "/2009/03/crisis-from-the-south-2/"
 date: "2009-03-10"
 categories: 
   - "south"

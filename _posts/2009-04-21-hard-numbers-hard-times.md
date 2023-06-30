@@ -1,5 +1,6 @@
 ---
 title: "Hard Numbers, Hard Times"
+permalink: "/2009/04/hard-numbers-hard-times/"
 date: "2009-04-21"
 categories: 
   - "south"

@@ -1,6 +1,7 @@
 ---
 title: "Selva Amazónica, More Valuable Standing Than Felled"
 date: "2009-06-12"
+permalink: "/2009/06/selva-amazonica-more-valuable-standing-than-felled/"
 categories: 
   - "south"
 tags: 

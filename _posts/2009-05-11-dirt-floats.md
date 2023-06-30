@@ -1,5 +1,6 @@
 ---
 title: "The Dirt Floats"
+permalink: "/2009/05/dirt-floats/"
 date: "2009-05-11"
 categories: 
   - "balkans"

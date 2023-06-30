@@ -1,6 +1,7 @@
 ---
 title: "WikiPrices"
 date: "2009-04-28"
+permalink: "/2009/04/wikiprices/"
 categories: 
   - "south"
 tags: 

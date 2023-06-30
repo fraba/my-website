@@ -1,6 +1,7 @@
 ---
 title: "Truth, finally. Maybe"
 date: "2009-02-21"
+permalink: "/2009/02/truth-finally-maybe/"
 categories: 
   - "guatemala"
 tags: 

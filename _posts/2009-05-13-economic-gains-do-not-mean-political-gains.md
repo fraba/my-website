@@ -1,6 +1,7 @@
 ---
 title: "Economic Gains Do Not Mean Political Gains"
 date: "2009-05-13"
+permalink: "/2009/05/economic-gains-do-not-mean-political-gains/"
 categories: 
   - "south"
 tags: 

@@ -1,5 +1,6 @@
 ---
 title: "Human Rights in Guatemala"
+permalink: "/2009/03/human-rights-in-guatemala/"
 date: "2009-03-27"
 categories: 
   - "guatemala"

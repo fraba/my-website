@@ -1,5 +1,6 @@
 ---
 title: "Wars in the Backyard"
+permalink: "/2009/03/back-courtyard-wars/"
 date: "2009-03-19"
 categories: 
   - "guatemala"

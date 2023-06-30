@@ -1,6 +1,7 @@
 ---
 title: "Eyes on Guatemala"
 date: "2009-08-28"
+permalink: "/2009/08/eyes-on-guatemala/"
 categories: 
   - "guatemala"
 tags: 

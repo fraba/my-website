@@ -1,6 +1,7 @@
 ---
 title: "Brain matters"
 date: "2009-03-17"
+permalink: "/2009/03/brain-matters/"
 categories: 
   - "south"
 tags: 

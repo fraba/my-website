@@ -1,5 +1,6 @@
 ---
 title: "Crisis from the South /3"
+permalink: "/2009/03/crisis-from-the-south/"
 date: "2009-03-17"
 categories: 
   - "guatemala"

@@ -1,5 +1,6 @@
 ---
 title: "Detained and Dismissed"
+permalink: "/2009/03/detained-and-dismissed/"
 date: "2009-03-19"
 categories: 
   - "south"

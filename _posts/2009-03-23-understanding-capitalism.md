@@ -1,5 +1,6 @@
 ---
 title: "Understanding Capitalism"
+permalink: "/2009/03/understanding-capitalism/"
 date: "2009-03-23"
 categories: 
   - "south"

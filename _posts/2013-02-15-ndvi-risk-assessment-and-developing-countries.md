@@ -1,6 +1,7 @@
 ---
 title: "NDVI, risk assessment and developing countries"
 date: "2013-02-15"
+permalink: "/2013/02/ndvi-risk-assessment-and-developing-countries/"
 categories: 
   - "risk-assessment"
 tags: 
@@ -24,11 +25,11 @@ The next idea was then to explore how the NDVI could be used to quantitatively a
 
 2) To calculate the anomaly I used the open source [Quantum GIS](http://qgis.org/ "Quantum GIS") (QGIS) and the plugin [RasterCalc](http://gis-lab.info/qa/rastercalc-eng.html). The formula I applied is quite straightforward: 2008 - (2000 + 2001 + 2002 + 2003 + 2004 + 2005 + 2006 + 2007)/8. A raster file contains one value, in this case the NDVI, for each pixel  (each pixel in the real world represents a square of 500m size); the value for each square of 2008 is then compared with the average value of the preceding years (this of course is possible because the imagery precisely overlaps). This is the result:
 
-\[caption id="attachment\_245" align="aligncenter" width="300"\][![NDVI anomaly for August 2008 based on the mean of the NDVI values of the 8 previous years](images/afg_anomaly-300x212.gif)](http://www.francescobailo.net/wordpress/wp-content/uploads/2013/02/afg_anomaly.gif) NDVI anomaly for August 2008 based on the mean of the NDVI values of the 8 previous years (click to enlarge)\[/caption\]
+{% include image.html url="/assets/images/afg_anomaly.gif" description="NDVI anomaly for August 2008 based on the mean of the NDVI values of the 8 previous years" %}
 
 The brownish regions represent a negative anomaly (indicating a vegetation less healthy than the average) while the greenish regions a positive anomaly. Darker colours indicates a stronger anomaly in both directions. To put these colours into context I run the same analysis (with the same type of imagery) to photograph the exceptional drought that hit the United States in 2012. With the same colour scale as above here the result:
 
-\[caption id="attachment\_247" align="aligncenter" width="300"\][![NDVI anomaly for August 2012 based on the mean of the NDVI values of the 12 previous years](images/us_anomaly-300x212.gif)](http://www.francescobailo.net/wordpress/wp-content/uploads/2013/02/us_anomaly.gif) NDVI anomaly for August 2012 based on the mean of the NDVI values of the 12 previous years (click to enlarge)\[/caption\]
+{% include image.html url="/assets/images/us_anomaly-300x212.gif" description="NDVI anomaly for August 2012 based on the mean of the NDVI values of the 12 previous year" %}
 
 According to the NDVI values, the 2012 drought in the US was stronger than that in 2008 in Afghanistan.
 
@@ -75,9 +76,6 @@ These the results:
     | Ghor | 4,537 | 606,504 | 0.75% |
     | Paktika | 5,363 | 794,594 | 0.67% |
     
-
- 
-
 Finally, with the same queries, let's try to lower the threshold to -1000, that is a -10% difference from the mean NDVI over the previous 8 years:
 
 1. 33,368 people affected;

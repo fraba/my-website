@@ -1,5 +1,6 @@
 ---
 title: "If the Asian Growth Model is not Working Anymore"
+permalink: "/2009/05/if-the-asian-growth-model-is-not-working-anymore/"
 date: "2009-05-19"
 categories: 
   - "south"
