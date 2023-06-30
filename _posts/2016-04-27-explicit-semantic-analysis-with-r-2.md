@@ -15,7 +15,7 @@ Explicit semantic analysis (ESA) was proposed by Gabrilovich and Markovitch (200
 
 Wikipedia provides the concept space. Each article is a _concept_: then, [en.wikipedia.org/wiki/Car](en.wikipedia.org/wiki/Car) for ‘car’, [en.wikipedia.org/wiki/Leonardo\_da\_Vinci](en.wikipedia.org/wiki/Leonardo_da_Vinci) for ‘Leonardo da Vinci’, [en.wikipedia.org/wiki/Poverty](en.wikipedia.org/wiki/Poverty) for ‘poverty’ and [en.wikipedia.org/wiki/Electricity](en.wikipedia.org/wiki/Electricity) for ‘electricity’.
 
-For each input document \\(D\\), the analysis results in a vector of weights of length \\(N\\) — where \\(N\\) is the number of concepts \\(c\\) from the concept space — so to describe with a scalar value the strength of the association between the document \\(D\\) and concept \\(c\_j\\) for \\(c\_j \\in c\_1, . . ., c\_N\\).
+For each input document $D$, the analysis results in a vector of weights of length \\(N\\) — where \\(N\\) is the number of concepts \\(c\\) from the concept space — so to describe with a scalar value the strength of the association between the document \\(D\\) and concept \\(c\_j\\) for \\(c\_j \\in c\_1, . . ., c\_N\\).
 
 - [Step 1: Initialise a MySQL database to store data from Wikipedia](#step-1-initialise-a-mysql-database-to-store-data-from-wikipedia)
 - [Step 2: Dowload Wikipedia’s data dumps](#step-2-dowload-wikipedias-data-dumps)
