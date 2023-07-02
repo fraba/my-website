@@ -87,7 +87,7 @@ author:
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/frbailo"
     - label: "USYD"
-      icon: "fas fa-fw building-columns"
+      icon: "fab fa-fw fa-landmark"
       url: "https://www.sydney.edu.au/arts/about/our-people/academic-staff/francesco-bailo.html?apcode=ACADPROFILE300808"
     - label: "UTS"
       icon: "fas fa-fw building-columns"
