@@ -11,7 +11,3 @@ main:
     url: /about/
   - title: "CV"
     url: https://github.com/fraba/cv/blob/main/francesco_bailo_cv.pdf
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
