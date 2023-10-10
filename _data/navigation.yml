@@ -1,5 +1,5 @@
 main:
-  - page: "Research"
+  - title: "Research"
     url: /research_statement/
   - title: "Teaching"
     url: /teaching/
