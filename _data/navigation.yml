@@ -1,11 +1,25 @@
 main:
+  - page: Publications
+    url: /publications/
+  - title: "Teaching"
+    url: /teaching/
+  - title: "Presentations"
+    url: /presentations/
+  - title: "Posts"
+    url: /posts/
+  - title: "About"
+    url: /about/
+  - title: "CV"
+    url: https://github.com/fraba/cv/blob/main/francesco_bailo_cv.pdf
+
+docs:
   - title: Research
     subfolderitems:
       - page: Statement
         url: /research_statement/
       - page: Publications
         url: /publications/
-        subsubfolderitems:
+	subsubfolderitems:
           - page: Peer-reviewed articles
             url: /peer-review-article/
           - page: Book
