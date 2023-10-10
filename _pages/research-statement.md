@@ -3,7 +3,7 @@ permalink: /research-statement/
 title: "Research statement"
 sidebar:
   nav: sidebar
-author_profile: true
+author_profile: false
 
 ---
 

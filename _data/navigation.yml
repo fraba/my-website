@@ -13,19 +13,34 @@ sidebar:
   - title: "Research"
     url: /research-statement/
     children:
-      - title: Statement
+      - title: "Statement"
         url: /research-statement/
       - title: "Publications"
-        url: /publications/
+        url: /research-publications/
         children:
-          - page: "Peer-reviewed articles"
-            url: /peer-review-article/
-          - page: "Book"
-            url: /book/
+	  - title: "Projects"
+            url: /research-projects/
+          - title: "Journal articles"
+            url: /research-journal-articles/
+          - title: "Book"
+            url: /research-book/
+	  - title: "Book sections"
+            url: /research-book-sections/
+	  - title: "Reports"
+            url: /research-reports/
+	  - title: "News articles"
+            url: /research-news-articles/
+	- title: "Presentations"
+          url: /research-presentations/
   - title: "Teaching"
-    url: /teaching/
-  - title: "Presentations"
-    url: /presentations/
+    url: /teaching-statement/
+    children:
+         - title: "Statement"
+            url: /teaching-statement/
+  	  - title: "Courses"
+            url: /teaching-courses/
+	  - title: "Presentations"
+            url: /teaching-presentations/
   - media: "Media"
     url: /media/
   - title: "About"
