@@ -19,7 +19,7 @@ docs:
         url: /research_statement/
       - page: Publications
         url: /publications/
-	subsubfolderitems:
+        subsubfolderitems:
           - page: Peer-reviewed articles
             url: /peer-review-article/
           - page: Book
