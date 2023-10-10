@@ -1,6 +1,15 @@
-main:
-  - title: "Publications"
-    url: /publications/
+toc:
+  - title: Research
+    subfolderitems:
+      - page: Statement
+        url: /research_statement/
+      - page: Publications
+        url: /publications/
+	subsubfolderitems:
+          - page: Peer-reviewed articles
+            url: /peer-review-article/
+          - page: Book
+            url: /book/
   - title: "Teaching"
     url: /teaching/
   - title: "Presentations"
