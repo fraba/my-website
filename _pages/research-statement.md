@@ -1,11 +1,9 @@
 ---
-permalink: /research_statement/
+permalink: /research-statement/
 title: "Research statement"
+nav: sidebar
 author_profile: true
 ---
-
-
-# Research Statement
 
 Since the beginning of my Ph.D. program in 2013, I have developed a
 research interest in cutting-edge computational methods for collecting
