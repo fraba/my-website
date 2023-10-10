@@ -2,8 +2,10 @@
 permalink: /research_statement/
 title: "Research statement"
 author_profile: true
-nav: sidebar
 ---
+
+
+# Research Statement
 
 Since the beginning of my Ph.D. program in 2013, I have developed a
 research interest in cutting-edge computational methods for collecting
