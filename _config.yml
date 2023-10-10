@@ -62,6 +62,7 @@ author:
   links:
     - label: "email"
       icon: "fas fa-fw fa-envelop"
+      url: "mailto:francesco.bailo@sydney.edu.au"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "http://www.francescobailo.net/"
@@ -77,6 +78,9 @@ author:
     - label: "Google Scholar"
       icon: "fas fa-fw fa-graduation-cap"
       url: "https://scholar.google.com/citations?user=T_TftJUAAAAJ"
+    - label: "Web of Science"
+      icon: "fas fa-fw fa-flask"
+      "url: "https://www.webofscience.com/wos/author/record/AGN-9443-2022"
     - label: "Orcid"
       icon: "fab fa-fw fa-orcid"
       url: "https://orcid.org/0000-0001-5971-1921"
