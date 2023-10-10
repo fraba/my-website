@@ -1,8 +1,10 @@
 ---
 permalink: /research-statement/
 title: "Research statement"
-nav: sidebar
 author_profile: true
+sidebar:
+  nav: sidebar
+
 ---
 
 Since the beginning of my Ph.D. program in 2013, I have developed a
