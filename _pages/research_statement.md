@@ -1,3 +1,10 @@
+---
+permalink: /research_statement/
+title: "Research statement"
+author_profile: true
+---
+
+
 # Research Statement
 
 Since the beginning of my Ph.D. program in 2013, I have developed a
