@@ -1,6 +1,6 @@
 main:
-  - page: Publications
-    url: /publications/
+  - page: "Research"
+    url: /research_statement/
   - title: "Teaching"
     url: /teaching/
   - title: "Presentations"
