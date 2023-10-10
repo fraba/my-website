@@ -10,16 +10,17 @@ main:
     url: https://github.com/fraba/cv/blob/main/francesco_bailo_cv.pdf
 
 sidebar:
-  - title: Research
-    subfolderitems:
-      - page: Statement
+  - title: "Research"
+    url: /research-statement/
+    children:
+      - title: Statement
         url: /research-statement/
-      - page: Publications
+      - title: "Publications"
         url: /publications/
-        subsubfolderitems:
-          - page: Peer-reviewed articles
+        children:
+          - page: "Peer-reviewed articles"
             url: /peer-review-article/
-          - page: Book
+          - page: "Book"
             url: /book/
   - title: "Teaching"
     url: /teaching/

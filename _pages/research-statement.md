@@ -1,9 +1,9 @@
 ---
 permalink: /research-statement/
 title: "Research statement"
-author_profile: true
 sidebar:
   nav: sidebar
+author_profile: true
 
 ---
 
