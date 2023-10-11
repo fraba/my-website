@@ -1,0 +1,6 @@
+---
+title: "Online communities and crowds in the rise of the Five Star Movement"
+excerpt: "This book reflects on the political capacity of citizen users to impact politics, explaining the danger in assuming that mass online participation has unconditionally democratising effects."
+---
+
+This book reflects on the political capacity of citizen users to impact politics, explaining the danger in assuming that mass online participation has unconditionally democratising effects. Focusing on the case of Italy's Five Star Movement, the book argues that Internet participation is naturally unequal and, without normative and strong design efforts, Internet platforms can generate noisy, undemocratic crowds instead of self-reflexive, norm-bounded communities. The depiction of a democratising Internet can be easily exploited by those who manage these platforms to sell crowds as deliberating publics. As the Internet, almost everywhere, turns into the primary medium for political engagement, it also becomes the symbol of what is wrong with politics. Internet users experience unprecedented, instantaneous and personalised access to information and communication and, by comparison, they feel a much stronger level of irrelevance in the existing political system.
