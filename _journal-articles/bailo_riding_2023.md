@@ -61,9 +61,11 @@ https://doi.org/10.1080/1369118X.2023.2205479
 
 ## On social media 
 
+* [YouTube](/2023/05/08/youtube-riding-informaton-crisis/)
+
 * [Twitter](/2023/05/01/twitter-riding-informaton-crisis/)
 
-* [LinkedIn]()
+* [LinkedIn](/2023/05/01/linkedin-riding-informaton-crisis/)
 
 
 
