@@ -115,7 +115,7 @@ Footer:
 collections:
   research-publications:
     output: true
-    permalink: /:research-publications/:path/
+    permalink: /:collection/:path/
 
 defaults:
   # _posts
