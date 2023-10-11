@@ -4,6 +4,7 @@ title: "Research statement"
 sidebar:
   nav: sidebar
 author_profile: false
+share: true
 
 ---
 
