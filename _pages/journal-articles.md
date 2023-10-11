@@ -19,7 +19,7 @@ share: true
  <li><p><b>{{journal-article.date | date:
      "%Y"}}</b>. {{journal-article.authors}}. <a href="{{
      journal-article.url }}">{{ journal-article.title
-     }}</a>. <i>{{journal-article.publication}}</i>. <a href="{{
+     }}</a>. <i>{{journal-article.publication}}</i>. DOI: <a href="{{
      journal-article.publication-url }}">{{ journal-article.doi
      }}</a></p></li>
      <ul>
