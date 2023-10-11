@@ -92,7 +92,7 @@ where people connect and interact as political actors and is also where
 they struggle to influence critical epistemic outcomes, that is,
 decisions about knowledge affecting the broader society.
 
-![image](img/research-presentation-2022)
+![image](/assets/images/research-statement/research-presentation-2022.svg)
 
 ## 1. Emergence, interaction, and diffusion of political opinions online
 
@@ -190,7 +190,7 @@ Our current research work is concentrated on the following:
     the software running Wikipedia to work with semi-structured data, in
     transdisciplinary research projects involving large data streams.
 
-![image](assets/images/research-statement/dashboard-diagram.png)
+![image](/assets/images/research-statement/dashboard-diagram.svg)
 
 ## 2. Impacts of social media on political participation and organisation
 
