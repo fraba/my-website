@@ -133,7 +133,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _publications
+  # _research-publications
   - scope:
       path: ""
       type: publications
