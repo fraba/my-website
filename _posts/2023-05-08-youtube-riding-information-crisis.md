@@ -1,5 +1,5 @@
 ---
-title: "LinkedIn: Riding information crisis"
+title: "YouTube: Riding information crisis"
 permalink: "/2023/05/08/youtube-riding-informaton-crisis/"
 date: "2023-05-08"
 categories:
