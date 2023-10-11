@@ -3,6 +3,7 @@ main:
     url: /research-statement/
   - title: "Teaching"
     url: /teaching/
+  - title: "Media"
     url: /media/
   - title: "About"
     url: /about/
@@ -15,32 +16,32 @@ sidebar:
     children:
       - title: "Statement"
         url: /research-statement/
+      - title: "Projects"
+        url: /research-projects/
       - title: "Publications"
         url: /research-publications/
         children:
-	  - title: "Projects"
-            url: /research-projects/
           - title: "Journal articles"
             url: /research-journal-articles/
           - title: "Book"
             url: /research-book/
-	  - title: "Book sections"
+          - title: "Book sections"
             url: /research-book-sections/
-	  - title: "Reports"
+          - title: "Reports"
             url: /research-reports/
-	  - title: "News articles"
+          - title: "News articles"
             url: /research-news-articles/
-	- title: "Presentations"
-          url: /research-presentations/
+      - title: "Presentations"
+        url: /research-presentations/
   - title: "Teaching"
     url: /teaching-statement/
     children:
-         - title: "Statement"
-            url: /teaching-statement/
-  	  - title: "Courses"
-            url: /teaching-courses/
-	  - title: "Presentations"
-            url: /teaching-presentations/
+      - title: "Statement"
+        url: /teaching-statement/
+      - title: "Courses"
+        url: /teaching-courses/
+      - title: "Presentations"
+        url: /teaching-presentations/
   - media: "Media"
     url: /media/
   - title: "About"
