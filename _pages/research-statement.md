@@ -190,7 +190,7 @@ Our current research work is concentrated on the following:
     the software running Wikipedia to work with semi-structured data, in
     transdisciplinary research projects involving large data streams.
 
-![image](assets/images/research-statement/dashboard-diagram.pdf)
+![image](assets/images/research-statement/dashboard-diagram.png)
 
 ## 2. Impacts of social media on political participation and organisation
 
