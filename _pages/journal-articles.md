@@ -10,11 +10,14 @@ author_profile: false
 share: true
 ---
 
-{% for journal-article in site. journal-articles %}
+{% assign sorted = site. journal-articles | sort: 'date' | reverse  %}
+
+{% for journal-article in sorted %}
   <h2>
     <a href="{{ journal-article.url }}">
       {{ journal-article.title }}
     </a>
   </h2>
+  <p><i>{{ journal-article. excerpt | markdownify }}</i><p/>
   <p>{{ journal-article. excerpt | markdownify }}</p>
 {% endfor %}
