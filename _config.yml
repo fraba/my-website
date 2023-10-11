@@ -115,7 +115,9 @@ Footer:
 collections:
   book:
     output: true
-
+  journal-articles:
+    output: true
+    
 defaults:
   # _posts
   - scope:
@@ -139,6 +141,16 @@ defaults:
   - scope:
       path: ""
       type: book
+    values:
+      layout: single
+      author_profile: false
+      share: true
+    sidebar:
+      nav: sidebar
+  # _journal-articles
+  - scope:
+      path: ""
+      type: journal-articles
     values:
       layout: single
       author_profile: false
