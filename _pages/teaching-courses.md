@@ -1,7 +1,10 @@
 ---
-permalink: /teaching/
-title: "Teaching"
-author_profile: true
+permalink: /teaching-courses/
+title: "Courses, workshops and guest lectures"
+sidebar:
+  nav: sidebar
+author_profile: false
+share: true
 ---
 
 ## Course/subject coordination
