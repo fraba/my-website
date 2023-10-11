@@ -1,3 +1,13 @@
+---
+permalink: /teaching-statement/
+title: "Teaching statement"
+sidebar:
+  nav: sidebar
+author_profile: false
+share: true
+---
+
+
 I have been teaching at the undergraduate and postgraduate levels since
 2014; since 2018, my responsibilities have included **curriculum
 design**, **course development**, **coordination** and the **supervision

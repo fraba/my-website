@@ -5,7 +5,6 @@ sidebar:
   nav: sidebar
 author_profile: false
 share: true
-
 ---
 
 Since the beginning of my Ph.D. program in 2013, I have developed a
