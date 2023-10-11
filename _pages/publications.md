@@ -1,24 +1,8 @@
 ---
+title: Publications
+layout: collection
 permalink: /publications/
-title: "Publications"
-author_profile: true
+collection: pubblications
+entries_layout: grid
+classes: wide
 ---
-
-## Peer-reviewed articles
-
-{% include_relative publications-peer-reviewed-articles.html %}
-
-
-## Book
-
-{% include_relative publications-books.html %}
-
-## Reports
-
-{% include_relative publications-reports.html %}
-
-## News articles
-
-{% include_relative publications-news-articles.html %}
-
-
