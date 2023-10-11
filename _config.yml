@@ -100,8 +100,6 @@ author:
       icon: "fas fa-fw fa-landmark"
       url: "https://profiles.uts.edu.au/Francesco.Bailo"
 
-
-
 Footer:
   links:
     - label: "Twitter"
@@ -113,6 +111,11 @@ Footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/"
+
+collections:
+  research-pubblications:
+    output: true
+    permalink: /:research-pubblications/:path/
 
 defaults:
   # _posts
