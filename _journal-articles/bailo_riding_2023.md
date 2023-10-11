@@ -18,8 +18,9 @@ tags:
   - epistemic
 ---
 
-| [Publisher version](https://doi.org/10.1080/1369118X.2023.2205479) | [Preprint version](https://ssrn.com/abstract=4424096) | [Replication materials](https://doi.org/10.7910/DVN/QN1LUZ) |
-|-|-|-|
+* [Publisher version (open access)](https://doi.org/10.1080/1369118X.2023.2205479) 
+* [Preprint version](https://ssrn.com/abstract=4424096) 
+* [Replication materials](https://doi.org/10.7910/DVN/QN1LUZ)
 
 ## Abstract
 
