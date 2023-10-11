@@ -114,7 +114,7 @@ Footer:
 
 collections:
   book:
-    permalink: /:collection/:path/
+    output: true
 
 defaults:
   # _posts
