@@ -16,9 +16,9 @@ share: true
 
 {% for journal-article in sorted %}
 
- <li><b>{{journal-article.date | date: "%Y"}}</b>. <i>{{journal-article. publication | markdownify}}</i>. <a href="{{ journal-article.url }}">{{ journal-article.title }}</a></li>
+ <li><p><b>{{journal-article.date | date: "%Y"}}</b>. {{
+     journal-article. authors | markdownify }}. <i>{{journal-article. publication | markdownify}}</i>. <a href="{{ journal-article.url }}">{{ journal-article.title }}</a></li>
      <ul>
-	     <li>{{ journal-article. authors | markdownify }}</li>
          <li>{{ journal-article. excerpt | markdownify }}</li>
     </ul>
 
