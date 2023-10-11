@@ -145,8 +145,8 @@ defaults:
       layout: single
       author_profile: false
       share: true
-    sidebar:
-      nav: sidebar
+      sidebar:
+        nav: sidebar
   # _journal-articles
   - scope:
       path: ""
@@ -155,8 +155,8 @@ defaults:
       layout: single
       author_profile: false
       share: true
-    sidebar:
-      nav: sidebar
+      sidebar:
+        nav: sidebar
 
 category_archive:
   type: liquid
