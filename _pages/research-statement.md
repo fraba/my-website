@@ -137,16 +137,16 @@ institutions and democratic processes (e.g. elections).
 Researching cloud platforms involves a number of methodological
 challenges:
 
-Collecting representative data about social media interactions
+### Collecting representative data about social media interactions
 
-:   Although large volumes of social media data are available, many
+Although large volumes of social media data are available, many
     restrictions due to business decisions and ethical safeguards
     challenge collecting representative data, especially capturing
     unfolding events.
 
-Adopting and designing collaborative tools
+### Adopting and designing collaborative tools
 
-:   The interdisciplinary collaboration around research data that is
+The interdisciplinary collaboration around research data that is
     both very large and complex (e.g. temporal, multidimensional,
     multimedia) requires using effective interfaces for both humans and
     machines to interact qualitatively and quantitatively with the data.
@@ -190,7 +190,7 @@ Our current research work is concentrated on the following:
     the software running Wikipedia to work with semi-structured data, in
     transdisciplinary research projects involving large data streams.
 
-![image](img/Dashboard diagram.pdf)
+![image](assets/images/research-statement/dashboard-diagram.pdf)
 
 ## 2. Impacts of social media on political participation and organisation
 
