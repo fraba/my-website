@@ -113,7 +113,7 @@ Footer:
       url: "https://instagram.com/"
 
 collections:
-  research-publications:
+  book:
     output: true
     permalink: /:collection/:path/
 
@@ -136,10 +136,10 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _research-publications
+  # _book
   - scope:
       path: ""
-      type: research-publications
+      type: book
     values:
       layout: single
       author_profile: false
