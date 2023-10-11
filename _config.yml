@@ -113,9 +113,9 @@ Footer:
       url: "https://instagram.com/"
 
 collections:
-  research-pubblications:
+  research-publications:
     output: true
-    permalink: /:research-pubblications/:path/
+    permalink: /:research-publications/:path/
 
 defaults:
   # _posts
