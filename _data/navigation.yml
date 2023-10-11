@@ -20,17 +20,6 @@ sidebar:
         url: /research-projects/
       - title: "Publications"
         url: /research-publications/
-        children:
-          - title: "Journal articles"
-            url: /research-journal-articles/
-          - title: "Book"
-            url: /research-book/
-          - title: "Book sections"
-            url: /research-book-sections/
-          - title: "Reports"
-            url: /research-reports/
-          - title: "News articles"
-            url: /research-news-articles/
       - title: "Presentations"
         url: /research-presentations/
   - title: "Teaching"
