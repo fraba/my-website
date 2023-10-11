@@ -1,6 +1,6 @@
 ---
 title: "Online communities and crowds in the rise of the Five Star Movement"
-permalink: "bailo_online_2020"
+permalink: /bailo_online_2020/
 date: "2020-08-06"
 excerpt: "This book reflects on the political capacity of citizen users to impact politics, explaining the danger in assuming that mass online participation has unconditionally democratising effects."
 ---
