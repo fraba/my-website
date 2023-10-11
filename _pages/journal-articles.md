@@ -5,4 +5,8 @@ permalink: /journal-articles/
 collection: journal-articles
 entries_layout: grid
 classes: wide
+sidebar:
+  nav: sidebar
+author_profile: false
+share: true
 ---
