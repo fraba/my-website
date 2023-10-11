@@ -18,8 +18,10 @@ sidebar:
         url: /research-statement/
       - title: "Projects"
         url: /research-projects/
-      - title: "Publications"
-        url: /research-publications/
+      - title: "Journal articles"
+        url: /journal-articles/
+      - title: "Book"
+        url: /book/
       - title: "Presentations"
         url: /research-presentations/
   - title: "Teaching"
