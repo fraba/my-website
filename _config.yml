@@ -140,3 +140,8 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+collections:
+  publications:
+    output: true
+    permalink: /:publications/:path/
