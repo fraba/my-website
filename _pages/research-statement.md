@@ -13,7 +13,7 @@ and analysing large complex datasets such as social media data. My PhD
 project, completed in 2017 and published as a monograph entitled
 "[Online communities and crowds in the rise of the Five Star
 Movement](https://doi.org/10.1007/978-3-030-45508-8)" by Palgrave
-([@bailo_online_2020], submitted as *first scientific publication*),
+(Bailo 2020),
 applied innovative methods to collect cross-platform social media data
 and analyse them through the lenses of both social network analysis and
 quantitative text analysis (NLP).
@@ -26,7 +26,7 @@ collaborations resulted in the following top-tier venues:
 -   An article published with a digital ethnographer and computer
     scientist published on [*Information, Communication and
     Society*](https://doi.org/10.1177/20563051211024963)
-    ([@bailo_riding_2023], submitted as *job market paper*) researching
+    (Bailo et al., 2023]) researching
     through network analysis of how far-right Twitter accounts were able
     to exploit information disorder to boost their reach on social
     media.
@@ -35,22 +35,20 @@ collaborations resulted in the following top-tier venues:
     computer scientists published in the [*Proceedings of the
     International AAAI Conference on Web and Social
     Media*](https://ojs.aaai.org/index.php/ICWSM/article/view/19312)
-    ([@kong_slipping_2022], submitted as *second scientific
-    publication*) researching the online diffusion of opinions during
+    (Kong et al., 2022) researching the online diffusion of opinions during
     both a climate change-related crisis and the COVID-19 pandemic
     through innovative machine learning algorithms applied to text
     classification;
 
 -   An article published in [*Social Media +
     Society*](https://doi.org/10.1177/20563051211024963)
-    ([@bailo_institutional_2021], submitted as *third scientific
-    publication*) that analysed over two million posts to assess the
+    (Bailo et al., 2021) that analysed over two million posts to assess the
     impact of changes in the Facebook algorithm on the attention
     attracted by the posts of news organisations;
 
 -   An article published in the *[Journal of Peace
     Research](https://doi.org/10.1177/00223433211018501)*
-    ([@bailo_no_2021], submitted as *foruth scientific publication*)
+    (Bailo & Goldsmith, 2021)
     applying the synthetic control method to test the nuclear
     stability--instability paradox with a large multivariate dataset of
     country dyads.
@@ -60,13 +58,13 @@ analysis methods to social media data in [*Information, Communication &
 Society*](https://doi.org/10.1080/1369118x.2016.1252410)
 ([@bailo_hybrid_2017]) and [*Policy
 Studies*](https://doi.org/10.1080/01442872.2015.1095282)
-([@bailo_mapping_2015]), research using spatial analysis of demographic
+(Bailo, 2015), research using spatial analysis of demographic
 and electoral data in [*European Political
 Science*](https://doi.org/10.1057/s41304-016-0097-0)
 ([@abbondanza_electoral_2018]), and research based on the statistical
 modelling of questionnaire data in [*Political
 Studies*](https://doi.org/10.1177/0032321715614012)
-([@vromen_everyday_2016]).
+(Vromen et al., 2016).
 
 My current and future research is grounded in two lines of research
 about the
@@ -103,7 +101,7 @@ around contentious issues and on *developing practical measures for the
 degree of information disorder* that can be found online around
 different topics.
 
-[O](https://youtu.be/LlyjMmRXb5s)ur research team, which I was
+[Our research team]((https://youtu.be/LlyjMmRXb5s), which I was
 instrumental in creating in 2019, has successfully attracted external
 and internal grants, including from Facebook (now Meta) for USD 60,000
 and from the Australian Department of Defence for AUD 500,000, which we
@@ -171,7 +169,7 @@ including the design of the following:
 
 In addition to attracting significant funds, this research line has
 already resulted in the publication of two peer-reviewed publications
-([@bailo_riding_2023; @kong_slipping_2022]).
+(Bailo et al., 2023; Kong et al., 2022).
 
 Our current research work is concentrated on the following:
 

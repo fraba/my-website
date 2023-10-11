@@ -1,13 +1,13 @@
 ---
 permalink: /teaching-courses/
-title: "Courses, workshops and guest lectures"
+title: "Courses and workshops"
 sidebar:
   nav: sidebar
 author_profile: false
 share: true
 ---
 
-## Course/subject coordination
+## Course coordination
 
 ### Postgraduate courses
 

@@ -3,7 +3,7 @@ title: "YouTube: Online communities and crowds in the rise of the Five Star Move
 permalink: "/2020/10/15/youtube-online-communities-and-crowds-in-the-rise-of-the-five-star-movement/"
 date: "2020-10-15"
 categories:
-  - Videos
+  - video
 tags:
   - link
   - YouTube
