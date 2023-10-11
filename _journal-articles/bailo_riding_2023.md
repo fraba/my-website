@@ -7,7 +7,6 @@ bushfires and the early months of the 2020 COVID-19 pandemic."
 date: "2023-05-01"
 permalink: "/bailo_riding_2023/"
 categories:
-  - Blog
   - Peer-reviewed journal article
   - Video
 tags:
@@ -19,7 +18,7 @@ tags:
   - epistemic
 ---
 
-|[Publisher version](https://doi.org/10.1080/1369118X.2023.2205479)| [Preprint version](https://ssrn.com/abstract=4424096) | [Replication materials](https://doi.org/10.7910/DVN/QN1LUZ)|
+| [Publisher version](https://doi.org/10.1080/1369118X.2023.2205479) | [Preprint version](https://ssrn.com/abstract=4424096) | [Replication materials](https://doi.org/10.7910/DVN/QN1LUZ) |
 |-|-|-|
 
 ## Abstract
