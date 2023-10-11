@@ -61,7 +61,7 @@ author:
   bio    : "I am a Lecturer in Data Analytics in the Social Sciences at the University of Sydney. I am also affiliated with the Data Science Institute at the University of Technology Sydney."
   links:
     - label: "email"
-      icon: "fa fa-fw fa-envelop"
+      icon: "fas fa-fw fa-envelop"
       url: "mailto:francesco.bailo@sydney.edu.au"
     - label: "Website"
       icon: "fas fa-fw fa-link"
