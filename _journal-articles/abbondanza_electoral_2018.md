@@ -1,5 +1,7 @@
 ---
 title: "The electoral payoff of immigration flows for anti-immigration parties"
+authors: "Abbondanza, G., & Bailo, F."
+publication: "European Political Science"
 excerpt: "The aim of this article is to examine and quantify the relationship between regular immigration and voting for anti-immigration parties in Italy’s eight Northern regions – from 1992 to 2015 – and in Italy’s forty-five Northern provinces from 2004 to 2015."
 date: "2017-01-10"
 permalink: "/abbondanza_electoral_2018/"
@@ -13,6 +15,7 @@ tags:
 
 * [Publisher version](https://doi.org/10.1057/s41304-016-0097-0)
 * [Replication materials](http://dx.doi.org/10.7910/DVN/YM7IWP) 
+
 
 ## Abstract
 
