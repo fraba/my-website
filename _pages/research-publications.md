@@ -41,7 +41,7 @@ share: true
 
  <li><p><b>{{book.date | date:
      "%Y"}}</b>. {{book.authors}}. <i><a href="{{
-     journal-article.url }}">{{ book.title
+     book.url }}">{{ book.title
      }}</a></i>. {{book.publisher}}. DOI: <a href="{{
      book.publication-url }}">{{ book.doi
      }}</a></p></li>
