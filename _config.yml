@@ -117,7 +117,19 @@ collections:
     output: true
   journal-articles:
     output: true
-    
+  book-sections:
+    output: true
+  reports:
+    output: true
+  news-articles:
+    output: true
+  media-appereances:
+    output: true
+  research-presentations:
+    output: true
+  teaching-presentations:
+    output: true
+  
 defaults:
   # _posts
   - scope:
@@ -157,6 +169,57 @@ defaults:
       share: true
       sidebar:
         nav: sidebar
+  # _news-articles
+  - scope:
+      path: ""
+      type: news-articles
+    values:
+      layout: single
+      author_profile: false
+      share: true
+      sidebar:
+        nav: sidebar
+  # _reports
+  - scope:
+      path: ""
+      type: reports
+    values:
+      layout: single
+      author_profile: false
+      share: true
+      sidebar:
+        nav: sidebar
+  # _media-appereances
+  - scope:
+      path: ""
+      type: media-appereances
+    values:
+      layout: single
+      author_profile: false
+      share: true
+      sidebar:
+        nav: sidebar
+  # _teaching-presentations
+  - scope:
+      path: ""
+      type: teaching-presentations
+    values:
+      layout: single
+      author_profile: false
+      share: true
+      sidebar:
+        nav: sidebar
+  # _research-presentations
+  - scope:
+      path: ""
+      type: teaching-presentations
+    values:
+      layout: single
+      author_profile: false
+      share: true
+      sidebar:
+        nav: sidebar
+
 
 category_archive:
   type: liquid
