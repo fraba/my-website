@@ -1,14 +1,15 @@
 ---
-title: Journal articles
-layout: collection
-permalink: /journal-articles/
-entries_layout: grid
-classes: wide
+title: Research publication
+layout: single
+permalink: /research-publications/
 sidebar:
   nav: sidebar
 author_profile: false
 share: true
 ---
+
+
+## Journal articles
 
 <ul>
 
@@ -24,6 +25,28 @@ share: true
      }}</a></p></li>
      <ul>
          <li>{{ journal-article. excerpt | markdownify }}</li>
+    </ul>
+
+{% endfor %}
+
+</ul>
+
+## Book
+
+<ul>
+
+{% assign sorted = site. book | sort: 'date' | reverse  %}
+
+{% for book in sorted %}
+
+ <li><p><b>{{book.date | date:
+     "%Y"}}</b>. {{book.authors}}. <i><a href="{{
+     journal-article.url }}">{{ book.title
+     }}</a></i>. {{book.publisher}}. DOI: <a href="{{
+     book.publication-url }}">{{ book.doi
+     }}</a></p></li>
+     <ul>
+         <li>{{ book. excerpt | markdownify }}</li>
     </ul>
 
 {% endfor %}
