@@ -1,5 +1,6 @@
 ---
 layout: single
+permalink: "/TXARPUKA/"
 title: "The electoral payoff of immigration flows for anti-immigration parties: The case of Italy’s Lega Nord"
 date: "2018-09-12"
 comments: true
@@ -17,6 +18,9 @@ excerpt: "The aim of this article is to examine and quantify the relationship be
 
 * [Publisher version](https://doi.org/10.1057/s41304-016-0097-0) 
 * [Replication materials](https://doi.org/10.7910/DVN/YM7IWP)
+
+Abbondanza, G., & Bailo, F. (2018). The electoral payoff of immigration flows for anti-immigration parties: The case of Italy’s Lega Nord. *European Political Science*, 17(3), 378–403. https://doi.org/10.1057/s41304-016-0097-0
+
 
 ## Abstract
 

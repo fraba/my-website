@@ -1,5 +1,6 @@
 ---
 layout: single
+permalink: "/S7BDVQ55/"
 title: "Hybrid social and news media protest events: from #MarchinMarch to #BusttheBudget in Australia"
 date: "2017-11-02"
 comments: true
@@ -17,6 +18,9 @@ excerpt: "Public protest events are now both social media and news media events.
 
 * [Publisher version](http://dx.doi.org/10.1080/1369118X.2016.1252410)
 * [Replication materials](https://doi.org/10.7910/DVN/MIU9K3)
+
+Bailo, F., & Vromen, A. (2017). Hybrid social and news media protest events: From #MarchinMarch to #BusttheBudget in Australia. *Information, Communication & Society*, 20(11), 1660–1679. https://doi.org/10.1080/1369118X.2016.1252410
+
 
 ## Abstract
 

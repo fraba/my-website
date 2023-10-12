@@ -1,5 +1,6 @@
 ---
 layout: single
+permalink: "/ZIXIMU47/"
 title: "Mapping online political talks through network analysis: A case study of the website of Italy’s Five Star Movement"
 date: "2015-10-12"
 comments: true
@@ -16,6 +17,9 @@ excerpt: "Understanding relations among online users involved in political discu
 ---
 
 * [Publisher version](https://doi.org/10.1080/01442872.2015.1095282) 
+
+Bailo, F. (2015). Mapping online political talks through network analysis: A case study of the website of Italy’s Five Star Movement. *Policy Studies*, 36(6), 550–572. https://doi.org/10.1080/01442872.2015.1095282
+
 
 ## Abstract
 
