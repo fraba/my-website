@@ -61,7 +61,7 @@ Studies*](https://doi.org/10.1080/01442872.2015.1095282)
 ([Bailo, 2015](/ZIXIMU47/)), research using spatial analysis of demographic
 and electoral data in [*European Political
 Science*](https://doi.org/10.1057/s41304-016-0097-0)
-((Abbondanza & Bailo, 2018 )[/TXARPUKA/]), and research based on the statistical
+([Abbondanza & Bailo, 2018](/TXARPUKA/)), and research based on the statistical
 modelling of questionnaire data in [*Political
 Studies*](https://doi.org/10.1177/0032321715614012)
 ([Vromen et al., 2016](/ICTBHBQ8/)).
@@ -101,7 +101,7 @@ around contentious issues and on *developing practical measures for the
 degree of information disorder* that can be found online around
 different topics.
 
-[Our research team]((https://youtu.be/LlyjMmRXb5s), which I was
+[Our research team](https://youtu.be/LlyjMmRXb5s), which I was
 instrumental in creating in 2019, has successfully attracted external
 and internal grants, including from Facebook (now Meta) for USD 60,000
 and from the Australian Department of Defence for AUD 500,000, which we

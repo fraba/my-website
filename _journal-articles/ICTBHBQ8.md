@@ -19,7 +19,7 @@ excerpt: "The emergence of personalised, interactive forms of social media has l
 * [Publisher version](https://journals.sagepub.com/doi/10.1177/0032321715614012) 
 * [Replication materials](https://doi.org/10.3886/ICPSR37023.v1)
 
-Vromen, A., Loader, B. D., Xenos, M. A., & Bailo, F. (2016). Everyday making through Facebook engagement: Young citizens’ political interactions in Australia, the United Kingdom and the United States. *Political Studies*, 64(3), 513–533. https://doi.org/10.1177/0032321715614012
+**Cite** Vromen, A., Loader, B. D., Xenos, M. A., & Bailo, F. (2016). Everyday making through Facebook engagement: Young citizens’ political interactions in Australia, the United Kingdom and the United States. *Political Studies*, 64(3), 513–533. https://doi.org/10.1177/0032321715614012
 
 
 ## Abstract

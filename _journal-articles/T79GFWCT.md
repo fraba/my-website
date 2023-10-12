@@ -20,7 +20,7 @@ excerpt: "This article contributes to both the theoretical elaboration and empir
 * [Preprint version](https://dx.doi.org/10.2139/ssrn.2947349) 
 * [Replication materials](https://doi.org/10.7910/DVN/8HLD6E)
 
-Bailo, F., & Goldsmith, B. E. (2021). No paradox here? Improving theory and testing of the nuclear stability–instability paradox with synthetic counterfactuals.* Journal of Peace Research*, 58(6), 1178–1193. https://doi.org/10.1177/00223433211018501
+**Cite** Bailo, F., & Goldsmith, B. E. (2021). No paradox here? Improving theory and testing of the nuclear stability–instability paradox with synthetic counterfactuals.* Journal of Peace Research*, 58(6), 1178–1193. https://doi.org/10.1177/00223433211018501
 
 ## Abstract
 
