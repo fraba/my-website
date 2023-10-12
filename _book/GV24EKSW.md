@@ -28,46 +28,46 @@ This book reflects on the political capacity of citizen users to impact politics
 
 1. Introduction 
 
-  * Why Italy, Why the M5S 
-  * Political Participation 
-  * What Does the Internet Change for Political Participation? 
-  * What Does the Internet Change for Political Organisation? 
-  * What Does the Internet Change for Political Deliberation? 
-  * Citizen Users, Communities and Crowds 
-  * Outline of the Book 
+    * Why Italy, Why the M5S 
+    * Political Participation 
+    * What Does the Internet Change for Political Participation? 
+    * What Does the Internet Change for Political Organisation? 
+    * What Does the Internet Change for Political Deliberation? 
+    * Citizen Users, Communities and Crowds 
+    * Outline of the Book 
   
 2. The Emergence of the Citizen User 
 
-  * Decline in Trust 
-  * Internet Users 
+    * Decline in Trust 
+    * Internet Users 
 
 3. Mobilisation and Elections 
 
-  * The Mobilisation of the Citizen User and the Creation of the M5S
-  * Internet and Legacy Media in the Electoral Trajectory of the M5S
-  * The M5S in the Ideology Space
+    * The Mobilisation of the Citizen User and the Creation of the M5S
+    * Internet and Legacy Media in the Electoral Trajectory of the M5S
+    * The M5S in the Ideology Space
 
 4. Online Communities and Online Crowds
 
-  * The Media Ecology of the M5S Community
-  * Participation on the M5S Media System
+    * The Media Ecology of the M5S Community
+    * Participation on the M5S Media System
 
 5. Online Discussion Within the M5S Community
 
-  * Issues, Topics and Style on the Forum
-  * Discussion Networks
+    * Issues, Topics and Style on the Forum
+    * Discussion Networks
   
 6. The M5S Community and Citizen’s Income
 
-  * Mapping Documents in the Concept Space
-  * The GMI Debate: Offline and Online
+    * Mapping Documents in the Concept Space
+    * The GMI Debate: Offline and Online
   
 7. By the Crowd, for the People? 
 
-  * Internet-Enabled Organisation Beyond the M5S and Italy
-  * Asymmetric Online Deliberation
-  * Citizen User and Democracy
-  * Crowd-Mediated Politics
+    * Internet-Enabled Organisation Beyond the M5S and Italy
+    * Asymmetric Online Deliberation
+    * Citizen User and Democracy
+    * Crowd-Mediated Politics
 
 ## Video presentation
 
