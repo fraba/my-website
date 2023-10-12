@@ -8,7 +8,6 @@ author_profile: false
 share: true
 ---
 
-
 ## Journal articles
 
 <ul>
@@ -64,7 +63,7 @@ share: true
  <li><p><b>{{ book-section.date | date:
      "%Y"}}</b>. {{ book-section.authors}}. <a href="{{
      book.url }}">{{  book-section.title
-     }}</a>. In  {{book-section.editors}}. <i>{{book-section.bookTitle}}</i>. {{book-section.publisher}}. DOI: <a href="{{
+     }}</a>. In  {{book-section.editors}}. <i>{{book-section.book-title}}</i>. {{book-section.publisher}}. DOI: <a href="{{
      book-section.publication-url }}">{{  book-section.doi
      }}</a></p></li>
      <ul>
