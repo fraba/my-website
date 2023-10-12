@@ -52,3 +52,26 @@ share: true
 {% endfor %}
 
 </ul>
+
+## Book sections
+
+<ul>
+
+{% assign sorted = site. book-sections | sort: 'date' | reverse  %}
+
+{% for book-section in sorted %}
+
+ <li><p><b>{{ book-section.date | date:
+     "%Y"}}</b>. {{ book-section.authors}}. <a href="{{
+     book.url }}">{{  book-section.title
+     }}</a>. In  {{book-section.editors}}. <i>{{book-section.bookTitle}}</i>. {{book-section.publisher}}. DOI: <a href="{{
+     book-section.publication-url }}">{{  book-section.doi
+     }}</a></p></li>
+     <ul>
+         <li>{{ book. excerpt | markdownify }}</li>
+    </ul>
+
+{% endfor %}
+
+</ul>
+
