@@ -35,20 +35,20 @@ collaborations resulted in the following top-tier venues:
     computer scientists published in the [*Proceedings of the
     International AAAI Conference on Web and Social
     Media*](https://ojs.aaai.org/index.php/ICWSM/article/view/19312)
-    (Kong et al., 2022) researching the online diffusion of opinions during
+    ([Kong et al., 2022](/EF876J34/)) researching the online diffusion of opinions during
     both a climate change-related crisis and the COVID-19 pandemic
     through innovative machine learning algorithms applied to text
     classification;
 
 -   An article published in [*Social Media +
     Society*](https://doi.org/10.1177/20563051211024963)
-    (Bailo et al., 2021) that analysed over two million posts to assess the
+    ([Bailo et al., 2021](/T89T5ZU8/)) that analysed over two million posts to assess the
     impact of changes in the Facebook algorithm on the attention
     attracted by the posts of news organisations;
 
 -   An article published in the *[Journal of Peace
     Research](https://doi.org/10.1177/00223433211018501)*
-    (Bailo & Goldsmith, 2021)
+    ([Bailo & Goldsmith, 2021](/T79GFWCT/))
     applying the synthetic control method to test the nuclear
     stability--instability paradox with a large multivariate dataset of
     country dyads.
@@ -56,15 +56,15 @@ collaborations resulted in the following top-tier venues:
 I have previously published collaborative research applying network
 analysis methods to social media data in [*Information, Communication &
 Society*](https://doi.org/10.1080/1369118x.2016.1252410)
-([@bailo_hybrid_2017]) and [*Policy
+([Bailo & Vromen, 2017](/S7BDVQ55/)) and [*Policy
 Studies*](https://doi.org/10.1080/01442872.2015.1095282)
-(Bailo, 2015), research using spatial analysis of demographic
+([Bailo, 2015](/ZIXIMU47/)), research using spatial analysis of demographic
 and electoral data in [*European Political
 Science*](https://doi.org/10.1057/s41304-016-0097-0)
-([@abbondanza_electoral_2018]), and research based on the statistical
+((Abbondanza & Bailo, 2018 )[/TXARPUKA/]), and research based on the statistical
 modelling of questionnaire data in [*Political
 Studies*](https://doi.org/10.1177/0032321715614012)
-(Vromen et al., 2016).
+([Vromen et al., 2016](/ICTBHBQ8/)).
 
 My current and future research is grounded in two lines of research
 about the
@@ -169,7 +169,7 @@ including the design of the following:
 
 In addition to attracting significant funds, this research line has
 already resulted in the publication of two peer-reviewed publications
-(Bailo et al., 2023; Kong et al., 2022).
+([Bailo et al., 2023](/BGUWUDZL/); [Kong et al., 2022](/EF876J34/)).
 
 Our current research work is concentrated on the following:
 
@@ -229,7 +229,7 @@ research:
     in reducing the quality of online conversation?
 
 This research line has already resulted in the publication of a
-monograph with Palgrave ([@bailo_online_2020]) and is currently
+monograph with Palgrave ([Bailo, 2020](/BGUWUDZL/)) and is currently
 concentrated on the following:
 
 -   The development of theoretical work on the concept of \"**political
