@@ -22,7 +22,7 @@ excerpt: "This paper focuses on the performance of the far-right community in th
 * [Preprint version](https://ssrn.com/abstract=4424096) 
 * [Replication materials](https://doi.org/10.7910/DVN/QN1LUZ)
 
-Bailo, F., Johns, A., & Rizoiu, M.-A. (2023). Riding information crises: The performance of far-right Twitter users in Australia during the 2019–2020 bushfires and the COVID-19 pandemic. *Information, Communication & Society*, 0(0), 1–19. https://doi.org/10.1080/1369118X.2023.2205479
+> Bailo, F., Johns, A., & Rizoiu, M.-A. (2023). Riding information crises: The performance of far-right Twitter users in Australia during the 2019–2020 bushfires and the COVID-19 pandemic. *Information, Communication & Society*, 0(0), 1–19. https://doi.org/10.1080/1369118X.2023.2205479
 
 
 In our paper out with *Information, Communication & Society*, we find that far-right accounts overperformed on Twitter during Covid-19 and associate it with more information disorder.
@@ -38,18 +38,6 @@ src="https://www.youtube.com/embed/XxOh8UOKgmQ" title="YouTube video
 player" frameborder="0" allow="accelerometer; autoplay;
 clipboard-write; encrypted-media; gyroscope; picture-in-picture;
 web-share" allowfullscreen></iframe>
-
-## To cite this article
-
-Francesco Bailo, Amelia Johns &
-Marian-Andrei Rizoiu (2023): Riding information crises: the
-performance of far-right Twitter users in Australia during the
-2019–2020 bushfires and the COVID-19 pandemic, Information,
-Communication & Society, DOI: 10.1080/1369118X.2023.2205479 
-
-## To link this article
-
-https://doi.org/10.1080/1369118X.2023.2205479
 
 ## On social media 
 
