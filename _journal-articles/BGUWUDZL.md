@@ -1,5 +1,6 @@
 ---
 layout: single
+permalink: "/BGUWUDZL/"
 title: "Riding information crises: The performance of far-right Twitter users in Australia during the 2019–2020 bushfires and the COVID-19 pandemic"
 date: "2023-04-29"
 comments: true

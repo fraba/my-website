@@ -1,4 +1,5 @@
 ---
+permalink: "/GV24EKSW/"
 layout: single
 title: "Online communities and crowds in the rise of the Five Star Movement"
 date: "2020-10-12"
