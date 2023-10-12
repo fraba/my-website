@@ -16,6 +16,8 @@ abstract: "This paper focuses on the performance of the far-right community in t
 excerpt: "This paper focuses on the performance of the far-right community in the Australian Twittersphere during two information crises: the 2019–2020 Australian bushfires and the early months of the 2020 COVID-19 pandemic."
 ---
 
+<a href="https://www.scimagojr.com/journalsearch.php?q=200147110&amp;tip=sid&amp;exact=no" title="SCImago Journal &amp; Country Rank"><img border="0" src="https://www.scimagojr.com/journal_img.php?id=200147110" alt="SCImago Journal &amp; Country Rank"  /></a>
+
 * [Publisher version (open access)](https://doi.org/10.1080/1369118X.2023.2205479) 
 * [Preprint version](https://ssrn.com/abstract=4424096) 
 * [Replication materials](https://doi.org/10.7910/DVN/QN1LUZ)
