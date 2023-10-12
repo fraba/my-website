@@ -13,7 +13,7 @@ and analysing large complex datasets such as social media data. My PhD
 project, completed in 2017 and published as a monograph entitled
 "[Online communities and crowds in the rise of the Five Star
 Movement](https://doi.org/10.1007/978-3-030-45508-8)" by Palgrave
-([Bailo, 2020](GV24EKSW)),
+([Bailo, 2020](/GV24EKSW/)),
 applied innovative methods to collect cross-platform social media data
 and analyse them through the lenses of both social network analysis and
 quantitative text analysis (NLP).
@@ -26,7 +26,7 @@ collaborations resulted in the following top-tier venues:
 -   An article published with a digital ethnographer and computer
     scientist published on [*Information, Communication and
     Society*](https://doi.org/10.1177/20563051211024963)
-    (Bailo et al., 2023) researching
+    ([Bailo et al., 2023](/BGUWUDZL/)) researching
     through network analysis of how far-right Twitter accounts were able
     to exploit information disorder to boost their reach on social
     media.
