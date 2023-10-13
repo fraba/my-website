@@ -11,14 +11,10 @@ share: true
 <ul>
 
 
-{% capture presentions %}
-{{ site.posts where: 'category', 'Research presentations' %}}
-{%endcapture%}
-{% assign sorted = presentions | sort: 'date' | reverse  %}
-{% for post in sorted %}
-
- <li><p><b>{{post.date | date:"%Y"}}</b>. {{post.authors}}. <a href="{{post.url }}">{{ post.title}}</a></li>
-
-{% endfor %}
-
+<ul>
+  {% for post in site.categories.Research-presentation %}
+    {% if post.url %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endif %}
+  {% endfor %}
 </ul>
