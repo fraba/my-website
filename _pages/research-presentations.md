@@ -12,7 +12,7 @@ share: true
 
 
 {% capture presentions %}
-{{ site.posts where: 'category','Research presentations' %}
+{{ site.posts where: 'category', 'Research presentations' %}}
 {%endcapture%}
 {% assign sorted = presentions | sort: 'date' | reverse  %}
 {% for post in sorted %}
