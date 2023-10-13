@@ -12,7 +12,7 @@ share: true
 
 
 <ul>
-  {% for post in site.categories %}
+  {% for post in site.posts %}
     {% if post.category == "Research presentation" %}
          <li><p><b>{{post.date | date:
      "%Y, %d %b"}}</b>. {{post.authors}}. <i><a href="{{
