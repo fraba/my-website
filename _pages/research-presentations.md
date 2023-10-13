@@ -12,9 +12,15 @@ share: true
 
 
 <ul>
-  {% for post in site.categories.Research-presentation %}
-    {% if post.url %}
-        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% for post in site.categories %}
+    {% if post.category == "Research presentation" %}
+         <li><p><b>{{post.date | date:
+     "%Y, %d %b"}}</b>. {{post.authors}}. <i><a href="{{
+     post.url }}">{{ post.title
+     }}</a>[{{post.type}}]</i>. {{post. meeting-name}}, {{post. place}}. {{post.meeting-webpage-url}}</p></li>
+     <ul>
+         <li>{{ post. excerpt | markdownify }}</li>
+    </ul>
     {% endif %}
   {% endfor %}
 </ul>
