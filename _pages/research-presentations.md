@@ -16,7 +16,8 @@ share: true
          <li><p><b>{{post.date | date:
      "%Y, %d %b"}}</b>. {{post. contributors}}. <i><a href="{{
      post.url }}">{{ post.presentation-title
-     }}</a> [{{post.type}}]</i>. {{post. meeting-name}}, {{post. place}}. {{post.meeting-webpage-url}}</p></li>
+     }}</a> [{{post.type}}]</i>. {{post. meeting-name}},
+  {{post. place}}. <a href=' {{post.meeting-webpage-url}}'>{{post.meeting-webpage-url}}</a></p></li>
      <ul>
          <li>{{ post. excerpt | markdownify }}</li>
     </ul>
