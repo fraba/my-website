@@ -7,8 +7,6 @@ I am interested in the use of digital and social media in politics. I obtained m
 
 I have published on the role played by internet technologies on political participation in *Social Media + Society*, *Information, Communication & Society*, *Political Studies* and *Policy Studies* and on Italian politics in *European Political Science*. I have published a book with Palgrave on the online communities during the emergence of M5S.
 
-[This is a short presentation on my research agenda](https://fraba.github.io/reserach-agenda-presentation/index.html)
-
 
 
 
