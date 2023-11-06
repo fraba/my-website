@@ -29,8 +29,8 @@ sidebar:
         url: /teaching-statement/
       - title: "Courses"
         url: /teaching-courses/
-      - title: "Presentations"
-        url: /teaching-presentations/
+#      - title: "Presentations"
+#        url: /teaching-presentations/
   - media: "Media"
     url: /media/
   - title: "About"
