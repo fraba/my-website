@@ -16,8 +16,8 @@ sidebar:
     children:
       - title: "Statement"
         url: /research-statement/
-      - title: "Projects"
-        url: /research-projects/
+#      - title: "Projects"
+#        url: /research-projects/
       - title: "Publications"
         url: /research-publications/
       - title: "Presentations"
