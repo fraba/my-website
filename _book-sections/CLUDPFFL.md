@@ -12,6 +12,6 @@ tags: []
 authors: "Francesco Bailo"
 editors: "Maria Grasso, Marco Giugni"
 publisher: "Edward Elgar Publishing"
-doi: "10.4337/9781803921235"
-publication-url: "http://dx.doi.org/10.4337/9781803921235"
+doi: "10.4337/9781803921235.00146"
+publication-url: "https://doi.org/10.4337/9781803921235.00146"
 ---
