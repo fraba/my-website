@@ -31,5 +31,6 @@ The accidental exposure to political opinions we disagree with is never a pleasa
 
 When Meta's social media platforms, arguably the most important piece of infrastructure for horizontal communication, demote political content because it is bad for business, either democratic society opens up alternative communication channels, or they necessarily become less democratic.
 
+## On social media
 
-  
+- [Linkedin](https://www.linkedin.com/pulse/meta-wants-get-politics-out-its-platforms-good-bad-democracy-bailo-fktbc/?trackingId=3MChtlWeTy%2BYbR466A9pgQ%3D%3D)
