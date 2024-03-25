@@ -7,6 +7,5 @@ categories:
 tags:
   - link
   - 'The Conversation'
-link:
-https://theconversation.com/conspiracy-theorist-tactics-show-its-too-easy-to-get-around-facebooks-content-policies-226118
+link: https://theconversation.com/conspiracy-theorist-tactics-show-its-too-easy-to-get-around-facebooks-content-policies-226118
 ---
