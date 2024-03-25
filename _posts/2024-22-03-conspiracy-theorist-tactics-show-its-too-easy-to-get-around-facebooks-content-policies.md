@@ -3,9 +3,9 @@ title: "The Conversation: Conspiracy theorist tactics show it's too easy to get 
 permalink: "/2024/22/03/conspiracy-theorist-tactics-show-its-too-easy-to-get-around-facebooks-content-policies/"
 date: "2024-22-03"
 categories:
-  - 'news article'
+  - news-article
 tags:
   - link
-  - 'The Conversation'
+  - "The Conversation"
 link: https://theconversation.com/conspiracy-theorist-tactics-show-its-too-easy-to-get-around-facebooks-content-policies-226118
 ---
