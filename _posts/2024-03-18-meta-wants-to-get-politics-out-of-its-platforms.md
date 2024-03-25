@@ -1,7 +1,7 @@
 ---
 title: "Meta wants to get politics out of its platforms. Is this good or bad for democracy?"
 excerpt_separator: "Following the information crisis post-COVID-19 and sustained political scrutiny since the 2016 US election, Meta adopted a content moderation approach focusing on containment rather than suppression, allowing harmful and politically charged content to exist but not be widely seen, by segregating political content creators from the average user base."
-permalink: "/2024/03/18/meta-wants-to-get-politics-out-of-its-platforms"
+permalink: "/2024/03/18/meta-wants-to-get-politics-out-of-its-platforms/"
 date: 2024-03-18
 categories:
   - Blog
