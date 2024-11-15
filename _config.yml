@@ -59,7 +59,7 @@ plugins:
 author:
   avatar : "/assets/images/bio-photo.jpeg"
   logo   : "/assets/images/logo.jpeg"
-  bio    : "I am a Lecturer in Data Analytics in the Social Sciences at the University of Sydney where I am deputy director of <a href = 'https://www.sydney.edu.au/arts/our-research/centres-institutes-and-groups/centre-for-ai-trust-and-governance.html'>Centre for AI, Trust and Governance</a>."
+  bio    : "I am a Lecturer in Data Analytics in the Social Sciences at the University of Sydney where I am also deputy director of <a href = 'https://www.sydney.edu.au/arts/our-research/centres-institutes-and-groups/centre-for-ai-trust-and-governance.html'>Centre for AI, Trust and Governance</a>."
   links:
     - label: "email"
       icon: "fas fa-fw fa-envelope"
