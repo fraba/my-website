@@ -17,6 +17,6 @@ excerpt: "This paper examines how digital media can activate political participa
 ---
 
 * [Publisher version (open access)](https://doi.org/10.1080/19331681.2025.2494116)
-* [Replication materials]()
+* [Replication materials](https://doi.org/10.7910/DVN/MNHJTQ)
 
 **Cite** Bailo, F. (2025). Breaking out of legacy mobilization networks: How the Internet reaches and activates the politically disengaged. *Journal of Information Technology & Politics*.
