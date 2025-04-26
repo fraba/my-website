@@ -15,6 +15,8 @@ In addition to empirical research, I contribute to methodological innovation. I 
 
 ## Recent peer-reviewed articles
 
+For a list a complete list of publications, (click here)[/research-publications/].
+
 {% assign six_months_ago = 'now' | date: '%s' | minus: 15778463 %}
 {% assign sorted = site.journal-articles | sort: 'date' | reverse %}
 
@@ -28,9 +30,6 @@ In addition to empirical research, I contribute to methodological innovation. I 
       <i>{{ journal-article.publication }}</i>. 
       DOI: <a href="{{ journal-article.publication-url }}">{{ journal-article.doi }}</a></p>
     </li>
-    <ul>
-      <li>{{ journal-article.excerpt | markdownify }}</li>
-    </ul>
   {% endif %}
 {% endfor %}
 </ul>
