@@ -11,12 +11,12 @@ tags: ["Informations ystems", "Socialnetworks", "Computing methodologies", "Arti
 authors: "Lin Tian, Emily Booth, Francesco Bailo, Julian Droogan, Marian-Andrei Rizoiu"
 doi: "10.48550/arXiv.2502.04655"
 publication: "WWW '25: Proceedings of the ACM Web Conference 2025"
-publication-url: "https://doi.org/10.48550/arXiv.2502.04655"
+publication-url: "https://doi.org/10.1145/3696410.3714527"
 abstract: "In today’s digital age, conspiracies and information campaigns can emerge rapidly and erode social and democratic cohesion. While recent deep learning approaches have made progress in modeling engagement through language and propagation models, they struggle with irregularly sampled data and early trajectory assessment. We present IC-Mamba , a novel state space model that forecasts social media engagement by modeling intervalcensored data with integrated temporal embeddings. Our model excels at predicting engagement patterns within the crucial first 15-30 minutes of posting (RMSE 0.118-0.143), enabling rapid assessment of content reach. By incorporating interval-censored modeling into the state space framework, IC-Mamba captures finegrained temporal dynamics of engagement growth, achieving a 4.72% improvement over state-of-the-art across multiple engagement metrics (likes, shares, comments, and emojis). Our experiments demonstrate IC-Mamba’s effectiveness in forecasting both post-level dynamics and broader narrative patterns (F1 0.508-0.751 for narrative-level predictions). The model maintains strong predictive performance across extended time horizons, successfully forecasting opinion-level engagement up to 28 days ahead using observation windows of 3-10 days. These capabilities enable earlier identification of potentially problematic content, providing crucial lead time for designing and implementing countermeasures. Code is available at: https://github.com/ltian678/ic-mamba. An interactive dashboard demonstrating our results is available at: https://ic-mamba.behavioral-ds.science/."
 excerpt: "The paper introduces IC-Mamba, a novel state space model that forecasts social media engagement by modeling interval-censored data with integrated temporal embeddings, enabling early detection of misinformation and disinformation engagement patterns to facilitate proactive countermeasures"
 ---
 
-* [Publisher version]()
+* [Publisher version](https://doi.org/10.1145/3696410.3714527)
 * [Preprint version](https://arxiv.org/abs/2502.04655)
 * [Replication materials](https://github.com/ltian678/ic-mamba)
 
