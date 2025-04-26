@@ -16,7 +16,7 @@ In addition to empirical research, I contribute to methodological innovation. I 
 
 ## Recent peer-reviewed articles
 
-For a list a complete list of publications, (click here)[/research-publications/].
+For a list a complete list of publications, [click here](/research-publications/).
 
 {% assign cutoff_date_parsed = page.cutoff_date | date: "%s" %}
 {% assign sorted = site.journal-articles | sort: 'date' | reverse %}
