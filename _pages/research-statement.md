@@ -17,13 +17,12 @@ In addition to empirical research, I contribute to methodological innovation. I 
 
 For a list a complete list of publications, (click here)[/research-publications/].
 
-{% assign six_months_ago = 'now' | date: '%s' | minus: 15778463 %}
+{% assign six_months_ago = 'now' | date: "%Y-%m-%d" | date: "%s" | minus: 15778463 | date: "%Y-%m-%d" %}
 {% assign sorted = site.journal-articles | sort: 'date' | reverse %}
 
 <ul>
 {% for journal-article in sorted %}
-  {% assign article_timestamp = journal-article.date | date: '%s' %}
-  {% if article_timestamp >= six_months_ago %}
+  {% if journal-article.date >= six_months_ago %}
     <li>
       <p><b>{{ journal-article.date | date: "%Y" }}</b>. {{ journal-article.authors }}. 
       <a href="{{ journal-article.url }}">{{ journal-article.title }}</a>. 
