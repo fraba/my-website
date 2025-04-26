@@ -5,6 +5,7 @@ sidebar:
   nav: sidebar
 author_profile: false
 share: true
+cutoff_date: "2023-10-01"
 ---
 
 I am a political scientist specialising in the study of political participation, digital media, and information disorder. I am Deputy Director of the [Centre for AI, Trust and Governance](https://www.sydney.edu.au/arts/our-research/centres-institutes-and-groups/centre-for-ai-trust-and-governance.html) at the University of Sydney, where I do interdisciplinary research combining political science, computational methods, and digital studies.
@@ -17,12 +18,11 @@ In addition to empirical research, I contribute to methodological innovation. I 
 
 For a list a complete list of publications, (click here)[/research-publications/].
 
-{% assign six_months_ago = 'now' | date: "%Y-%m-%d" | date: "%s" | minus: 15778463 | date: "%Y-%m-%d" %}
 {% assign sorted = site.journal-articles | sort: 'date' | reverse %}
 
 <ul>
 {% for journal-article in sorted %}
-  {% if journal-article.date >= six_months_ago %}
+  {% if journal-article.date >= page.cutoff_date %}
     <li>
       <p><b>{{ journal-article.date | date: "%Y" }}</b>. {{ journal-article.authors }}. 
       <a href="{{ journal-article.url }}">{{ journal-article.title }}</a>. 
@@ -32,6 +32,7 @@ For a list a complete list of publications, (click here)[/research-publications/
   {% endif %}
 {% endfor %}
 </ul>
+
 
 
 
