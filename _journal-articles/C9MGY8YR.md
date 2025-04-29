@@ -30,7 +30,7 @@ In this article, published in the *Journal of Information Technology & Politics*
 Using data on over 45,000 local events organized between 2005 and 2013, alongside census and electoral data, I trace how grassroots political participation evolved — and how the internet opened new doors beyond traditional social networks.
 
 ![](../assets/images/breaking-2025-fig-meetup-events.jpeg)
-*Meetup.com home page as of July 2005 (source: the Internet Archive).*
+*Geocoded meetup events present in the data.*
 
 ## From Civic Associations to Digital Meetups
 
