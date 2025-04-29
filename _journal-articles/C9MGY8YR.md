@@ -32,8 +32,6 @@ Using data on over 45,000 local events organized between 2005 and 2013, alongsid
 ![](../assets/images/breaking-2025-fig-meetup-events.jpeg)
 *Meetup.com home page as of July 2005 (source: the Internet Archive).*
 
-breaking-2025-fig-meetup.jpeg
-
 ## From Civic Associations to Digital Meetups
 
 Traditionally, political mobilization has depended on social capital — dense networks built through civic associations, unions, and community groups. These networks connect people, build civic skills, and validate political participation. But as mass political parties and civic organizations have shrunk since the 1960s, many areas, especially those with lower social capital, have been left behind.
@@ -44,19 +42,19 @@ In its early days, M5S meetups were concentrated in regions rich in civic associ
 
 To explain this shift, I introduce the concept of *Internet capital*: digital resources that enable collective action independent of preexisting social ties. Unlike traditional mobilization, Internet capital is geographically unconstrained — it can connect isolated individuals around shared interests rather than physical proximity.
 
-![](../assets/images/breaking-2025-activation.png)
+![](../assets/images/breaking-2025-fig-activation.png)
 *Theoretical activation model for local collective action.*
 
 However, Internet networks also have a downside: they tend to be weaker and more transient than traditional social ties. That’s where the role of legacy media becomes crucial. Public attention from newspapers and TV helped reinforce and validate digital activism, temporarily strengthening these fragile networks and sparking broader collective action.
 
-![](../assets/images/breaking-2025-ts.png)
+![](../assets/images/breaking-2025-fig-ts.png)
 *Timeseries of meetup RSVPs, news media attention variables and posterior means for the staff of not-for-profit association predicting RSVPs.*
 
 ## Mobilizing Disengaged Voters
 
 The research shows that in areas where second-wave meetups grew after 2012, M5S achieved stronger electoral support in the 2013 general election. More importantly, in places with new Meetup activity, voters reported talking about politics more frequently — even those previously disconnected from civic associations.
 
-![](../assets/images/breaking-2025-prediction.png)
+![](../assets/images/breaking-2025-fig-prediction.png)
 *Spatial areal unit modeling for M5S vote in 2013.*
 
 This is a critical insight: Internet-enabled grassroots activity didn’t just reach existing activists. It diffused political expertise into new social spaces, helping mobilize pools of passive political discontent crucial for M5S's success.
