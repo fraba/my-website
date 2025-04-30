@@ -19,7 +19,7 @@ excerpt: "Between 2013 and 2021, the Italian Five Star Movement's Lex Eletti pla
 * [Publisher version (open access)](https://doi.org/10.1111/spsr.12613) 
 * [Replication materials](https://doi.org/10.7910/DVN/95F88)
 
-**Cite** Tronconi, F., & Bailo, F. (2024). The other side of platform politics. Law-making and online participatory democracy in the Five Star Movement. *Swiss Political Science Review*. https://doi.org/10.1111/spsr.12613
+**Cite** Tronconi, F., & Bailo, F. (2025). The other side of platform politics. Law-making and online participatory democracy in the Five Star Movement. *Swiss Political Science Review*, 31(1), 14–33. https://doi.org/10.1111/spsr.12613
 
 
 Our study on the Italian Five Star Movement's Lex Eletti platform utilised a comprehensive dataset covering 516 draft bills, statistics on MPs' and party members' online interactions, and MPs' legislative activity in Parliament from 2013 to 2020. We employed transformer models and sentence embeddings to compare the draft bills posted on Lex Eletti with their parliamentary counterparts. This method allowed us to measure the extent of changes resulting from the online participatory process and assess the engagement levels between MPs and ordinary party members.
