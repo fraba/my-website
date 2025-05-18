@@ -17,6 +17,12 @@ excerpt: "This article introduces the ‘Undersphere’—creative communities u
 ---
 
 * [Publisher version (open access)](https://doi.org/10.1177/14614448251338511)
+* [Companion piece on The Conversation](https://theconversation.com/ai-is-moving-fast-climate-policy-provides-valuable-lessons-for-how-to-keep-it-in-check-255624)
+
+## On social media
+* [Linkedin](https://www.linkedin.com/pulse/why-ai-governance-needs-rethink-francesco-bailo-wjphc)
+* [Mastodon](https://sciences.social/@francescobailo/114531059141404109)
+* [Bluesky](https://bsky.app/profile/francescobailo.bsky.social/post/3lphzy3sdhc2y)
 
 **Cite** Stilinovic, M., Bailo, F., & Hutchinson, J. (2025). Creative Underspheres and democratic challenges: Exploring the implications of generative AI misuse. *New Media & Society*.
 
