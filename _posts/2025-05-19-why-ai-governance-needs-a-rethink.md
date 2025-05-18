@@ -1,6 +1,6 @@
 ---
-title: "why-ai-governance-neews-a-rething"
-permalink: "/2025/05/19/why-ai-governance-neews-a-rethink/"
+title: "Why AI Governance Needs a Rethink"
+permalink: "/2025/05/19/why-ai-governance-needs-a-rethink/"
 date: "2025-05-19"
 categories:
   - Blog
