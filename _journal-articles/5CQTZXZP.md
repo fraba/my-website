@@ -7,7 +7,7 @@ comments: true
 published: true
 share: true
 categories: ["peer-reviewed journal article"]
-tags: ["Computational Social Sciences", "cross-platform analysis", "digital parties", "Social media affordances", "social network analysis", "Five Star Movement"]
+tags: ["Computational Social Sciences", "cross-platform analysis", "digital parties", "Social media affordances", "social network analysis", "M5S"]
 authors: "Francesco Marolla, Marilù Miotto, Giovanni Cassani, Francesco Bailo"
 doi: "10.1080/10584609.2025.2548288"
 publication: "Political Communication"
@@ -20,8 +20,7 @@ abstract: "We examine how multi-platform digital environments influence intra-pa
 
 ## On social media
 * [Linkedin]()
-* [Mastodon]()
-* [Bluesky]()
+* [Bluesky](https://bsky.app/profile/francescobailo.bsky.social/post/3lxiixe6q6s2e)
 
 **Cite** Marolla, F., Miotto, M., Cassani, G., & Bailo, F. (2025). Affording fragmented audiences: Multi-platform deliberation within the Five Star Movement. *Political Communication*, 0(0), 1–23. https://doi.org/10.1080/10584609.2025.2548288.
 
