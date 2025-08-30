@@ -19,6 +19,9 @@ excerpt: "This article introduces the ‘Undersphere’—creative communities u
 * [Publisher version (open access)](https://doi.org/10.1177/14614448251338511)
 * [Companion piece on The Conversation](https://theconversation.com/ai-is-moving-fast-climate-policy-provides-valuable-lessons-for-how-to-keep-it-in-check-255624)
 
+This article introduces the concept of the Undersphere – a networked community brought together via creative exchange – to highlight how the increased proliferation of Generative AI poses risks not yet acknowledged by policymakers within emerging AI regulatory frameworks. Employing a single case study methodology – namely, exploring exchanges made on r/StableDiffusion, a known subgroup on Reddit – it illustrates the conceptual parameters of the Undersphere, outlines the potential for creative harm within the GenAI space, and counters these elements against the AI regulatory frameworks found within the EU AI Act. It concludes that a risk management framework that provides a more fluid approach to addressing risks, such as those found in governance frameworks aimed at eradicating climate change, could be better positioned to address insecurities manifesting from the GenAI space."
+excerpt: "This article introduces the ‘Undersphere’—creative communities using Generative AI in ways that challenge current policy frameworks and pose emerging risks to democratic values.
+
 ## On social media
 * [Linkedin](https://www.linkedin.com/pulse/why-ai-governance-needs-rethink-francesco-bailo-wjphc)
 * [Mastodon](https://sciences.social/@francescobailo/114531059141404109)
