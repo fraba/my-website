@@ -5,7 +5,7 @@ permalink: "/2016/07/cosa_possiamo_imparare_dal_m5s/"
 categories: 
   - "m5s"
 tags: 
-  - "M5S"
+  - "m5s"
 ---
 
 _Leggo e rispondo al post di Massimo Mantellini ([Il M5S, il wifi e il principio di precauzione](http://www.ilpost.it/massimomantellini/2016/07/21/il-m5s-il-wifi-e-il-principio-di-precauzione/)) in cui si evidenzia con preoccupazione come il Movimento abbia portato in Parlamento, dunque in qualche modo legittimandole, posizioni anti-scientifiche; un "pensiero tossico, banale e a suo modo inattaccabile, che nuoce al Paese intero"._
