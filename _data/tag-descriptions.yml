@@ -1,0 +1,17 @@
+# _data/tag-descriptions.yml
+# Descriptions only for tags you want special pages for
+
+M5S:
+  description: "Analysis, commentary, and research on the Five Star Movement (Movimento 5 Stelle) in Italian politics."
+  color: "#ffcc00"
+  icon: "fas fa-star"
+
+computational-methods:
+  description: "Computational approaches, algorithms, and numerical methods for solving complex problems."
+  color: "#6f42c1"
+  icon: "fas fa-calculator"
+
+teaching:
+  description: "Educational content, pedagogy, course materials, and reflections on teaching and learning."
+  color: "#17a2b8"
+  icon: "fas fa-chalkboard-teacher"
