@@ -232,3 +232,15 @@ tag_archive:
 
 # Locale
 locale: "en"
+
+
+feed:
+  excerpt_only: false
+  posts_limit: 20 
+#  tags:
+#    - tag1
+#    - tag2
+#  categories:
+#    - category1
+  icon: /assets/images/logo.jpeg
+  logo: /assets/images/logo.jpeg
