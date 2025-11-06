@@ -30,6 +30,27 @@ share: true
 
 </ul>
 
+## Reports and submissions
+
+{% assign sorted = site. research-reports | sort: 'date' | reverse  %}
+
+{% for research-report in sorted %}
+
+ <li><p><b>{{research-report.date | date:
+     "%Y"}}</b>. {{research-report.authors}}. <a href="{{
+     research-report.url }}">{{ research-report.title
+     }}</a>. URL: <a href="{{
+     research-report.publication-url }}">{{ research-report.doi
+     }}</a></p></li>
+     <ul>
+         <li>{{research-report. excerpt | markdownify }}</li>
+    </ul>
+
+{% endfor %}
+
+</ul>
+
+
 ## Book
 
 <ul>
