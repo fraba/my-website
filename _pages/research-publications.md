@@ -6,6 +6,7 @@ sidebar:
   nav: sidebar
 author_profile: false
 share: true
+toc: true
 ---
 ## Journal articles
 <ul>
