@@ -6,16 +6,12 @@ sidebar:
   nav: sidebar
 author_profile: false
 share: true
+toc: true
 ---
-
 ## Journal articles
-
 <ul>
-
-{% assign sorted = site. journal-articles | sort: 'date' | reverse  %}
-
+{% assign sorted = site.journal-articles | sort: 'date' | reverse %}
 {% for journal-article in sorted %}
-
  <li><p><b>{{journal-article.date | date:
      "%Y"}}</b>. {{journal-article.authors}}. <a href="{{
      journal-article.url }}">{{ journal-article.title
@@ -23,19 +19,15 @@ share: true
      journal-article.publication-url }}">{{ journal-article.doi
      }}</a></p></li>
      <ul>
-         <li>{{ journal-article. excerpt | markdownify }}</li>
+         <li>{{ journal-article.excerpt | markdownify }}</li>
     </ul>
-
 {% endfor %}
-
 </ul>
 
 ## Reports and submissions
-
-{% assign sorted = site. research-reports | sort: 'date' | reverse  %}
-
+<ul>
+{% assign sorted = site.research-reports | sort: 'date' | reverse %}
 {% for research-report in sorted %}
-
  <li><p><b>{{research-report.date | date:
      "%Y"}}</b>. {{research-report.authors}}. <a href="{{
      research-report.url }}">{{ research-report.title
@@ -43,22 +35,15 @@ share: true
      research-report.publication-url }}">{{ research-report.doi
      }}</a></p></li>
      <ul>
-         <li>{{research-report. excerpt | markdownify }}</li>
+         <li>{{research-report.excerpt | markdownify }}</li>
     </ul>
-
 {% endfor %}
-
 </ul>
 
-
 ## Book
-
 <ul>
-
-{% assign sorted = site. book | sort: 'date' | reverse  %}
-
+{% assign sorted = site.book | sort: 'date' | reverse %}
 {% for book in sorted %}
-
  <li><p><b>{{book.date | date:
      "%Y"}}</b>. {{book.authors}}. <i><a href="{{
      book.url }}">{{ book.title
@@ -66,32 +51,23 @@ share: true
      book.publication-url }}">{{ book.doi
      }}</a></p></li>
      <ul>
-         <li>{{ book. excerpt | markdownify }}</li>
+         <li>{{ book.excerpt | markdownify }}</li>
     </ul>
-
 {% endfor %}
-
 </ul>
 
 ## Book sections
-
 <ul>
-
-{% assign sorted = site. book-sections | sort: 'date' | reverse  %}
-
+{% assign sorted = site.book-sections | sort: 'date' | reverse %}
 {% for book-section in sorted %}
-
  <li><p><b>{{ book-section.date | date:
      "%Y"}}</b>. {{ book-section.authors}}. <a href="{{
-     book-section.url }}">{{  book-section.title
-     }}</a>. In  {{book-section.editors}}. <i>{{book-section.book-title}}</i>. {{book-section.publisher}}. DOI: <a href="{{
-     book-section.publication-url }}">{{  book-section.doi
+     book-section.url }}">{{ book-section.title
+     }}</a>. In {{book-section.editors}}. <i>{{book-section.book-title}}</i>. {{book-section.publisher}}. DOI: <a href="{{
+     book-section.publication-url }}">{{ book-section.doi
      }}</a></p></li>
      <ul>
-         <li>{{ book. excerpt | markdownify }}</li>
+         <li>{{ book-section.excerpt | markdownify }}</li>
     </ul>
-
 {% endfor %}
-
 </ul>
-
