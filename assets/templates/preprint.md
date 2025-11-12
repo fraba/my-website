@@ -2,6 +2,7 @@
 layout: single
 permalink: "/[zotero-id]/"
 title: "[title]"
+authors: ""
 date: "[%Y-%m-%d]"
 comments: true
 published: true

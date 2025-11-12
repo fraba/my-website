@@ -84,8 +84,5 @@ toc: true
      }}</a>. In {{book-section.editors}}. <i>{{book-section.book-title}}</i>. {{book-section.publisher}}. DOI: <a href="{{
      book-section.publication-url }}">{{ book-section.doi
      }}</a></p></li>
-     <ul>
-         <li>{{ book-section.excerpt | markdownify }}</li>
-    </ul>
 {% endfor %}
 </ul>
