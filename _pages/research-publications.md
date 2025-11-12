@@ -8,6 +8,24 @@ author_profile: false
 share: true
 toc: true
 ---
+
+## Preprints
+<ul>
+{% assign sorted = site.preprints | sort: 'date' | reverse %}
+{% for preprint in sorted %}
+ <li><p><b>{{preprint.date | date:
+     "%Y"}}</b>. {{preprint.authors}}. <a href="{{
+    preprint.url }}">{{ preprint.title
+     }}</a>. <i>{{preprint.publication}}</i>. DOI: <a href="{{
+     preprint.publication-url }}">{{ preprint.doi
+     }}</a></p></li>
+     <ul>
+         <li>{{ preprint.excerpt | markdownify }}</li>
+    </ul>
+{% endfor %}
+</ul>
+
+
 ## Journal articles
 <ul>
 {% assign sorted = site.journal-articles | sort: 'date' | reverse %}
