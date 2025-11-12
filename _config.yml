@@ -130,6 +130,8 @@ collections:
     output: true
   teaching-presentations:
     output: true
+  preprints:
+    output: true
   
 defaults:
   # _posts
