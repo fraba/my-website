@@ -120,7 +120,7 @@ collections:
     output: true
   book-sections:
     output: true
-  reports:
+  research-reports:
     output: true
   news-articles:
     output: true
