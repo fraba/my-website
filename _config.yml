@@ -130,6 +130,8 @@ collections:
     output: true
   teaching-presentations:
     output: true
+  research-reports:
+    output: true   
   
 defaults:
   # _posts
