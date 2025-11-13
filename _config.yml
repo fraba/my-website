@@ -39,6 +39,7 @@ include:
 # to override the default setting.
 exclude:
   - assets/templates/
+  - assets/scripts/
 #   - Gemfile
 #   - Gemfile.lock
 #   - node_modules
