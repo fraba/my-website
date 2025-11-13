@@ -131,7 +131,7 @@ collections:
     output: true
   teaching-presentations:
     output: true
-  preprints:
+  preprint-articles:
     output: true
   
 defaults:
