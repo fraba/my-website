@@ -7,7 +7,7 @@ date: "[2025-11-10]"
 comments: true
 published: true
 share: true
-categories: ["preprint"]
+categories: ["preprint-article"]
 tags: ["computational social science", "conflict monitoring", "social media analysis", "Mexico"]
 doi: "10.31235/osf.io/rbfuy_v1"
 publication: "SocArXiv"
