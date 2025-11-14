@@ -15,6 +15,7 @@ publication: ''
 publication-url: https://ses.library.usyd.edu.au/handle/2123/17587
 excerpt: "At a time when our use of these technologies is increasingly redefining aspects of our personal and professional lives, Digital Rights in Australia explores urgent questions about the nature of our rights now and into the future."
 ---
+
 * [Publisher version](https://ses.library.usyd.edu.au/handle/2123/17587)
 
 Australians are some of the world’s greatest users of social media and mobile broadband, and our nation is in the top ten globally for internet use. At a time when our use of these technologies is increasingly redefining aspects of our personal and professional lives, Digital Rights in Australia explores urgent questions about the nature of our rights now and into the future.  
