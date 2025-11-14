@@ -8,8 +8,9 @@ date: '2017-11-22'
 comments: true
 published: true
 share: true
-categories:  ["research report"]
-tags:""
+categories:
+- research report
+tags: ""
 doi: ''"
 publication: ''
 publication-url: https://ses.library.usyd.edu.au/handle/2123/17587
