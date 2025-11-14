@@ -60,7 +60,7 @@ For researchers and policymakers working in conflict-affected contexts, the VPI 
 
 The Violence Perception Index dataset and complete replication materials are publicly available, enabling researchers to adapt this approach to other contexts where understanding how violence is *perceived*—not just where it's officially recorded—matters for social stability and policy intervention.
 
-**Paper citation:** Amarasinghe, A., Nanlohy, S., Morgan, T., Hammond, D., Dahiya, Y., & Bailo, F. (2025). Mapping violence perceptions through YouTube comments: A new approach to real-time violence monitoring.
+**Cite:** Amarasinghe, A., Nanlohy, S., Morgan, T., Hammond, D., Dahiya, Y., & Bailo, F. (2025). Mapping violence perceptions through YouTube comments: A new approach to real-time violence monitoring.
 
 **VPI Dataset:** [https://doi.org/10.17605/OSF.IO/FA493](https://doi.org/10.17605/OSF.IO/FA493)
 
