@@ -18,4 +18,6 @@ publication-url: "https://doi.org/10.4337/9781803921235.00146"
 
 * [Publisher version](https://doi.org/10.4337/9781803921235.00146)
   
-> Social media are Internet-based technologies and services that allow people to communicate synchronously or asynchronously with one or more people through text, images and sound that they generate as digital content. The generation of content by users commonly involves the appropriation, manipulation and reappropriation of content created by others which is either integrally embedded in newly generated content or instead referenced through an Internet address. 
+Social media are Internet-based technologies and services that allow people to communicate synchronously or asynchronously with one or more people through text, images and sound that they generate as digital content. The generation of content by users commonly involves the appropriation, manipulation and reappropriation of content created by others which is either integrally embedded in newly generated content or instead referenced through an Internet address. 
+
+**Cite**: Bailo, F. (2023). *Social media*. In M. Grasso & M. Giugni (Eds), *Elgar Encyclopedia of Political Sociology* (pp. 546–549). Edward Elgar Publishing. https://doi.org/10.4337/9781803921235.00146
