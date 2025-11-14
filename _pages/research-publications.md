@@ -50,7 +50,7 @@ toc: true
      "%Y"}}</b>. {{research-report.authors}}. <a href="{{
      research-report.url }}">{{ research-report.title
      }}</a>. URL: <a href="{{
-     research-report.publication-url }}">{{ research-report.doi
+     research-report.publication-url }}">{{ research-report.publication-url
      }}</a></p></li>
      <ul>
          <li>{{research-report.excerpt | markdownify }}</li>
