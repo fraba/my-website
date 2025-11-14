@@ -8,8 +8,7 @@ date: '2017-11-22'
 comments: true
 published: true
 share: true
-categories:
-- research report
+categories:  ["research report"]
 tags:""
 doi: ''"
 publication: ''
