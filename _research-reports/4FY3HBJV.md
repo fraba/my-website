@@ -9,9 +9,9 @@ comments: true
 published: true
 share: true
 categories:
-- book
+- research report
 tags:""
-doi: ''
+doi: ''"
 publication: ''
 publication-url: https://ses.library.usyd.edu.au/handle/2123/17587
 excerpt: "At a time when our use of these technologies is increasingly redefining aspects of our personal and professional lives, Digital Rights in Australia explores urgent questions about the nature of our rights now and into the future."
