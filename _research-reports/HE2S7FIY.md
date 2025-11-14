@@ -40,6 +40,5 @@ Australia needs regulatory architecture that:
 
 The responsible growth of AI depends on getting these fundamentals right—not just moving fast and hoping trust will follow.
 
----
+**Cite**: Flew, T., Chesher, C., Hutchinson, J., Stilinovic, M., Bailo, F., Gray, J., Lumby, C., Stepnik, A., Goggin, G., & Humphry, J. (2023). *Safe and responsible AI in Australia: Submission paper*. https://ses.library.usyd.edu.au/handle/2123/31527
 
-**Full submission:** Centre for AI, Trust and Governance submission to the Productivity Commission (29 September 2025)
