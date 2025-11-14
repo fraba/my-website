@@ -25,3 +25,4 @@ The program of research which generated the Digital Rights in Australia report h
 * to identify the best models for governance arrangements for digital platforms and for using these environments as social resources in political, social and cultural change.  
 This report draws on three sources of data: a national survey of the attitudes and opinions of 1600 Australians on key rights issues; focus group discussion of related rights scenarios; and analysis of legal, policy and governance issues, illustrated by case studies. The core findings are grouped in chapter order.
 
+**CIte**: Goggin, G., Vromen, A., Weatherall, K., Martin, F., Adele, W., Sunman, L., & Bailo, F. (2017). *Digital Rights in Australia*. The University of Sydney. https://ses.library.usyd.edu.au/handle/2123/17587
