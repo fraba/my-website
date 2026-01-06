@@ -1,0 +1,57 @@
+---
+layout: archive
+---
+
+{{ content }}
+
+{% assign entries = site.posts | concat: site.book | concat: site.journal-articles | concat: site.book-sections | concat: site.research-reports | concat: site.news-articles | concat: site.media-appereances | concat: site.research-presentations | concat: site.teaching-presentations | concat: site.preprint-articles %}
+
+{% assign tags_max = 0 %}
+{% for entry in entries %}
+  {% if entry.tags.size > tags_max %}
+    {% assign tags_max = entry.tags.size %}
+  {% endif %}
+{% endfor %}
+
+<ul class="taxonomy__index">
+  {% for i in (1..tags_max) reversed %}
+    {% for entry in entries %}
+      {% for tag in entry.tags %}
+        {% if tag_items[tag] %}
+          {% assign tag_items[tag] = tag_items[tag] | push: entry %}
+        {% else %}
+          {% assign tag_items = tag_items | default: {} %}
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+  {% endfor %}
+  {% assign tags = "" | split: "" %}
+  {% for entry in entries %}
+    {% for tag in entry.tags %}
+      {% unless tags contains tag %}
+        {% assign tags = tags | push: tag %}
+      {% endunless %}
+    {% endfor %}
+  {% endfor %}
+  {% assign tags = tags | sort %}
+  {% for tag in tags %}
+    <li>
+      <a href="#{{ tag | slugify }}">
+        <strong>{{ tag }}</strong> <span class="taxonomy__count">{{ entries | where_exp: "item", "item.tags contains tag" | size }}</span>
+      </a>
+    </li>
+  {% endfor %}
+</ul>
+
+{% for tag in tags %}
+  {% assign tag_entries = entries | where_exp: "item", "item.tags contains tag" | sort: "date" | reverse %}
+  <section id="{{ tag | slugify | downcase }}" class="taxonomy__section">
+    <h2 class="archive__subtitle">{{ tag }}</h2>
+    <div class="entries-{{ entries_layout }}">
+      {% for post in tag_entries %}
+        {% include archive-single.html type=entries_layout %}
+      {% endfor %}
+    </div>
+    <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
+  </section>
+{% endfor %}
