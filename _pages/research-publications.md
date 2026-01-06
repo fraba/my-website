@@ -29,15 +29,15 @@ toc: true
 ## Peer-reviewed articles
 <ul>
 {% assign sorted = site.peer-reviewed-articles | sort: 'date' | reverse %}
-{% for journal-article in sorted %}
- <li><p><b>{{journal-article.date | date:
-     "%Y"}}</b>. {{journal-article.authors}}. <a href="{{
-     journal-article.url }}">{{ journal-article.title
-     }}</a>. <i>{{journal-article.publication}}</i>. DOI: <a href="{{
-     journal-article.publication-url }}">{{ journal-article.doi
+{% for article in sorted %}
+ <li><p><b>{{article.date | date:
+     "%Y"}}</b>. {{article.authors}}. <a href="{{
+     journal-article.url }}">{{article.title
+     }}</a>. <i>{{article.publication}}</i>. DOI: <a href="{{
+     article.publication-url }}">{{ article.doi
      }}</a></p></li>
      <ul>
-         <li>{{ journal-article.excerpt | markdownify }}</li>
+         <li>{{ article.excerpt | markdownify }}</li>
     </ul>
 {% endfor %}
 </ul>

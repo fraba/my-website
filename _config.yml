@@ -118,31 +118,22 @@ Footer:
 collections:
   books:
     output: true
-    permalink: /books/:path/
   peer-reviewed-articles:
     output: true
-    permalink: /peer-reviewed-articles/:path/
   book-sections:
     output: true
-    permalink: /book-sections/:path/
   research-reports:
     output: true
-    permalink: /research-reports/:path/
   news-articles:
     output: true
-    permalink: /news-articles/:path/
   media-appereances:
     output: true
-    permalink: /media-appereances/:path/
   research-presentations:
     output: true
-    permalink: /research-presentations/:path/
   teaching-presentations:
     output: true
-    permalink: /teaching-presentations/:path/
   preprint-articles:
     output: true
-    permalink: /preprint-articles/:path/
   
 defaults:
   # _posts
