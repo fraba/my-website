@@ -4,7 +4,7 @@ layout: archive
 
 {{ content }}
 
-{% assign entries = site.posts | concat: site.books | concat: site.peer-reviewed-articles | concat: site.book-sections | concat: site.research-reports | concat: site.news-articles | concat: site.media-appereances | concat: site.research-presentations | concat: site.teaching-presentations | concat: site.preprint-articles %}
+{% assign entries = site.posts | concat: site.books | concat: site.peer-reviewed-articles | concat: site.book-sections | concat: site.research-reports | concat: site.news-articles | concat: site.media-appereances | concat: site.research-presentations | concat: site.teaching-units | concat: site.preprint-articles %}
 
 {% assign tags_max = 0 %}
 {% for entry in entries %}
