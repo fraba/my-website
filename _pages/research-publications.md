@@ -32,7 +32,7 @@ toc: true
 {% for article in sorted %}
  <li><p><b>{{article.date | date:
      "%Y"}}</b>. {{article.authors}}. <a href="{{
-     journal-article.url }}">{{article.title
+     article.url }}">{{article.title
      }}</a>. <i>{{article.publication}}</i>. DOI: <a href="{{
      article.publication-url }}">{{ article.doi
      }}</a></p></li>
