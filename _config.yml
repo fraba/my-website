@@ -119,9 +119,9 @@ collections:
   books:
     output: true
     permalink: /books/:path/
-  journal-articles:
+  peer-reviewed-articles:
     output: true
-    permalink: /journal-articles/:path/
+    permalink: /peer-reviewed-articles/:path/
   book-sections:
     output: true
     permalink: /book-sections/:path/

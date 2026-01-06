@@ -28,7 +28,7 @@ toc: true
 
 ## Peer-reviewed articles
 <ul>
-{% assign sorted = site.journal-articles | sort: 'date' | reverse %}
+{% assign sorted = site.peer-reviewed-articles | sort: 'date' | reverse %}
 {% for journal-article in sorted %}
  <li><p><b>{{journal-article.date | date:
      "%Y"}}</b>. {{journal-article.authors}}. <a href="{{
