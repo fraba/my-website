@@ -7,7 +7,7 @@ date: "[%Y-%m-%d]"
 comments: true
 published: true
 share: true
-categories: ["peer-reviewed journal article", "preprint"]
+categories: ["peer-reviewed journal article"]
 tags: ["tag1", "tag2", "tag3"]
 doi: "[doi]"
 publication: "[publication-or-repository-name]"
