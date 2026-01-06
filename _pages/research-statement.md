@@ -19,17 +19,17 @@ In addition to empirical research, I contribute to methodological innovation. I 
 For a list a complete list of publications, [click here](/research-publications/).
 
 {% assign cutoff_date_parsed = page.cutoff_date | date: "%s" %}
-{% assign sorted = site.journal-articles | sort: 'date' | reverse %}
+{% assign sorted = site.peer-reviewed-articles | sort: 'date' | reverse %}
 
 <ul>
-{% for journal-article in sorted %}
-  {% assign article_date_parsed = journal-article.date | date: "%s" %}
+{% for article in sorted %}
+  {% assign article_date_parsed = article.date | date: "%s" %}
   {% if article_date_parsed >= cutoff_date_parsed %}
     <li>
-      <p><b>{{ journal-article.date | date: "%Y" }}</b>. {{ journal-article.authors }}. 
-      <a href="{{ journal-article.url }}">{{ journal-article.title }}</a>. 
-      <i>{{ journal-article.publication }}</i>. 
-      DOI: <a href="{{ journal-article.publication-url }}">{{ journal-article.doi }}</a></p>
+      <p><b>{{ article.date | date: "%Y" }}</b>. {{ article.authors }}. 
+      <a href="{{ article.url }}">{{ article.title }}</a>. 
+      <i>{{article.publication }}</i>. 
+      DOI: <a href="{{ article.publication-url }}">{{ article.doi }}</a></p>
     </li>
   {% endif %}
 {% endfor %}
