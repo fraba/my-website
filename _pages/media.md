@@ -13,7 +13,7 @@ share: true
 {% for article in sorted %}
  <li><p><b>{{article.date | date:
      "%Y"}}</b>. {{article.authors}}. <a href="{{
-    preprint.url }}">{{ article.title
+    article.url }}">{{ article.title
      }}</a>. <i>{{article.publication}}</i>. <a href="{{
      article.publication-url }}">{{ article.publication-url
      }}</a></p></li>
