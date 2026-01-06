@@ -7,7 +7,7 @@ comments: true
 published: true
 share: true
 categories: ["peer-reviewed journal article"]
-tags: ["Beppe Grillo","Five Star Movement","Italian general elections 2013","Italian politics","network analysis","online deliberation","political discussion","political participation","social media and politics"]
+tags: ["Beppe Grillo","M5S","Italian general elections 2013","Italian politics","network analysis","online deliberation","political discussion","political participation","social media and politics"]
 authors: "Francesco Bailo"
 doi: "10.1080/01442872.2015.1095282"
 publication: "Policy Studies"
