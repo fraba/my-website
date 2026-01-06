@@ -14,4 +14,6 @@ doi: ""
 publication-url: "https://www.sbs.com.au/news/the-feed/pastel-qanon-the-female-lifestyle-bloggers-and-influencers-spreading-conspiracy-theories-through-instagram"
 ---
 
+Eden Gillespie. *SBS News - The Feed*. 30 September 2020.
+
 * [SBS News - The Feed](https://www.sbs.com.au/news/the-feed/pastel-qanon-the-female-lifestyle-bloggers-and-influencers-spreading-conspiracy-theories-through-instagram)

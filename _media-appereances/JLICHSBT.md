@@ -14,4 +14,6 @@ doi: ""
 publication-url: "https://www.abc.net.au/news/science/2022-08-16/facebook-crowdtangle-meta-disinformation-transparency/101325544"
 ---
 
+Ariel Bogle. *ABC News*. 15 August 2022.
+
 * [ABC News](https://www.abc.net.au/news/science/2022-08-16/facebook-crowdtangle-meta-disinformation-transparency/101325544)

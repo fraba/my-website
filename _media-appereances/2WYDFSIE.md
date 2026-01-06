@@ -14,4 +14,6 @@ doi: ""
 publication-url: "https://thewest.com.au/politics/federal-politics/indigenous-voice-to-parliament-ad-experts-point-to-fatal-mistake-in-campaign-c-12167947"
 ---
 
+Katina Curtis, Dan Jervis-Bardy. *The West Australian*. 2023-10-11T18:00:00.000Z.
+
 * [The West Australian](https://thewest.com.au/politics/federal-politics/indigenous-voice-to-parliament-ad-experts-point-to-fatal-mistake-in-campaign-c-12167947)

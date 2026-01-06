@@ -14,4 +14,6 @@ doi: ""
 publication-url: "https://www.theguardian.com/technology/article/2024/may/06/news-on-facebook-is-dead-memes-replace-australian-media-posts-as-meta-turns-off-the-tap"
 ---
 
+Nick Evershed, Josh Taylor. *The Guardian*. 2024-05-05T15:00:12.000Z.
+
 * [The Guardian](https://www.theguardian.com/technology/article/2024/may/06/news-on-facebook-is-dead-memes-replace-australian-media-posts-as-meta-turns-off-the-tap)

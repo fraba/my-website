@@ -14,4 +14,6 @@ doi: ""
 publication-url: "https://www.canberratimes.com.au/story/8943122/tiktok-bots-infiltrate-federal-election/"
 ---
 
+Eleanor Campbell. *The Canberra Times*. 18 April 2025.
+
 * [The Canberra Times](https://www.canberratimes.com.au/story/8943122/tiktok-bots-infiltrate-federal-election/)

@@ -14,4 +14,6 @@ doi: ""
 publication-url: "https://www.sbs.com.au/news/the-feed/article/trump-presidential-bid-for-2024-triggers-qanon/cbunnkw3t"
 ---
 
+Stephanie Corsetti. *SBS News - The Feed*. 17 November 2022.
+
 * [SBS News - The Feed](https://www.sbs.com.au/news/the-feed/article/trump-presidential-bid-for-2024-triggers-qanon/cbunnkw3t)

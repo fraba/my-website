@@ -14,4 +14,6 @@ doi: ""
 publication-url: "https://www.sbs.com.au/language/italian/it/podcast-episode/lrelazioni-tra-italia-e-australia-un-nuovo-libro-esamina-il-presente-guardando-al-futuro/blf4x5997"
 ---
 
+Massimiliano Gugole. *SBS Italiano*. 6 February 2024.
+
 * [SBS Italiano](https://www.sbs.com.au/language/italian/it/podcast-episode/lrelazioni-tra-italia-e-australia-un-nuovo-libro-esamina-il-presente-guardando-al-futuro/blf4x5997)

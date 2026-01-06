@@ -14,4 +14,6 @@ doi: ""
 publication-url: "https://www.latimes.com/business/technology/story/2021-12-03/inside-tiktoks-mass-reporting-problem"
 ---
 
+Brian Contreras. *Los Angeles Times*. 2021-12-03T13:00:37.195.
+
 * [Los Angeles Times](https://www.latimes.com/business/technology/story/2021-12-03/inside-tiktoks-mass-reporting-problem)

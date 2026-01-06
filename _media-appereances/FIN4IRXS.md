@@ -14,4 +14,6 @@ doi: ""
 publication-url: "https://www.abc.net.au/radionational/programs/futuretense/populism-and-its-relationship-with-social-media/10496534"
 ---
 
+Benjamin Moffitt. *Future Tense*. 2018-11-15T15:58:53+1100.
+
 * [Future Tense](https://www.abc.net.au/radionational/programs/futuretense/populism-and-its-relationship-with-social-media/10496534)

@@ -14,4 +14,6 @@ doi: ""
 publication-url: "https://7news.com.au/news/should-celebrities-and-influencers-speak-out-on-social-issues-c-19149907"
 ---
 
+Czelene Villanueva. *7NEWS*. 2025-06-25T07:10:10.000Z.
+
 * [7NEWS](https://7news.com.au/news/should-celebrities-and-influencers-speak-out-on-social-issues-c-19149907)
