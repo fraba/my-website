@@ -1,0 +1,58 @@
+---
+layout: archive
+---
+
+{{ content }}
+
+{% assign entries = site.posts | concat: site.books | concat: site.peer-reviewed-articles | concat: site.book-sections | concat: site.research-reports | concat: site.news-articles | concat: site.media-appereances | concat: site.research-presentations | concat: site.teaching-presentations | concat: site.preprint-articles %}
+
+{% comment %} Collect all unique categories {% endcomment %}
+{% assign categories = "" | split: "" %}
+{% for entry in entries %}
+  {% for category in entry.categories %}
+    {% unless categories contains category %}
+      {% assign categories = categories | push: category %}
+    {% endunless %}
+  {% endfor %}
+{% endfor %}
+{% assign categories = categories | sort %}
+
+<ul class="taxonomy__index">
+  {% for category in categories %}
+    <li>
+      <a href="#{{ category | slugify }}">
+        <strong>{{ category }}</strong> <span class="taxonomy__count">{{ entries | where_exp: "item", "item.categories contains category" | size }}</span>
+      </a>
+    </li>
+  {% endfor %}
+</ul>
+
+{% comment %} Define collection names for display {% endcomment %}
+{% assign collection_names = "posts,books,peer-reviewed-articles,book-sections,research-reports,news-articles,media-appereances,research-presentations,teaching-presentations,preprint-articles" | split: "," %}
+{% assign collection_labels = "Posts,Books,Peer-Reviewed Articles,Book Sections,Research Reports,News Articles,Media Appearances,Research Presentations,Teaching Presentations,Preprint Articles" | split: "," %}
+
+{% for category in categories %}
+  {% assign category_entries = entries | where_exp: "item", "item.categories contains category" | sort: "date" | reverse %}
+  <section id="{{ category | slugify | downcase }}" class="taxonomy__section">
+    <h2 class="archive__subtitle">{{ category }}</h2>
+    
+    {% for i in (0..9) %}
+      {% assign coll_name = collection_names[i] %}
+      {% assign coll_label = collection_labels[i] %}
+      
+      {% comment %} Filter entries for this collection {% endcomment %}
+      {% assign collection_entries = category_entries | where: "collection", coll_name %}
+      
+      {% if collection_entries.size > 0 %}
+        <h3 style="margin-top: 1.5em; margin-bottom: 0.5em; font-size: 1.2em;">{{ coll_label }}</h3>
+        <div class="entries-{{ entries_layout }}">
+          {% for post in collection_entries %}
+            {% include archive-single.html type=entries_layout %}
+          {% endfor %}
+        </div>
+      {% endif %}
+    {% endfor %}
+    
+    <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
+  </section>
+{% endfor %}
