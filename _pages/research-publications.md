@@ -1,5 +1,5 @@
 ---
-title: Research publication
+title: Research publications
 layout: single
 permalink: /research-publications/
 sidebar:
