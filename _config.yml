@@ -130,7 +130,7 @@ collections:
     output: true
   research-presentations:
     output: true
-  teaching-presentations:
+  teaching-units:
     output: true
   preprint-articles:
     output: true
