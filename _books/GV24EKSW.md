@@ -7,7 +7,7 @@ comments: true
 published: true
 share: true
 categories: ["book"]
-tags: ["Citizen users","Digital participation","Five Star Movement","Online activism","Online political movements"]
+tags: ["Citizen users","Digital participation","M5S","Online activism","Online political movements"]
 authors: "Francesco Bailo"
 doi: "10.1007/978-3-030-45508-8"
 publisher: "Palgrave Macmillan"
