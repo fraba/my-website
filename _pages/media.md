@@ -17,5 +17,8 @@ share: true
      }}</a>. <i>{{article.publication}}</i>. <a href="{{
      article.publication-url }}">{{ article.publication-url
      }}</a></p></li>
+	 <ul>
+         <li><p>Direct link to source: <a href="{{article.publication-url }}">{{ article.publication-url}}</a></p></li>
+    </ul>
 {% endfor %}
 </ul>
