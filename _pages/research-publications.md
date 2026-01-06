@@ -26,7 +26,7 @@ toc: true
 </ul>
 
 
-## Journal articles
+## Peer-reviewed articles
 <ul>
 {% assign sorted = site.journal-articles | sort: 'date' | reverse %}
 {% for journal-article in sorted %}
