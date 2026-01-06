@@ -60,7 +60,7 @@ toc: true
 
 ## Book
 <ul>
-{% assign sorted = site.book | sort: 'date' | reverse %}
+{% assign sorted = site.books | sort: 'date' | reverse %}
 {% for book in sorted %}
  <li><p><b>{{book.date | date:
      "%Y"}}</b>. {{book.authors}}. <i><a href="{{
