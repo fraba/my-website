@@ -31,7 +31,7 @@ sidebar:
         url: /teaching-courses/
 #      - title: "Presentations"
 #        url: /teaching-presentations/
-  - media: "Media"
+  - title: "Media"
     url: /media/
   - title: "About"
     url: /about/
