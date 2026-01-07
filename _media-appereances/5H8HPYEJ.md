@@ -10,7 +10,7 @@ comments: true
 published: true
 share: true
 tags: []
-collections: ["video"]
+categories: ["video"]
 doi: ""
 publication-url: ""
 ---
