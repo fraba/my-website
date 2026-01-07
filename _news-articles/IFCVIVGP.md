@@ -9,8 +9,8 @@ program: ""
 comments: true
 published: true
 share: true
-tags: []
-doi: ""
+tags: ["misinformation","social media","digital platforms","AI"]
+category: ["Information Disorder Project"]
 publication-url: "https://www.canberratimes.com.au/story/9138679/how-can-users-discern-the-truth-amid-ai-and-social-media/"
 abstract: "When the public wants to know information, someone or something fills that void."
 ---
