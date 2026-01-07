@@ -15,3 +15,10 @@ publication-url: ""
 ---
 
 Joe O'Brien. *ABC News Hour*. 6 May 2024.
+
+<div style="text-align: center; margin: 2em 0;">
+  <video width="80%" controls>
+    <source src="../assets/videos/ABC-NEWS-VIDEO-2024-05-07-15-01-15.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
