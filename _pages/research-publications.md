@@ -42,6 +42,22 @@ toc: true
 {% endfor %}
 </ul>
 
+## News articles
+<ul>
+{% assign sorted = site.news-articles | sort: 'date' | reverse %}
+{% for article in sorted %}
+ <li><p><b>{{article.date | date:
+     "%Y"}}</b>. {{article.authors}}. <a href="{{
+     article.url }}">{{article.title
+     }}</a>. <i>{{article.publication}}</i>. DOI: <a href="{{
+     article.publication-url }}">{{ article.doi
+     }}</a></p></li>
+     <ul>
+         <li>{{ article.abstract | markdownify }}</li>
+    </ul>
+{% endfor %}
+</ul>
+
 ## Reports and submissions
 <ul>
 {% assign sorted = site.research-reports | sort: 'date' | reverse %}
