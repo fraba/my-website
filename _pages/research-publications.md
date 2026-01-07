@@ -49,9 +49,7 @@ toc: true
  <li><p><b>{{article.date | date:
      "%Y"}}</b>. {{article.authors}}. <a href="{{
      article.url }}">{{article.title
-     }}</a>. <i>{{article.publication}}</i>. DOI: <a href="{{
-     article.publication-url }}">{{ article.doi
-     }}</a></p></li>
+     }}</a>. <i>{{article.publication}}</i>.</p></li>
      <ul>
          <li>{{ article.abstract | markdownify }}</li>
     </ul>
