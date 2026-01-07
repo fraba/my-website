@@ -20,8 +20,10 @@ Francesco Bailo. *The Canberra Times*. 22 December 2025.
 * [The Canberra
   Times](https://www.canberratimes.com.au/story/9138679/how-can-users-discern-the-truth-amid-ai-and-social-media/)
   
-The following is a pre-print and unedited version of the article
-published by the Canberra Times. 
+*The following is a pre-print and unedited version of the article
+published by the Canberra Times.*
+
+---
 
 In the hours following the Bondi Beach shooting on 14 December, people
 in Australia and around the world turned to digital platforms (social
