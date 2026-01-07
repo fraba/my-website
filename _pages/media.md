@@ -15,10 +15,5 @@ share: true
      "%Y"}}</b>. {{article.authors}}. <a href="{{
     article.url }}">{{ article.title
      }}</a>. <i>{{article.publication}}</i>.</p></li>
- {% if article.publication-url %}
- <ul>
-     <li><p>Direct link to source: <a href="{{article.publication-url}}">{{ article.publication-url}}</a></p></li>
- </ul>
- {% endif %}
 {% endfor %}
 </ol>
