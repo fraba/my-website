@@ -13,8 +13,10 @@ doi: ""
 publication: "The Policymaker"
 publication-url: "https://thepolicymaker.appi.org.au/why-australia-needs-a-healthier-information-ecosystem-not-just-fact-checks/"
 abstract: "The article argues that Australia’s efforts to counter misinformation cannot rely on fact‑checking alone. Instead, it calls for a healthier, more resilient information ecosystem—one that addresses structural drivers of misinformation, supports quality public‑interest media, improves digital platform governance, and strengthens civic capacities. By shifting from reactive fact‑correction to proactive ecosystem‑building, the piece outlines how Australia can better foster trust, informed public debate, and democratic resilience."
-excerpt: "The article argues that Australia’s efforts to counter misinformation cannot rely on fact‑checking alone. Instead, it calls for a healthier, more resilient information ecosystem—one that addresses structural drivers of misinformation, supports quality public‑interest media, improves digital platform governance, and strengthens civic capacities. By shifting from reactive fact‑correction to proactive ecosystem‑building, the piece outlines how Australia can better foster trust, informed public debate, and democratic resilience."
+excerpt: "Australia must move beyond fact‑checking alone and focus on building a healthier, more resilient information ecosystem that supports trust, quality information, and democratic wellbeing."
 ---
+
+The article argues that Australia’s efforts to counter misinformation cannot rely on fact‑checking alone. Instead, it calls for a healthier, more resilient information ecosystem—one that addresses structural drivers of misinformation, supports quality public‑interest media, improves digital platform governance, and strengthens civic capacities. By shifting from reactive fact‑correction to proactive ecosystem‑building, the piece outlines how Australia can better foster trust, informed public debate, and democratic resilience.
 
 * [Publisher
   version](https://thepolicymaker.appi.org.au/why-australia-needs-a-healthier-information-ecosystem-not-just-fact-checks/)
