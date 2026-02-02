@@ -100,3 +100,20 @@ toc: true
      }}</a></p></li>
 {% endfor %}
 </ul>
+
+
+
+## Media appereances
+
+<ul>
+{% assign sorted = site. media-appereances | sort: 'date' | reverse %}
+{% for article in sorted %}
+ <li><p><b>{{article.date | date:
+     "%Y"}}</b>. {{article.authors}}. <a href="{{
+     article.url }}">{{article.title
+     }}</a>. <i>{{article.publication}}</i>.</p></li>
+     <ul>
+         <li>{{ article.abstract | markdownify }}</li>
+    </ul>
+{% endfor %}
+</ul>
