@@ -18,7 +18,7 @@ The VPI is benchmarked against established violence indicators including ACLED f
 excerpt: "By analyzing millions of geolocated YouTube comments from Mexico, the Violence Perception Index measures how communities discuss and perceive violence—capturing fears, rumors, and local discourse that traditional monitoring systems miss, particularly in remote and marginalized regions."
 ---
 
-* [Preprint access](10.31235/osf.io/rbfuy_v1)
+* [Preprint access](https://osf.io/preprints/socarxiv/rbfuy_v1)
 
 Violence monitoring has always faced a fundamental challenge: official records and news reports systematically undercount violence in remote and marginalized areas. When a shooting happens in Mexico City, it makes headlines. When it happens in a rural municipality, it often goes unreported.
 
