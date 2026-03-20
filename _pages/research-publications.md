@@ -72,7 +72,7 @@ toc: true
 {% endfor %}
 </ul>
 
-## Book
+## Books
 <ul>
 {% assign sorted = site.books | sort: 'date' | reverse %}
 {% for book in sorted %}
