@@ -21,6 +21,8 @@ excerpt: "This paper introduces the Violence Perception Index (VPI), a novel met
 - Replication materials (Harvard Dataverse): [10.7910/DVN/C6TJ9K](https://doi.org/10.7910/DVN/C6TJ9K)
 - [Paper presentation at the 3rd SCoPE Workshop (1 April 2026)](https://fraba.github.io/presentation/2026-SCOPE)
 
+We introduce the Violence Perception Index (VPI), a new way to measure how people talk about violence using YouTube comments tied to specific locations. By analysing nearly 15 million comments from over 500,000 geolocated videos in Mexico (2020–2024), we can track where and when people are discussing violence — picking up not just confirmed events but also rumours, fears, and community conversations that traditional datasets miss. We score comments using a Spanish-language violence dictionary, validated against AI classifications with 75–81% agreement. When compared to existing violence data, the VPI performs especially well in smaller and more remote communities, precisely where news-based monitoring tends to have blind spots. The method can be scaled to other languages and regions, making it a useful tool for conflict monitoring and early warning in underreported areas.
+
 
 
 
