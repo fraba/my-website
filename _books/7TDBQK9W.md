@@ -18,7 +18,8 @@ excerpt: "This applicable book outlines instructions on how to use Wikibase, a f
 
 * [Publisher webpage](https://www.e-elgar.com/shop/gbp/how-to-use-wikibase-for-mixed-methods-research-9781035353743.html)
 
-**Cite** Bailo, F., Booth, E., & Williams, J. (2026). *How to use Wikibase for mixed-methods research: An interdisciplinary and collaborative approach*. Edward Elgar Publishing. https://www.e-elgar.com/shop/gbp/how-to-use-wikibase-for-mixed-methods-research-9781035353743.html
+**Cite** Bailo, Francesco, Emily Booth, and Jennifer Williams. 2026. *How to Use Wikibase for Mixed-Methods Research: An Interdisciplinary and Collaborative Approach*. Edward Elgar Publishing. [doi:10.4337/9781035353750](https://doi.org/10.4337/9781035353750)
+
 
 ## Abstract
 
