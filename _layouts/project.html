@@ -1,0 +1,88 @@
+---
+layout: single
+---
+
+{{ content }}
+
+{% assign pid = page.id %}
+
+{% assign grants = site.grants | where_exp: "g", "g.projects contains pid" | sort: 'start-date' | reverse %}
+{% if grants.size > 0 %}
+<h2 id="funding">Funding</h2>
+<ul>
+{% for grant in grants %}
+  <li><p><b>{{ grant.start-date | date: "%Y" }}{% if grant.end-date %}–{{ grant.end-date | date: "%Y" }}{% endif %}</b>.
+  <a href="{{ grant.url }}">{{ grant.title }}</a>. {{ grant.funder }}{% if grant.scheme %}, {{ grant.scheme }}{% endif %}{% if grant.amount %} ({{ grant.amount }}){% endif %}{% if grant.role %}. {{ grant.role }}{% endif %}.</p></li>
+{% endfor %}
+</ul>
+{% endif %}
+
+{% assign peer = site.peer-reviewed-articles | where_exp: "a", "a.projects contains pid" | sort: 'date' | reverse %}
+{% if peer.size > 0 %}
+<h2 id="peer-reviewed-articles">Peer-reviewed articles</h2>
+<ul>
+{% for article in peer %}
+  <li><p><b>{{ article.date | date: "%Y" }}</b>. {{ article.authors }}. <a href="{{ article.url }}">{{ article.title }}</a>. <i>{{ article.publication }}</i>.{% if article.doi %} DOI: <a href="{{ article.publication-url }}">{{ article.doi }}</a>{% endif %}</p></li>
+{% endfor %}
+</ul>
+{% endif %}
+
+{% assign preprints = site.preprint-articles | where_exp: "a", "a.projects contains pid" | sort: 'date' | reverse %}
+{% if preprints.size > 0 %}
+<h2 id="preprints">Preprints</h2>
+<ul>
+{% for article in preprints %}
+  <li><p><b>{{ article.date | date: "%Y" }}</b>. {{ article.authors }}. <a href="{{ article.url }}">{{ article.title }}</a>. <i>{{ article.publication }}</i>.{% if article.doi %} DOI: <a href="{{ article.publication-url }}">{{ article.doi }}</a>{% endif %}</p></li>
+{% endfor %}
+</ul>
+{% endif %}
+
+{% assign sections = site.book-sections | where_exp: "a", "a.projects contains pid" | sort: 'date' | reverse %}
+{% if sections.size > 0 %}
+<h2 id="book-sections">Book sections</h2>
+<ul>
+{% for article in sections %}
+  <li><p><b>{{ article.date | date: "%Y" }}</b>. {{ article.authors }}. <a href="{{ article.url }}">{{ article.title }}</a>. In {{ article.editors }}. <i>{{ article.book-title }}</i>. {{ article.publisher }}.</p></li>
+{% endfor %}
+</ul>
+{% endif %}
+
+{% assign books = site.books | where_exp: "a", "a.projects contains pid" | sort: 'date' | reverse %}
+{% if books.size > 0 %}
+<h2 id="books">Books</h2>
+<ul>
+{% for book in books %}
+  <li><p><b>{{ book.date | date: "%Y" }}</b>. {{ book.authors }}. <i><a href="{{ book.url }}">{{ book.title }}</a></i>. {{ book.publisher }}.</p></li>
+{% endfor %}
+</ul>
+{% endif %}
+
+{% assign reports = site.research-reports | where_exp: "a", "a.projects contains pid" | sort: 'date' | reverse %}
+{% if reports.size > 0 %}
+<h2 id="reports">Reports and submissions</h2>
+<ul>
+{% for report in reports %}
+  <li><p><b>{{ report.date | date: "%Y" }}</b>. {{ report.authors }}. <a href="{{ report.url }}">{{ report.title }}</a>.</p></li>
+{% endfor %}
+</ul>
+{% endif %}
+
+{% assign news = site.news-articles | where_exp: "a", "a.projects contains pid" | sort: 'date' | reverse %}
+{% if news.size > 0 %}
+<h2 id="news">News articles</h2>
+<ul>
+{% for article in news %}
+  <li><p><b>{{ article.date | date: "%Y" }}</b>. {{ article.authors }}. <a href="{{ article.url }}">{{ article.title }}</a>. <i>{{ article.publication }}</i>.</p></li>
+{% endfor %}
+</ul>
+{% endif %}
+
+{% assign media = site.media-appereances | where_exp: "a", "a.projects contains pid" | sort: 'date' | reverse %}
+{% if media.size > 0 %}
+<h2 id="media">Media appearances</h2>
+<ul>
+{% for article in media %}
+  <li><p><b>{{ article.date | date: "%Y" }}</b>. {{ article.authors }}. <a href="{{ article.url }}">{{ article.title }}</a>. <i>{{ article.publication }}</i>.</p></li>
+{% endfor %}
+</ul>
+{% endif %}

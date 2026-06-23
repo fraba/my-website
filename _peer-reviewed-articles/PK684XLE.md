@@ -7,6 +7,7 @@ comments: true
 published: true
 share: true
 categories: ["peer-reviewed journal article"]
+projects: ["far-right-misinfo"]
 tags: ["content moderation", "shadowbanning", "misinformation", "COVID-19", "content advisory labels", "conspiracy theory"]
 authors: "Amelia Johns, Francesco Bailo, Emily Booth, Marian-Andrei Rizoiu"
 doi: "10.1177/1329878X241236984"

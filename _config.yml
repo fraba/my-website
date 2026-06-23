@@ -134,7 +134,12 @@ collections:
     output: true
   preprint-articles:
     output: true
-  
+  projects:
+    output: true
+    permalink: /projects/:name/
+  grants:
+    output: true
+
 defaults:
   # _posts
   - scope:
@@ -219,6 +224,26 @@ defaults:
   - scope:
       path: ""
       type: teaching-presentations
+    values:
+      layout: single
+      author_profile: false
+      share: true
+      sidebar:
+        nav: sidebar
+  # _projects
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: project
+      author_profile: false
+      share: true
+      sidebar:
+        nav: sidebar
+  # _grants
+  - scope:
+      path: ""
+      type: grants
     values:
       layout: single
       author_profile: false

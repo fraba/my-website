@@ -7,6 +7,7 @@ comments: true
 published: true
 share: true
 categories: ["peer-reviewed journal article"]
+projects: ["far-right-misinfo"]
 tags: ["Informations ystems", "Socialnetworks", "Computing methodologies", "Artificial intelligence"]
 authors: "Lin Tian, Emily Booth, Francesco Bailo, Julian Droogan, Marian-Andrei Rizoiu"
 doi: "10.48550/arXiv.2502.04655"
