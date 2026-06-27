@@ -6,17 +6,6 @@ layout: single
 
 {% assign pid = page.id %}
 
-{% assign grants = site.grants | where_exp: "g", "g.projects contains pid" | sort: 'start-date' | reverse %}
-{% if grants.size > 0 %}
-<h2 id="funding">Funding</h2>
-<ul>
-{% for grant in grants %}
-  <li><p><b>{{ grant.start-date | date: "%Y" }}{% if grant.end-date %}–{{ grant.end-date | date: "%Y" }}{% endif %}</b>.
-  <a href="{{ grant.url }}">{{ grant.title }}</a>. {{ grant.funder }}{% if grant.scheme %}, {{ grant.scheme }}{% endif %}{% if grant.amount %} ({{ grant.amount }}){% endif %}{% if grant.collaborators %}. With {{ grant.collaborators }}{% endif %}.</p></li>
-{% endfor %}
-</ul>
-{% endif %}
-
 {% assign peer = site.peer-reviewed-articles | where_exp: "a", "a.projects contains pid" | sort: 'date' | reverse %}
 {% if peer.size > 0 %}
 <h2 id="peer-reviewed-articles">Peer-reviewed articles</h2>
@@ -83,6 +72,17 @@ layout: single
 <ul>
 {% for article in media %}
   <li><p><b>{{ article.date | date: "%Y" }}</b>. {{ article.authors }}. <a href="{{ article.url }}">{{ article.title }}</a>. <i>{{ article.publication }}</i>.</p></li>
+{% endfor %}
+</ul>
+{% endif %}
+
+{% assign grants = site.grants | where_exp: "g", "g.projects contains pid" | sort: 'start-date' | reverse %}
+{% if grants.size > 0 %}
+<h2 id="funding">Funding</h2>
+<ul>
+{% for grant in grants %}
+  <li><p><b>{{ grant.start-date | date: "%Y" }}{% if grant.end-date %}–{{ grant.end-date | date: "%Y" }}{% endif %}</b>.
+  <a href="{{ grant.url }}">{{ grant.title }}</a>. {{ grant.funder }}{% if grant.scheme %}, {{ grant.scheme }}{% endif %}{% if grant.amount %} ({{ grant.amount }}){% endif %}{% if grant.collaborators %}. With {{ grant.collaborators }}{% endif %}.</p></li>
 {% endfor %}
 </ul>
 {% endif %}
