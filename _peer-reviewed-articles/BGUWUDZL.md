@@ -7,7 +7,7 @@ comments: true
 published: true
 share: true
 categories: ["peer-reviewed journal article"]
-projects: ["far-right-misinfo"]
+projects: ["information-disorder"]
 tags: ["Australian Bushfires","COVID-19","Far-right","Twitter","epistemic crisis","information crisis"]
 authors: "Francesco Bailo, Amelia Johns, Marian-Andrei Rizoiu"
 doi: "10.1080/1369118X.2023.2205479"

@@ -7,6 +7,6 @@ amount: "AUD 5,000"
 start-date: "2025-09-29"
 end-date: "2026-12-31"
 collaborators: "Milica Stilinovic, Jonathon Hutchinson"
-projects: []
+projects: ["undersphere"]
 status: success
 ---

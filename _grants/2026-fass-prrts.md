@@ -7,6 +7,6 @@ amount: "AUD 1,800"
 start-date: ""
 end-date: "2026-11-30"
 collaborators: "Jonathon Hutchinson, Micah Goldwater"
-projects: []
+projects: ["vietnam"]
 status: success
 ---

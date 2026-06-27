@@ -7,6 +7,6 @@ amount: "AUD 3,000"
 start-date: "2025-04-10"
 end-date: "2025-11-30"
 collaborators: "Ashani Amarasinghe"
-projects: []
+projects: ["youtube-api"]
 status: success
 ---

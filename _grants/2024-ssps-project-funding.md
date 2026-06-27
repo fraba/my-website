@@ -7,6 +7,6 @@ amount: "AUD 3,000"
 start-date: "2024-07-24"
 end-date: "2024-11-15"
 collaborators: ""
-projects: []
+projects: ["youtube-api"]
 status: success
 ---
