@@ -4,10 +4,11 @@ layout: single
 title: "Presentation @ SICSS-Melbourne 2026: How to Use Wikibase for Mixed-Methods Research"
 presentation-title: "How to Use Wikibase for Mixed-Methods Research"
 presenters: "Francesco Bailo"
-date: "2027-07-01"
-last_modified_at: 2027-07-01
+date: "2026-07-01"
+last_modified_at: 2026-07-01
 place: "Melbourne, Australia"
 meeting-name: "SICSS-Melbourne 2026 (Summer Institute in Computational Social Science)"
+meeting-webpage-url: "https://sicss.io/2026/melbourne/schedule"
 presentation-url: "https://fraba.github.io/wikibase-mixed-methods-research/slides"
 type: "Workshop"
 author_profile: false
@@ -28,6 +29,7 @@ excerpt: "A hands-on workshop on using Wikibase as a shared 'digital table' for 
 ---
 
 * [Workshop slides](https://fraba.github.io/wikibase-mixed-methods-research/slides)
+* [Conference program](https://sicss.io/2026/melbourne/schedule)
 * [Materials and code (GitHub)](https://github.com/fraba/wikibase-mixed-methods-research)
 * [Accompanying book](https://francescobailo.net/7TDBQK9W/)
 
