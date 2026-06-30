@@ -31,7 +31,7 @@ excerpt: "A hands-on workshop on using Wikibase as a shared 'digital table' for 
 * [Workshop slides](https://fraba.github.io/wikibase-mixed-methods-research/slides)
 * [Conference program](https://sicss.io/2026/melbourne/schedule)
 * [Materials and code (GitHub)](https://github.com/fraba/wikibase-mixed-methods-research)
-* [Accompanying book](https://francescobailo.net/7TDBQK9W/)
+* [Accompanying book](/7TDBQK9W/)
 
 This workshop introduces [Wikibase](https://www.mediawiki.org/wiki/Wikibase) — the
 open-source software behind Wikidata — as a shared workspace for
@@ -41,7 +41,7 @@ one, rather than combining separate outputs at the end. Wikibase provides that
 table: a single platform where qualitative narratives and structured data live
 together, with full version history and provenance.
 
-The session distils the book *How to Use Wikibase for Mixed-Methods Research*
+The session distils the book [*How to Use Wikibase for Mixed-Methods Research*](/7TDBQK9W/)
 (Bailo, Booth & Williams, Edward Elgar, 2026) into a practical sequence. It
 covers the core data model (items, properties, triple statements, qualifiers and
 references), the design of a shared ontology that serves both qualitative and
