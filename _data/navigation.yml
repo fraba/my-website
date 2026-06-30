@@ -1,6 +1,6 @@
 main:
   - title: "Research"
-    url: /research-statement/
+    url: /research/
   - title: "Teaching"
     url: /teaching-statement/
   - title: "Media"
@@ -12,18 +12,16 @@ main:
 
 sidebar:
   - title: "Research"
-    url: /research-statement/
+    url: /research/
     children:
-      - title: "Statement"
-        url: /research-statement/
-      - title: "Projects"
-        url: /research-projects/
-      - title: "Funding"
-        url: /research-grants/
       - title: "Publications"
         url: /research-publications/
       - title: "Presentations"
         url: /research-presentations/
+      - title: "Projects"
+        url: /research-projects/
+      - title: "Funding"
+        url: /research-grants/
   - title: "Teaching"
     url: /teaching-statement/
     children:

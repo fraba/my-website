@@ -1,6 +1,8 @@
 ---
-permalink: /research-statement/
-title: "Research statement"
+permalink: /research/
+redirect_from:
+  - /research-statement/
+title: "Research"
 sidebar:
   nav: sidebar
 author_profile: false
