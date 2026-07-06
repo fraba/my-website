@@ -1,5 +1,5 @@
 ---
-title: "Department of Defence & NSW Government research grant"
+title: "Predicting the Effectiveness of State-Sponsored Influence Operations: A Case Study of the Solomon Islands and Melanesia"
 permalink: /grants/2023-commonwealth-defence-nsw/
 funder: "Commonwealth of Australia (Department of Defence) and NSW Government"
 scheme: ""

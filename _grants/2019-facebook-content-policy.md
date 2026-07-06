@@ -1,5 +1,5 @@
 ---
-title: "Facebook Content Policy Research Award"
+title: "Mapping and Countering the Diffusion of Hate Speech Across Social Media"
 permalink: /grants/2019-facebook-content-policy/
 funder: "Facebook (Meta)"
 scheme: "Content Policy Research Award"
