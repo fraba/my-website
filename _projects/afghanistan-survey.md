@@ -3,6 +3,7 @@ id: afghanistan-survey
 title: "Reconfiguring online participation under the Taliban"
 permalink: /projects/afghanistan-survey/
 status: ongoing
+start-date: "2026-07-01"
 end-date: "2026-11-30"
 excerpt: "A pilot survey of Afghan social media users examining how online participation is reconfigured under Taliban rule."
 ---

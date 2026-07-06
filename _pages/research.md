@@ -16,6 +16,17 @@ My work investigates how digital infrastructures reshape political mobilisation,
 
 In addition to empirical research, I contribute to methodological innovation. I am developing approaches for collaborative data collection and ontology building, with a [forthcoming book](https://francescobailo.net/EUWDFHWX/), *How to Use Wikibase for Mixed-Methods Research: An Interdisciplinary and Collaborative Approach* (Edward Elgar Publishing, How To Research Guides series).
 
+## Current research
+
+{% assign latest_project = site.projects | sort: 'start-date' | reverse | first %}
+{% assign latest_grant = site.grants | sort: 'start-date' | reverse | first %}
+
+<p><b>Latest project</b> — <a href="{{ latest_project.url }}">{{ latest_project.title }}</a>{% if latest_project.status %} <i>({{ latest_project.status }})</i>{% endif %}. {{ latest_project.excerpt }}</p>
+
+<p><b>Latest grant</b> — {{ latest_grant.start-date | date: "%Y" }}{% if latest_grant.end-date %}–{{ latest_grant.end-date | date: "%Y" }}{% endif %}. {{ latest_grant.title }}. {{ latest_grant.funder }}{% if latest_grant.amount %} ({{ latest_grant.amount }}){% endif %}.</p>
+
+See all [projects](/research-projects/) and [funding](/research-grants/).
+
 ## Recent peer-reviewed articles
 
 For a list a complete list of publications, [click here](/research-publications/).

@@ -3,6 +3,7 @@ id: sea-ai-barometer
 title: "Is AI good for public infrastructure? A Southeast Asian AI Barometer"
 permalink: /projects/sea-ai-barometer/
 status: ongoing
+start-date: "2026-06-01"
 excerpt: "Co-designing a Southeast Asian AI Barometer to assess whether and how AI serves public infrastructure across the region."
 ---
 
