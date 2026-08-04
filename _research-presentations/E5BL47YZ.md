@@ -30,11 +30,12 @@ excerpt: "A hands-on workshop on using Wikibase as a shared 'digital table' for 
 ---
 
 * [Workshop slides](https://fraba.github.io/wikibase-mixed-methods-research/slides)
-* [Video recording](https://youtu.be/VGtGZhE7e-E)
 * [Text version](https://internetobservatory.org.au/training_materials/sicss/Wikibase-for-Mixed-Methods-Francesco_Bailo.pdf)
 * [Conference program](https://sicss.io/2026/melbourne/schedule)
 * [Materials and code (GitHub)](https://github.com/fraba/wikibase-mixed-methods-research)
 * [Accompanying book](/7TDBQK9W/)
+
+{% include video id="VGtGZhE7e-E" provider="youtube" %}
 
 This workshop introduces [Wikibase](https://www.mediawiki.org/wiki/Wikibase) — the
 open-source software behind Wikidata — as a shared workspace for
