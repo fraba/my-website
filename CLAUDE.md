@@ -58,3 +58,15 @@ These act as chronological blog/feed entries ("I published X") that reference th
 ### Static pages
 
 `_pages/` holds the site's static/listing pages (About, CV links, statements, and the publication/presentation listing pages described above). `_pages` is explicitly included via `include:` in `_config.yml` since Jekyll doesn't process underscore-prefixed dirs by default.
+
+### Embedding video
+
+To embed a video player (not just a link) in a collection item's body, use the Minimal Mistakes theme's built-in include:
+```liquid
+{% include video id="VIDEO_ID" provider="youtube" %}
+```
+Items with an embedded video should also get `"video"` added to their `categories` front matter.
+
+### Sourcing metadata from Zotero
+
+Francesco tracks his publications/presentations/media appearances in Zotero, keyed by the same 8-character item key used for filenames in this repo. When creating or fixing a collection item, use the `zotero` MCP tools (`zotero_item_metadata`, `zotero_search_items`, `zotero_item_fulltext`) to pull authoritative title/date/author/presenter/DOI/URL fields for that key rather than guessing.
