@@ -4,7 +4,7 @@ permalink: "/VJ2AGGVB/"
 title: "Bots Gone Wild, The Carry On Cash Grab & A Man Made Moon Mark"
 authors: "Claire Murphy"
 date: "6 August 2026"
-publication: ""
+publication: "The Solo Bureau"
 program: "The Solo Bureau"
 comments: true
 published: true
