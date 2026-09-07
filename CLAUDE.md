@@ -14,7 +14,9 @@ bundle exec jekyll serve # run local dev server (http://localhost:4000), rebuild
 bundle exec jekyll build # build the static site into _site/
 ```
 
-There is no test suite, linter, or CI config in this repo — changes are verified by building/serving locally and checking pages render.
+There is no test suite, linter, or CI config in this repo.
+
+**You are never required to run Jekyll locally.** Francesco always builds the site on GitHub Pages by pushing to the repo. Do not run `bundle install`, `bundle exec jekyll serve`, or `bundle exec jekyll build` to verify changes — the local Ruby toolchain is often too old to build anyway. Instead, verify changes by checking that new files follow the conventions documented below (front matter fields, permalink format, collection wiring, includes). The commands above are listed only for reference if Francesco asks for a local preview.
 
 ## Architecture
 
