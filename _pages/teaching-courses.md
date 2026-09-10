@@ -26,12 +26,12 @@ toc_label: "On this page"
   {% for u in pg %}
     <tr>
       <td>{{ u.year }}</td>
-      <td><a href="{{ u.url }}"><strong>{{ u.unit-code }}</strong> {{ u.unit-name }}</a></td>
+      <td><a href="{{ u.url }}"><strong>{{ u["unit-code"] }}</strong> {{ u["unit-name"] }}</a></td>
       <td>{{ u.school }}, {{ u.institution }}</td>
       <td>
-        {% if u.outline-url %}<a href="{{ u.outline-url }}">Outline</a>{% endif %}
-        {% if u.slides-url %}{% if u.outline-url %} · {% endif %}<a href="{{ u.slides-url }}">Slides</a>{% endif %}
-        {% if u.materials-url %} · <a href="{{ u.materials-url }}">Materials</a>{% endif %}
+        {% if u["outline-url"] %}<a href="{{ u['outline-url'] }}">Outline</a>{% endif %}
+        {% if u["slides-url"] %}{% if u["outline-url"] %} · {% endif %}<a href="{{ u['slides-url'] }}">Slides</a>{% endif %}
+        {% if u["materials-url"] %} · <a href="{{ u['materials-url'] }}">Materials</a>{% endif %}
       </td>
     </tr>
   {% endfor %}
@@ -46,12 +46,12 @@ toc_label: "On this page"
   {% for u in ug %}
     <tr>
       <td>{{ u.year }}</td>
-      <td><a href="{{ u.url }}"><strong>{{ u.unit-code }}</strong> {{ u.unit-name }}</a></td>
+      <td><a href="{{ u.url }}"><strong>{{ u["unit-code"] }}</strong> {{ u["unit-name"] }}</a></td>
       <td>{{ u.school }}, {{ u.institution }}</td>
       <td>
-        {% if u.outline-url %}<a href="{{ u.outline-url }}">Outline</a>{% endif %}
-        {% if u.slides-url %}{% if u.outline-url %} · {% endif %}<a href="{{ u.slides-url }}">Slides</a>{% endif %}
-        {% if u.materials-url %} · <a href="{{ u.materials-url }}">Materials</a>{% endif %}
+        {% if u["outline-url"] %}<a href="{{ u['outline-url'] }}">Outline</a>{% endif %}
+        {% if u["slides-url"] %}{% if u["outline-url"] %} · {% endif %}<a href="{{ u['slides-url'] }}">Slides</a>{% endif %}
+        {% if u["materials-url"] %} · <a href="{{ u['materials-url'] }}">Materials</a>{% endif %}
       </td>
     </tr>
   {% endfor %}
@@ -66,11 +66,11 @@ toc_label: "On this page"
   {% for u in guest %}
     <tr>
       <td>{{ u.year }}</td>
-      <td><a href="{{ u.url }}"><strong>{{ u.unit-code }}</strong> {{ u.unit-name }}</a></td>
+      <td><a href="{{ u.url }}"><strong>{{ u["unit-code"] }}</strong> {{ u["unit-name"] }}</a></td>
       <td>{{ u.school }}, {{ u.institution }}</td>
       <td>
-        {% if u.outline-url %}<a href="{{ u.outline-url }}">Outline</a>{% endif %}
-        {% if u.slides-url %}{% if u.outline-url %} · {% endif %}<a href="{{ u.slides-url }}">Slides</a>{% endif %}
+        {% if u["outline-url"] %}<a href="{{ u['outline-url'] }}">Outline</a>{% endif %}
+        {% if u["slides-url"] %}{% if u["outline-url"] %} · {% endif %}<a href="{{ u['slides-url'] }}">Slides</a>{% endif %}
       </td>
     </tr>
   {% endfor %}
@@ -85,9 +85,9 @@ toc_label: "On this page"
   {% for u in ta %}
     <tr>
       <td>{{ u.year }}</td>
-      <td><a href="{{ u.url }}"><strong>{{ u.unit-code }}</strong> {{ u.unit-name }}</a></td>
+      <td><a href="{{ u.url }}"><strong>{{ u["unit-code"] }}</strong> {{ u["unit-name"] }}</a></td>
       <td>{{ u.school }}, {{ u.institution }}</td>
-      <td>{% if u.outline-url %}<a href="{{ u.outline-url }}">Outline</a>{% endif %}</td>
+      <td>{% if u["outline-url"] %}<a href="{{ u['outline-url'] }}">Outline</a>{% endif %}</td>
     </tr>
   {% endfor %}
   </tbody>
@@ -102,13 +102,13 @@ toc_label: "On this page"
   <tbody>
   {% for w in workshops %}
     <tr>
-      <td>{{ w.date-display | default: w.date }}</td>
+      <td>{{ w["date-display"] | default: w.date }}</td>
       <td><a href="{{ w.url }}"><strong>{{ w.title }}</strong></a>{% if w.role %} <span class="workshop-role">— {{ w.role | downcase }}</span>{% endif %}</td>
       <td>{{ w.host }}</td>
       <td>
-        {% if w.event-url %}<a href="{{ w.event-url }}">Program</a>{% endif %}
-        {% if w.materials-url %}{% if w.event-url %} · {% endif %}<a href="{{ w.materials-url }}">Materials</a>{% endif %}
-        {% if w.slides-url %} · <a href="{{ w.slides-url }}">Slides</a>{% endif %}
+        {% if w["event-url"] %}<a href="{{ w['event-url'] }}">Program</a>{% endif %}
+        {% if w["materials-url"] %}{% if w["event-url"] %} · {% endif %}<a href="{{ w['materials-url'] }}">Materials</a>{% endif %}
+        {% if w["slides-url"] %} · <a href="{{ w['slides-url'] }}">Slides</a>{% endif %}
       </td>
     </tr>
   {% endfor %}
