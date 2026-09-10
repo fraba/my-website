@@ -225,6 +225,16 @@ defaults:
       share: true
       sidebar:
         nav: sidebar
+  # _teaching-units
+  - scope:
+      path: ""
+      type: teaching-units
+    values:
+      layout: single
+      author_profile: false
+      share: true
+      sidebar:
+        nav: sidebar
 
 
 category_archive:
