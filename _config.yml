@@ -132,6 +132,8 @@ collections:
     output: true
   teaching-units:
     output: true
+  workshops:
+    output: true
   preprint-articles:
     output: true
   
@@ -229,6 +231,16 @@ defaults:
   - scope:
       path: ""
       type: teaching-units
+    values:
+      layout: single
+      author_profile: false
+      share: true
+      sidebar:
+        nav: sidebar
+  # _workshops
+  - scope:
+      path: ""
+      type: workshops
     values:
       layout: single
       author_profile: false
