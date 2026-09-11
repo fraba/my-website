@@ -25,7 +25,7 @@ In this article we examine how multi-platform digital environments influence int
 * [Linkedin](https://www.linkedin.com/posts/frbailo_affording-fragmented-audiences-multi-platform-activity-7368497089921630209-A508?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAJApGoBFUJRFMiexeX0CNJqOjhhu_VZW2I)
 * [Bluesky](https://bsky.app/profile/francescobailo.bsky.social/post/3lxiixe6q6s2e)
 
-**Cite** Marolla, F., Miotto, M., Cassani, G., & Bailo, F. (2025). Affording fragmented audiences: Multi-platform deliberation within the Five Star Movement. *Political Communication*, 0(0), 1–23. https://doi.org/10.1080/10584609.2025.2548288.
+**Cite** Marolla, F., Miotto, M., Cassani, G., & Bailo, F. (2026). Affording fragmented audiences: Multi-platform deliberation within the Five Star Movement. *Political Communication*, 43(2), 282–304. https://doi.org/10.1080/10584609.2025.2548288.
 
 
 

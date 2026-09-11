@@ -1,5 +1,6 @@
 ---
 title: "Presentation @ ASQPS 2023: Levelling at the margin: Personal networks, social capital and the Internet in the mobilisation of the Five Star Movement"
+presentation-title: "Levelling at the margin: Personal networks, social capital and the Internet in the mobilisation of the Five Star Movement"
 permalink: "/W55IIYQB/"
 excerpt: "Focus on personal networks, social capital, and the Internet's role in mobilising Italy's Five Star Movement (M5S). "
 contributors: "Francesco Bailo, Giulia Sandri, Antonella Seddone"

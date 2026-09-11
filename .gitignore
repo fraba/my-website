@@ -10,3 +10,8 @@ assets/.DS_Store
 .DS_Store
 _pages/.Rhistory
 /assets/scripts/myenv
+
+# Editor lock / backup files (Emacs/Vim) — these become broken symlinks and break GitHub Pages
+.#*
+*~
+.*.sw[a-p]
