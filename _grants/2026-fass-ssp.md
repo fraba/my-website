@@ -9,4 +9,10 @@ end-date: "2027-07-31"
 collaborators: ""
 projects: []
 status: success
+category: Internal
 ---
+
+**Funder:** Faculty of Arts and Social Sciences
+**Scheme:** Special Studies Program
+**Amount:** AUD 12,000
+**Period:** 2027

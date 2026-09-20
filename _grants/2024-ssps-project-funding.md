@@ -9,4 +9,10 @@ end-date: "2024-11-15"
 collaborators: ""
 projects: ["youtube-api"]
 status: success
+category: Internal
 ---
+
+**Funder:** School of Social and Political Sciences
+**Scheme:** Project-funding Individual (Scheme 3)
+**Amount:** AUD 3,000
+**Period:** 2024

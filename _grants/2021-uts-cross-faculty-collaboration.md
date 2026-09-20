@@ -9,4 +9,11 @@ end-date: ""
 collaborators: "Marian-Andrei Rizoiu, Amelia Johns, Anne Kruger, Derek Wilding, Monica Attard"
 projects: []
 status: success
+category: Internal
 ---
+
+**Funder:** University of Technology Sydney
+**Scheme:** Cross-Faculty Collaboration Scheme
+**Amount:** AUD 20,000
+**Period:** 2021
+**Collaborators:** Marian-Andrei Rizoiu, Amelia Johns, Anne Kruger, Derek Wilding, Monica Attard

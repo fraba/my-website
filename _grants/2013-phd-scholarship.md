@@ -9,7 +9,13 @@ end-date: "2016-11-30"
 collaborators: ""
 projects: []
 status: success
+category: Internal
 ---
+
+**Funder:** Australian Government and the University of Sydney
+**Scheme:** International Postgraduate Research Scholarship (IPRS) + Australian Postgraduate Award (APA)
+**Amount:** ≈ AUD 186,200 over 3.5 years (IPRS tuition AUD 28,560/yr + APA stipend AUD 24,653/yr), plus Overseas Student Health Cover
+**Period:** 2013–2016
 
 Full PhD scholarship supporting doctoral research at the University of Sydney
 (Department of Government and International Relations). The award combined two

@@ -9,4 +9,11 @@ end-date: "2026-12-31"
 collaborators: "Milica Stilinovic, Jonathon Hutchinson"
 projects: ["undersphere"]
 status: success
+category: Internal
 ---
+
+**Funder:** Centre for AI, Trust and Governance (CAITG)
+**Scheme:** 2025 CAITG Seed Funding
+**Amount:** AUD 5,000
+**Period:** 2025–2026
+**Collaborators:** Milica Stilinovic, Jonathon Hutchinson

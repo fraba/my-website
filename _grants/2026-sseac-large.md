@@ -9,4 +9,11 @@ end-date: "2026-12-31"
 collaborators: "Jonathon Hutchinson, Kalervo Gulson, Sabin Zahirovic, Yagiz Aksoy, Nate Zettna, Joel Fredericks, Le Trieu Thanh, Viet Tho Le, Ivan Sini, Duncan McDuie-Ra, Victor Zhuang, Pinnaree Tea-makor"
 projects: ["sea-ai-barometer"]
 status: success
+category: Internal
 ---
+
+**Funder:** Sydney Southeast Asia Centre
+**Scheme:** Large Grant Scheme
+**Amount:** AUD 24,000
+**Period:** 2026
+**Collaborators:** Jonathon Hutchinson, Kalervo Gulson, Sabin Zahirovic, Yagiz Aksoy, Nate Zettna, Joel Fredericks, Le Trieu Thanh, Viet Tho Le, Ivan Sini, Duncan McDuie-Ra, Victor Zhuang, Pinnaree Tea-makor

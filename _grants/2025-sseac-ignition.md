@@ -9,4 +9,11 @@ end-date: "2026-12-15"
 collaborators: "Jonathon Hutchinson, Micah Goldwater, Lê Triệu Thanh"
 projects: ["vietnam"]
 status: success
+category: Internal
 ---
+
+**Funder:** Sydney Southeast Asia Centre
+**Scheme:** Ignition Grant
+**Amount:** AUD 45,000
+**Period:** 2025–2026
+**Collaborators:** Jonathon Hutchinson, Micah Goldwater, Lê Triệu Thanh

@@ -9,4 +9,11 @@ end-date: "2028-07-31"
 collaborators: "Renata Muylaert"
 projects: []
 status: success
+category: Internal
 ---
+
+**Funder:** Mabs Melville Bequest
+**Scheme:** SSVS Ignition
+**Amount:** AUD 25,000
+**Period:** 2025–2028
+**Collaborators:** Renata Muylaert

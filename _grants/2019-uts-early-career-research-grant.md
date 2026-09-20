@@ -9,4 +9,10 @@ end-date: ""
 collaborators: ""
 projects: []
 status: success
+category: Internal
 ---
+
+**Funder:** Faculty of Arts and Social Sciences, University of Technology Sydney
+**Scheme:** Early Career Research Grant
+**Amount:** AUD 15,000
+**Period:** 2019

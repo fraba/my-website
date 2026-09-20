@@ -9,4 +9,10 @@ end-date: ""
 collaborators: "Marian-Andrei Rizoiu, Amelia Johns, Julian Droogan, Jennifer Hunt, Charles Hawksley"
 projects: []
 status: success
+category: External
 ---
+
+**Funder:** Commonwealth of Australia (Department of Defence) and NSW Government
+**Amount:** AUD 500,000
+**Period:** 2023
+**Collaborators:** Marian-Andrei Rizoiu, Amelia Johns, Julian Droogan, Jennifer Hunt, Charles Hawksley

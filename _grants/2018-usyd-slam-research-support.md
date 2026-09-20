@@ -9,4 +9,10 @@ end-date: ""
 collaborators: ""
 projects: []
 status: success
+category: Internal
 ---
+
+**Funder:** School of Literature, Art and Media, University of Sydney
+**Scheme:** Research Support Scheme
+**Amount:** AUD 2,500
+**Period:** 2018

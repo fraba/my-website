@@ -26,7 +26,7 @@ In addition to empirical research, I contribute to methodological innovation. I 
 {% for grant in grants_sorted %}
   {% assign grant_ts = grant.start-date | date: "%s" %}
   {% if grant_ts >= year_start_ts %}
-    <li><p><b>{{ grant.start-date | date: "%Y" }}{% if grant.end-date %}–{{ grant.end-date | date: "%Y" }}{% endif %}</b>. {{ grant.title }}. {{ grant.funder }}{% if grant.scheme %}, {{ grant.scheme }}{% endif %}{% if grant.amount %} ({{ grant.amount }}){% endif %}.</p></li>
+    <li><p><b>{{ grant.start-date | date: "%Y" }}</b>. <a href="{{ grant.url }}">{{ grant.title }}</a>. {{ grant.funder }}{% if grant.scheme %}, {{ grant.scheme }}{% endif %}{% if grant.amount %} ({{ grant.amount }}){% endif %}.</p></li>
   {% endif %}
 {% endfor %}
 </ul>

@@ -9,4 +9,11 @@ end-date: ""
 collaborators: "Amelia Johns, Marian-Andrei Rizoiu"
 projects: []
 status: success
+category: External
 ---
+
+**Funder:** Facebook (Meta)
+**Scheme:** Content Policy Research Award
+**Amount:** USD 60,000
+**Period:** 2019
+**Collaborators:** Amelia Johns, Marian-Andrei Rizoiu

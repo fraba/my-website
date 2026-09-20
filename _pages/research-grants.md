@@ -8,9 +8,18 @@ author_profile: false
 share: true
 ---
 
-<ul>
-{% assign sorted = site.grants | sort: 'start-date' | reverse %}
-{% for grant in sorted %}
- <li><p><b>{{ grant.start-date | date: "%Y" }}{% if grant.end-date %}–{{ grant.end-date | date: "%Y" }}{% endif %}</b>. {{ grant.title }}. {{ grant.funder }}{% if grant.scheme %}, {{ grant.scheme }}{% endif %}{% if grant.amount %} ({{ grant.amount }}){% endif %}{% if grant.collaborators %}. With {{ grant.collaborators }}{% endif %}.</p></li>
+## Internal grants
+
+| Year | Title | Funder | Scheme | Amount | Collaborators |
+|---|---|---|---|---|---|
+{% assign internal = site.grants | where: 'category', 'Internal' | sort: 'start-date' | reverse %}
+{% for grant in internal %}| {{ grant.start-date | date: "%Y" }} | [{{ grant.title }}]({{ grant.url }}) | {{ grant.funder }} | {{ grant.scheme }} | {{ grant.amount }} | {{ grant.collaborators }} |
 {% endfor %}
-</ul>
+
+## External grants
+
+| Year | Title | Funder | Scheme | Amount | Collaborators |
+|---|---|---|---|---|---|
+{% assign external = site.grants | where: 'category', 'External' | sort: 'start-date' | reverse %}
+{% for grant in external %}| {{ grant.start-date | date: "%Y" }} | [{{ grant.title }}]({{ grant.url }}) | {{ grant.funder }} | {{ grant.scheme }} | {{ grant.amount }} | {{ grant.collaborators }} |
+{% endfor %}

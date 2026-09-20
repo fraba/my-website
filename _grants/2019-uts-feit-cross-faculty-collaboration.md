@@ -9,4 +9,11 @@ end-date: ""
 collaborators: "Amelia Johns, Marian-Andrei Rizoiu"
 projects: []
 status: success
+category: Internal
 ---
+
+**Funder:** Faculty of Engineering and Information Technology, University of Technology Sydney
+**Scheme:** Cross-Faculty Collaboration Scheme
+**Amount:** AUD 20,000
+**Period:** 2019
+**Collaborators:** Amelia Johns, Marian-Andrei Rizoiu

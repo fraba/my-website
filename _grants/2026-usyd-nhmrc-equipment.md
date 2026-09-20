@@ -9,4 +9,10 @@ end-date: ""
 collaborators: ""
 projects: []
 status: success
+category: Internal
 ---
+
+**Funder:** The University of Sydney
+**Scheme:** USYD and NHMRC Equipment Grants
+**Amount:** AUD 23,005
+**Period:** 2026

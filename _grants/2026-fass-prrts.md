@@ -9,4 +9,11 @@ end-date: "2026-11-30"
 collaborators: "Jonathon Hutchinson, Micah Goldwater"
 projects: ["vietnam"]
 status: success
+category: Internal
 ---
+
+**Funder:** Faculty of Arts and Social Sciences
+**Scheme:** Partnership-Building Rapid Response Travel Scheme 2026
+**Amount:** AUD 1,800
+**Period:** 2026
+**Collaborators:** Jonathon Hutchinson, Micah Goldwater

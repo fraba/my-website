@@ -9,4 +9,11 @@ end-date: ""
 collaborators: "Vafa Ghazavi, Ayesha Jehangir"
 projects: ["afghanistan-survey"]
 status: success
+category: Internal
 ---
+
+**Funder:** School of Social and Political Sciences
+**Scheme:** SSPS Research Funding Schemes, 2026
+**Amount:** AUD 5,000
+**Period:** 2026
+**Collaborators:** Vafa Ghazavi, Ayesha Jehangir
