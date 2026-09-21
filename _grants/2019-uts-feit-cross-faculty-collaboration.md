@@ -16,4 +16,3 @@ category: Internal
 **Scheme:** Cross-Faculty Collaboration Scheme
 **Amount:** AUD 20,000
 **Period:** 2019
-**Collaborators:** Amelia Johns, Marian-Andrei Rizoiu

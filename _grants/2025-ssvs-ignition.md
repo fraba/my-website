@@ -16,4 +16,3 @@ category: Internal
 **Scheme:** SSVS Ignition
 **Amount:** AUD 25,000
 **Period:** 2025–2028
-**Collaborators:** Renata Muylaert

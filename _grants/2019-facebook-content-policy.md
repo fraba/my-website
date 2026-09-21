@@ -16,4 +16,3 @@ category: External
 **Scheme:** Content Policy Research Award
 **Amount:** USD 60,000
 **Period:** 2019
-**Collaborators:** Amelia Johns, Marian-Andrei Rizoiu

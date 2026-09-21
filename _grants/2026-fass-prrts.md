@@ -16,4 +16,3 @@ category: Internal
 **Scheme:** Partnership-Building Rapid Response Travel Scheme 2026
 **Amount:** AUD 1,800
 **Period:** 2026
-**Collaborators:** Jonathon Hutchinson, Micah Goldwater

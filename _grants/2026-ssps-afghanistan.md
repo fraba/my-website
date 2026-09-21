@@ -16,4 +16,3 @@ category: Internal
 **Scheme:** SSPS Research Funding Schemes, 2026
 **Amount:** AUD 5,000
 **Period:** 2026
-**Collaborators:** Vafa Ghazavi, Ayesha Jehangir

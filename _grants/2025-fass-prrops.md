@@ -16,4 +16,3 @@ category: Internal
 **Scheme:** Partnership-Building Rapid Response Output Preparation Scheme 2025
 **Amount:** AUD 3,000
 **Period:** 2025
-**Collaborators:** Ashani Amarasinghe

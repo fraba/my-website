@@ -16,4 +16,3 @@ category: Internal
 **Scheme:** 2025 CAITG Seed Funding
 **Amount:** AUD 5,000
 **Period:** 2025–2026
-**Collaborators:** Milica Stilinovic, Jonathon Hutchinson

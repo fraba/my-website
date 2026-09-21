@@ -16,4 +16,3 @@ category: Internal
 **Scheme:** Ignition Grant
 **Amount:** AUD 45,000
 **Period:** 2025–2026
-**Collaborators:** Jonathon Hutchinson, Micah Goldwater, Lê Triệu Thanh
