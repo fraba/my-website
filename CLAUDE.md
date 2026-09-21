@@ -61,6 +61,12 @@ These act as chronological blog/feed entries ("I published X") that reference th
 
 `_pages/` holds the site's static/listing pages (About, CV links, statements, and the publication/presentation listing pages described above). `_pages` is explicitly included via `include:` in `_config.yml` since Jekyll doesn't process underscore-prefixed dirs by default.
 
+### Grants (`_grants` collection)
+
+Each file is keyed by a short descriptive slug (not a Zotero key, e.g. `2026-sseac-large.md`), sets its own `permalink: /grants/<slug>/`, and carries: `title`, `funder`, `scheme`, `amount`, `start-date`, `end-date`, `collaborators`, `projects`, `status`, `category` (`Internal` or `External` — internal means a UTS/USYD faculty, school, or centre scheme; external means an outside funder). The body is a short rendered summary (Funder/Scheme/Amount/Period lines) since the `single` layout does not auto-print custom front-matter fields — write that summary into the body whenever you add or edit a grant. `research-grants.md` renders two tables (Internal, External) from `site.grants`, linking each title to its permalink page; `research.md` has a "Recent grants" teaser filtered to the current year.
+
+**Never name collaborators anywhere on the public site — grants included.** Do not display the `collaborators` field (or any collaborator/co-author name) in a grant's table row or body summary unless Francesco has explicitly told you, in that request, to include names for that specific item. The `collaborators` field may still be *stored* in front matter for internal reference, but must not be rendered. This applies to any new grant, and to any other collection where naming collaborators isn't already an established, explicitly-requested pattern (e.g. publication `authors` are fine — that's standard citation practice — but ad hoc "with X and Y" mentions are not).
+
 ### Embedding video
 
 To embed a video player (not just a link) in a collection item's body, use the Minimal Mistakes theme's built-in include:
