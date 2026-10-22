@@ -3,7 +3,8 @@ layout: single
 permalink: "/QFYWR22H/"
 title: "Mapping violence perceptions through YouTube comments: A new approach to real-time violence monitoring"
 authors: "Ashani Amarasinghe, Sascha Nanlohy, Thomas Morgan, David Hammond, Yashdeep Singh Dahiya, Francesco Bailo"
-date: "[2025-11-10]"
+date: "2025-11-10"
+superseded-by: "/YNWTX3UA/"
 comments: true
 published: true
 share: true

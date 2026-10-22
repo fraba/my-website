@@ -9,11 +9,11 @@ share: true
 toc: true
 ---
 
-<!--
 ## Preprint articles
 <ul>
 {% assign sorted = site.preprint-articles | sort: 'date' | reverse %}
 {% for preprint in sorted %}
+{% unless preprint.superseded-by %}
  <li><p><b>{{preprint.date | date:
      "%Y"}}</b>. {{preprint.authors}}. <a href="{{
     preprint.url }}">{{ preprint.title
@@ -23,9 +23,9 @@ toc: true
      <ul>
          <li>{{ preprint.excerpt | markdownify }}</li>
     </ul>
+{% endunless %}
 {% endfor %}
 </ul>
--->
 
 
 ## Peer-reviewed articles
