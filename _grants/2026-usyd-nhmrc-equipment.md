@@ -1,7 +1,7 @@
 ---
 title: "Large-Scale LLM Annotation of Vietnamese Social Media: Detecting Vectors of Influence Across TikTok, Instagram, and Threads"
 permalink: /grants/2026-usyd-nhmrc-equipment/
-funder: "The University of Sydney"
+funder: "Sydney Informatics Hub, the University of Sydney"
 scheme: "USYD and NHMRC Equipment Grants"
 amount: "AUD 23,005"
 start-date: "2026-04-01"
@@ -12,7 +12,7 @@ status: success
 category: Internal
 ---
 
-**Funder:** The University of Sydney
+**Funder:** Sydney Informatics Hub, the University of Sydney
 **Scheme:** USYD and NHMRC Equipment Grants
 **Amount:** AUD 23,005
 **Period:** 2026
