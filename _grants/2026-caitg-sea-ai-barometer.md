@@ -4,7 +4,7 @@ permalink: /grants/2026-caitg-sea-ai-barometer/
 funder: "Centre for AI, Trust and Governance (CAITG)"
 scheme: "CAITG Grant"
 amount: "AUD 10,000"
-start-date: "2026-01-01"
+start-date: "2026-09-01"
 end-date: ""
 collaborators: "Jonathon Hutchinson, Sabin Zahirovic, Kalervo Gulson, Yagiz Aksoy, Nate Zettna, Joel Fredericks"
 projects: ["sea-ai-barometer"]
