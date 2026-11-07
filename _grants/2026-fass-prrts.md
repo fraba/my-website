@@ -1,5 +1,5 @@
 ---
-title: "Partnership-Building Rapid Response Travel Scheme 2026"
+title: "Standard Measures of Effect in Vietnamese Media Systems"
 permalink: /grants/2026-fass-prrts/
 funder: "Faculty of Arts and Social Sciences"
 scheme: "Partnership-Building Rapid Response Travel Scheme 2026"

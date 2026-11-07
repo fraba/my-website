@@ -1,5 +1,5 @@
 ---
-title: "CAITG Seed Funding — Social Agent-Based Simulation"
+title: "Social Agent-Based Simulation in Social Sciences Research"
 permalink: /grants/2025-caitg-abs-seed/
 funder: "Centre for AI, Trust and Governance (CAITG)"
 scheme: "2025 CAITG Seed Funding"

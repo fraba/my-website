@@ -1,5 +1,5 @@
 ---
-title: "SSVS Ignition Grant"
+title: "Optimizing the prevention and control of edgeborne infections: A One Health-informed spatial prioritization framework"
 permalink: /grants/2025-ssvs-ignition/
 funder: "Mabs Melville Bequest"
 scheme: "SSVS Ignition"

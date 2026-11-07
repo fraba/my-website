@@ -1,5 +1,5 @@
 ---
-title: "SSEAC Large Grant Scheme"
+title: "Is AI Good for Public Infrastructure? Co-designing a Southeast Asian AI Barometer"
 permalink: /grants/2026-sseac-large/
 funder: "Sydney Southeast Asia Centre"
 scheme: "Large Grant Scheme"

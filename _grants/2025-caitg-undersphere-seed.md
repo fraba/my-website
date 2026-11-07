@@ -1,5 +1,5 @@
 ---
-title: "CAITG Seed Funding — Undersphere"
+title: "Cross-Comparative GenAI Studies: Underspheres within Southeast Asia"
 permalink: /grants/2025-caitg-undersphere-seed/
 funder: "Centre for AI, Trust and Governance (CAITG)"
 scheme: "2025 CAITG Seed Funding"

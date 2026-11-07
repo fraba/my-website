@@ -1,5 +1,5 @@
 ---
-title: "USYD and NHMRC Equipment Grant"
+title: "Large-Scale LLM Annotation of Vietnamese Social Media: Detecting Vectors of Influence Across TikTok, Instagram, and Threads"
 permalink: /grants/2026-usyd-nhmrc-equipment/
 funder: "The University of Sydney"
 scheme: "USYD and NHMRC Equipment Grants"

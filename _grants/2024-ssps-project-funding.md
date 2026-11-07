@@ -1,5 +1,5 @@
 ---
-title: "SSPS Project-funding (Individual, Scheme 3)"
+title: "Using YouTube Comments to Measure the Geographic Spread of Violence"
 permalink: /grants/2024-ssps-project-funding/
 funder: "School of Social and Political Sciences"
 scheme: "Project-funding Individual (Scheme 3)"

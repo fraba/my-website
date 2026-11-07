@@ -1,5 +1,5 @@
 ---
-title: "SSPS Research Funding Scheme — Afghanistan pilot survey"
+title: "Reconfiguring online participation under the Taliban: a pilot survey of Afghan social media users"
 permalink: /grants/2026-ssps-afghanistan/
 funder: "School of Social and Political Sciences"
 scheme: "SSPS Research Funding Schemes, 2026"
